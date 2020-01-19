@@ -23,7 +23,7 @@
           <a class="dropdown-item" href="<?php echo base_url('/tools/att_ixpresrt'); ?>">AT&T - IX Pre-SRT <span class="badge badge-warning ml-1">Updated</span></a></a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/att_sc'); ?>">AT&T - IX SystemContants</a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/att_kpicharts'); ?>" target="_blank">AT&T - KPI Charts</a>
-          <a class="dropdown-item" href="<?php echo base_url('/tools/att_ixposthc'); ?>">AT&T - IX HealthCheck <span class="badge badge-warning ml-1">Updated</span></a>
+          <a class="dropdown-item" href="<?php echo base_url('/tools/att_ixposthc'); ?>">AT&T - IX HealthCheck</a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/att_fgatest'); ?>">AT&T - FGA Test</a>
         </div>
       </li>

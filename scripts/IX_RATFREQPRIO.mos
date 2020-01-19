@@ -9,7 +9,7 @@ gs+
 confb+
 
 # RATFreqPrio
-u+ mobatch_ratfreqprio/$sitename_RATFreqPrio.mos
+u+ mobatch_ratfreqprio/$sitename_Existing_RATFreqPrio.mos
 del ENodeBFunction=1,SubscriberProfileID=1,RATFreqPrio=
 del ENodeBFunction=1,SubscriberProfileID=1,HoWhiteList=
 del ENodeBFunction=1,SubscriberProfileID=1$

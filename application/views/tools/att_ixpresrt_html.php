@@ -71,7 +71,7 @@
       </div>
       <div class="card mt-2">
         <div class="card-header mb-0">
-          RatFreqPrio
+          RATFreqPrio
         </div>
         <div class="card-body">
           <button id="btnRatFreqPrio-01" type="button" class="btn btn-lg btn-block">Non B30 & Non B14</button>
