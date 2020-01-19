@@ -21,9 +21,9 @@
         <div class="card-header">Modump's folder</div>
         <div class="card-body">
           <?php
-            if (isset($error)) {
-              echo "<div>$error</div>";
-            } else { ?>
+          if (isset($error)) {
+            echo "<div>$error</div>";
+          } else { ?>
             <select id="folderPath-presrt" class="custom-select">
               <option selected>--Select Folder--</option>
               <?php
@@ -38,9 +38,9 @@
         <div class="card-header">CIQ</div>
         <div class="card-body">
           <?php
-            if (isset($error)) {
-              echo "<div>$error</div>";
-            } else { ?>
+          if (isset($error)) {
+            echo "<div>$error</div>";
+          } else { ?>
             <select id="ciqPath-presrt" class="custom-select">
               <option selected>--Select File--</option>
               <?php
@@ -67,6 +67,19 @@
           <button id="btnATTIXExistingrelation" type="button" class="btn btn-lg btn-block">Create Existing Relations</button>
           <button id="btnATTIXSystemconstants" type="button" class="btn btn-lg btn-block">Create Existing SystemConstants</button>
           <button id="btnATTIXNBIotCell" type="button" class="btn btn-lg btn-block">Create NBIotCell</button>
+        </div>
+      </div>
+      <div class="card mt-2">
+        <div class="card-header mb-0">
+          RatFreqPrio
+        </div>
+        <div class="card-body">
+          <button id="btnRatFreqPrio-01" type="button" class="btn btn-lg btn-block">Non B30 & Non B14</button>
+          <button id="btnRatFreqPrio-02" type="button" class="btn btn-lg btn-block">B30 & Non B14</button>
+          <button id="btnRatFreqPrio-03" type="button" class="btn btn-lg btn-block">NSB & B14</button>
+          <button id="btnRatFreqPrio-04" type="button" class="btn btn-lg btn-block">Create Existing RATFreqPrio</button>
+          <button id="btnRatFreqPrio-05" type="button" class="btn btn-lg btn-block">Existing B14 Carrier & Add Carrier non_B14</button>
+          <button id="btnRatFreqPrio-06" type="button" class="btn btn-lg btn-block">Existing Carrier & Add B14 Carrier</button>
         </div>
       </div>
     </div>

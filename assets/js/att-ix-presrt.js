@@ -6,7 +6,66 @@
 $(document).ready(function() {
 	// Disabling Button
 	enableDisableButtonsATTIXPreSRT("bind", "unbind", "bind", "", "unbind");
+	$("#folderPath-presrt").change(whenFolderModumpChange);
 });
+
+// -----------------------------------------
+// When Folder is changed
+// -----------------------------------------
+function whenFolderModumpChange() {
+	// Start spinner
+	spinner_executing();
+
+	let cellDataFile = `${$(
+		"#folderPath-presrt"
+	).val()}\\mobatch_celldata\\config_celldata.xlsx`;
+
+	$.ajax({
+		type: "POST",
+		url: "http://localhost/srtwp/tools/is_filefolder_exists",
+		data: {
+			pathFolder: cellDataFile
+		},
+		success: cbwhenFolderModumpChange,
+		error: function(err) {
+			console.log(err);
+		}
+	});
+}
+
+function cbwhenFolderModumpChange(message) {
+	// Stop Spinner
+	spinner_post();
+	if (message === "exists") {
+		enableDisableButtonsATTIXPreSRT(
+			"bind",
+			"bind",
+			"",
+			"bind",
+			"bind",
+			"bind",
+			"bind",
+			"bind",
+			"bind",
+			"unbind",
+			"unbind"
+		);
+	} else {
+		enableDisableButtonsATTIXPreSRT(
+			"bind",
+			"unbind",
+			"bind",
+			"",
+			"unbind",
+			"unbind",
+			"unbind",
+			"unbind",
+			"unbind",
+			"unbind",
+			"unbind"
+		);
+	}
+}
 
 // -----------------------------------------
 // Enable/Disable Buttons
@@ -16,8 +75,81 @@ function enableDisableButtonsATTIXPreSRT(
 	crExistingRelation = "",
 	crExistingSysConsts = "",
 	optSelect = "",
-	crNBIotCell = ""
+	crNBIotCell = "",
+	btnRatFreqPrio_01 = "unbind",
+	btnRatFreqPrio_02 = "unbind",
+	btnRatFreqPrio_03 = "unbind",
+	btnRatFreqPrio_04 = "unbind",
+	btnRatFreqPrio_05 = "unbind",
+	btnRatFreqPrio_06 = "unbind"
 ) {
+	if (btnRatFreqPrio_01 === "unbind") {
+		$("#btnRatFreqPrio-01").unbind("click", runRATFreqPrio_01);
+		$("#btnRatFreqPrio-01").addClass("not-allowed");
+		$("#btnRatFreqPrio-01").addClass("btn-secondary");
+		$("#btnRatFreqPrio-01").removeClass("btn-success");
+	} else {
+		$("#btnRatFreqPrio-01").bind("click", runRATFreqPrio_01);
+		$("#btnRatFreqPrio-01").removeClass("not-allowed");
+		$("#btnRatFreqPrio-01").removeClass("btn-secondary");
+		$("#btnRatFreqPrio-01").addClass("btn-success");
+	}
+
+	if (btnRatFreqPrio_02 === "unbind") {
+		$("#btnRatFreqPrio-02").unbind("click", runRATFreqPrio_02);
+		$("#btnRatFreqPrio-02").addClass("not-allowed");
+		$("#btnRatFreqPrio-02").addClass("btn-secondary");
+		$("#btnRatFreqPrio-02").removeClass("btn-success");
+	} else {
+		$("#btnRatFreqPrio-02").bind("click", runRATFreqPrio_02);
+		$("#btnRatFreqPrio-02").removeClass("not-allowed");
+		$("#btnRatFreqPrio-02").removeClass("btn-secondary");
+		$("#btnRatFreqPrio-02").addClass("btn-success");
+	}
+
+	if (btnRatFreqPrio_03 === "unbind") {
+		$("#btnRatFreqPrio-03").unbind("click", runRATFreqPrio_03);
+		$("#btnRatFreqPrio-03").addClass("not-allowed");
+		$("#btnRatFreqPrio-03").addClass("btn-secondary");
+		$("#btnRatFreqPrio-03").removeClass("btn-success");
+	} else {
+		$("#btnRatFreqPrio-03").bind("click", runRATFreqPrio_03);
+		$("#btnRatFreqPrio-03").removeClass("not-allowed");
+		$("#btnRatFreqPrio-03").removeClass("btn-secondary");
+		$("#btnRatFreqPrio-03").addClass("btn-success");
+	}
+	if (btnRatFreqPrio_04 === "unbind") {
+		$("#btnRatFreqPrio-04").unbind("click", runRATFreqPrio_04);
+		$("#btnRatFreqPrio-04").addClass("not-allowed");
+		$("#btnRatFreqPrio-04").addClass("btn-secondary");
+		$("#btnRatFreqPrio-04").removeClass("btn-success");
+	} else {
+		$("#btnRatFreqPrio-04").bind("click", runRATFreqPrio_04);
+		$("#btnRatFreqPrio-04").removeClass("not-allowed");
+		$("#btnRatFreqPrio-04").removeClass("btn-secondary");
+		$("#btnRatFreqPrio-04").addClass("btn-success");
+	}
+
+	if (btnRatFreqPrio_05 === "unbind") {
+		$("#btnRatFreqPrio-05").addClass("not-allowed");
+		$("#btnRatFreqPrio-05").addClass("btn-secondary");
+		$("#btnRatFreqPrio-05").removeClass("btn-success");
+	} else {
+		$("#btnRatFreqPrio-05").removeClass("not-allowed");
+		$("#btnRatFreqPrio-05").removeClass("btn-secondary");
+		$("#btnRatFreqPrio-05").addClass("btn-success");
+	}
+
+	if (btnRatFreqPrio_06 === "unbind") {
+		$("#btnRatFreqPrio-06").addClass("not-allowed");
+		$("#btnRatFreqPrio-06").addClass("btn-secondary");
+		$("#btnRatFreqPrio-06").removeClass("btn-success");
+	} else {
+		$("#btnRatFreqPrio-06").removeClass("not-allowed");
+		$("#btnRatFreqPrio-06").removeClass("btn-secondary");
+		$("#btnRatFreqPrio-06").addClass("btn-success");
+	}
+
 	// Button Get Cell Data
 	if (getCellData === "bind") {
 		$("#btnATTIXGetcelldata").bind("click", runGetCellData);
@@ -80,6 +212,157 @@ function enableDisableButtonsATTIXPreSRT(
 		$("#folderPath-presrt").prop("disabled", "");
 		$("#ciqPath-presrt").prop("disabled", "");
 	}
+}
+
+function runRATFreqPrio_04() {
+	const optModump = $("#folderPath-presrt").val();
+
+	let li = "";
+
+	if (!checkIfOptionsSelected(optModump)) {
+		li += `<li>Modump's folder must be selected!</li>`;
+	}
+
+	if (li !== "") {
+		$(".alert ul").append(li);
+		$(".alert").show();
+		setTimeout(function() {
+			$(".alert").hide();
+			$(".alert ul").html("");
+		}, 3000);
+	} else {
+		// Start Spinner
+		spinner_executing();
+
+		$.ajax({
+			type: "POST",
+			url: "http://localhost/srtwp/tools/run_script",
+			data: {
+				pathFolder: optModump,
+				scripts: "ATT-PRESRT-RATFREQPRIO",
+				options: optModump + "#_04"
+			},
+			success: cbrunRATFreqPrio,
+			error: function(err) {
+				console.log(err);
+			}
+		});
+	}
+}
+
+function runRATFreqPrio_03() {
+	const optModump = $("#folderPath-presrt").val();
+
+	let li = "";
+
+	if (!checkIfOptionsSelected(optModump)) {
+		li += `<li>Modump's folder must be selected!</li>`;
+	}
+
+	if (li !== "") {
+		$(".alert ul").append(li);
+		$(".alert").show();
+		setTimeout(function() {
+			$(".alert").hide();
+			$(".alert ul").html("");
+		}, 3000);
+	} else {
+		// Start Spinner
+		spinner_executing();
+
+		$.ajax({
+			type: "POST",
+			url: "http://localhost/srtwp/tools/run_script",
+			data: {
+				pathFolder: optModump,
+				scripts: "ATT-PRESRT-RATFREQPRIO",
+				options: optModump + "#_03"
+			},
+			success: cbrunRATFreqPrio,
+			error: function(err) {
+				console.log(err);
+			}
+		});
+	}
+}
+
+function runRATFreqPrio_02() {
+	const optModump = $("#folderPath-presrt").val();
+
+	let li = "";
+
+	if (!checkIfOptionsSelected(optModump)) {
+		li += `<li>Modump's folder must be selected!</li>`;
+	}
+
+	if (li !== "") {
+		$(".alert ul").append(li);
+		$(".alert").show();
+		setTimeout(function() {
+			$(".alert").hide();
+			$(".alert ul").html("");
+		}, 3000);
+	} else {
+		// Start Spinner
+		spinner_executing();
+
+		$.ajax({
+			type: "POST",
+			url: "http://localhost/srtwp/tools/run_script",
+			data: {
+				pathFolder: optModump,
+				scripts: "ATT-PRESRT-RATFREQPRIO",
+				options: optModump + "#_02"
+			},
+			success: cbrunRATFreqPrio,
+			error: function(err) {
+				console.log(err);
+			}
+		});
+	}
+}
+
+function runRATFreqPrio_01() {
+	const optModump = $("#folderPath-presrt").val();
+
+	let li = "";
+
+	if (!checkIfOptionsSelected(optModump)) {
+		li += `<li>Modump's folder must be selected!</li>`;
+	}
+
+	if (li !== "") {
+		$(".alert ul").append(li);
+		$(".alert").show();
+		setTimeout(function() {
+			$(".alert").hide();
+			$(".alert ul").html("");
+		}, 3000);
+	} else {
+		// Start Spinner
+		spinner_executing();
+
+		$.ajax({
+			type: "POST",
+			url: "http://localhost/srtwp/tools/run_script",
+			data: {
+				pathFolder: optModump,
+				scripts: "ATT-PRESRT-RATFREQPRIO",
+				options: optModump + "#_01"
+			},
+			success: cbrunRATFreqPrio,
+			error: function(err) {
+				console.log(err);
+			}
+		});
+	}
+}
+
+function cbrunRATFreqPrio(data) {
+	$("#output-result").addClass("console");
+	$("#output-result").html(data);
+
+	spinner_post();
 }
 
 function runNBIotCell() {
@@ -192,7 +475,19 @@ function cbRunGetCellData(data) {
 function cbCellDataCreated(message) {
 	if (message === "exists") {
 		// Enable the Create Existing Relations
-		enableDisableButtonsATTIXPreSRT("unbind", "bind", "", "unbind", "bind");
+		enableDisableButtonsATTIXPreSRT(
+			"bind",
+			"bind",
+			"",
+			"bind",
+			"bind",
+			"bind",
+			"bind",
+			"bind",
+			"bind",
+			"unbind",
+			"unbind"
+		);
 	}
 
 	// Stop Spinners
@@ -228,8 +523,6 @@ function cbRunCreateExistingRelation(data) {
 
 	// Stop Spinners
 	spinner_post();
-
-	enableDisableButtonsATTIXPreSRT("bind", "unbind", "", "bind", "bind");
 }
 
 // ----------------------------------
