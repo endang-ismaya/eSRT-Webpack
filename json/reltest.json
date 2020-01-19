@@ -1,0 +1,18 @@
+{
+    "EUtranFrequency" : {
+        "ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=9840" : [
+            "CVL01530", "scripts"
+        ],
+        "ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=9820" : [
+            "CVL01530", "scripts-2"
+        ]
+    },
+    "EUtranFreqRelation" : {
+        "ENodeBFunction=1,EUtranCellFDD=CVL01530_9C_2,EUtranFreqRelation=9820" : [
+            "CVL01530", "scripts-3"
+        ],
+        "ENodeBFunction=1,EUtranCellFDD=CVL01530_9C_2,EUtranFreqRelation=925" : [
+            "CVL01530", "scripts-4"
+        ]
+    }
+}

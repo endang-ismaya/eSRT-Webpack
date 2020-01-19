@@ -1,0 +1,19 @@
+{
+    "latest-docs": {
+        "https://drive.google.com/open?id=1_wgYy-JfPAUAr4yf4n6Whjooc_xPiH2U":"RAN - Ericsson LTE Gold Standard E-UTRAN L18Q2_18.12",
+        "https://drive.google.com/open?id=1XN-apUDYTlkMITYhdPofTrz3Etj1pfDO":"LOS ANGELES MARKET LTE LMS PER COUNTY v3_42",
+        "https://drive.google.com/open?id=1mxI5ODJ_Q1r5F8XBvkd7KB-aCELUtSnw": "SFO_LTE_RNDCIQ_REV_380_(08.17.2018)"
+    },
+    "latest-fga": {
+        "https://drive.google.com/open?id=1OJsjjCNmrhDNQm07RRJsNOQEgmNXsU5X": "L18Q1_E_119_Rev_B (SleepMode)",
+        "https://drive.google.com/open?id=1qZNeFuRP_6oKaHF4QC0RQ9xxG_RNd-Py": "L18Q1-E-147RevA (Removal of non AT&T MFBI Bands)",
+        "https://drive.google.com/open?id=1Lx6N-w4Xv15FqCno9GS1ZLB5SbgXE7Ya": "L17A_E_FGA53REVC (EventHiCapSetting)",
+        "https://drive.google.com/open?id=1GmQM3xTNuaEdM8fomzjcEKBC_T1tj3Ea": "L18Q1-E-156 (Configurable sCellPriority)",
+        "https://drive.google.com/open?id=1EU-_76-m_OG0JbiFGE0eRUfg2K3xmFGx": "L18Q1-E-158 (LTE High Band idle mode change to RSRQ)",
+        "https://drive.google.com/open?id=1CcCPEcwq4upkDXy6ukXYvxOXTV-tzIEU": "L18Q1-E-FGA159 (MinBitRate QCI6 300Kbps)",
+        "https://drive.google.com/open?id=1dtmh8zMNnU1LJKLKfrSdKz3Sj-F-VDYg": "L18Q1 -E-160 (Automatic Mobility Optimization - AMO Enhanced)"
+    },
+    "latest-notification" : {
+        "title" : ["email-subject", "email-body", "nofification-link"]
+    }
+}

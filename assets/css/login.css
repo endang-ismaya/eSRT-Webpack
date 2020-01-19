@@ -1,0 +1,79 @@
+html,
+body {
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+
+.form-signin .checkbox {
+	font-weight: 400;
+}
+
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 20;
+}
+
+.form-signin input[type='email'] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type='password'] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.content {
+	position: fixed;
+	bottom: 30%;
+	/* background: rgba(0, 0, 0, 0.5); */
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+}
+
+.content img {
+	opacity: 0.2;
+}
+
+.content input,
+.content h1 {
+	opacity: 0.3;
+}
+
+.content h1 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,535 @@
+/* Layout.html.php */
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	font-size: 14px !important;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+}
+
+.boxsizingBorder {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body.home {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://localhost/srtwp/assets/images/asphalt-bitumen-black-1038935.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body.others {
+	background: url('http://localhost/srtwp/assets/images/bg/4k-wallpaper-clean-desk-1420701.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bodyProcess {
+	padding: 0px;
+	background: url('http://localhost/srtwp/assets/images/bg/4k-wallpaper-architecture-background-1308624.jpg') !important;
+}
+
+.disabled-button {
+	pointer-events: none;
+	background-color: #002031;
+	opacity: 0.333;
+}
+
+.kpiClass {
+	background-color: #e9e7e8;
+}
+
+h5.home {
+	color: whitesmoke;
+}
+
+div.row.home {
+	margin-top: 25px;
+}
+
+div.row.home-carousel {
+	margin-top: 30px;
+}
+
+#mainx {
+	background-size: 0 0;
+}
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.content {
+	position: relative;
+	bottom: 0;
+	/* background: rgba(0, 0, 0, 0.5); */
+	/* color: #f1f1f1; */
+	width: 100%;
+	padding: 5px;
+}
+
+.h1-jmbtron {
+	font-size: 12px;
+}
+
+.jumbo-top {
+	padding-bottom: 0 !important;
+	padding-top: 8px !important;
+	margin-bottom: 0 !important;
+	background: url('../images/photo-1524936811367-5cc4b5ae7fe3.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Footer */
+
+.footer-btm {
+	margin-bottom: 60px;
+}
+
+#footer-main {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+
+/* Kguts */
+.not-allowed {
+	cursor: not-allowed !important;
+}
+
+.console {
+	font-family: Courier;
+	color: #cccccc;
+	background: #000000;
+	border: 3px double #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* db_filelocator */
+
+blockquote {
+	display: table;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	padding: 0.5em;
+}
+
+blockquote p {
+	display: table-cell;
+	width: 90%;
+	vertical-align: top;
+}
+
+blockquote form {
+	display: table-cell;
+	width: 10%;
+}
+
+/* AlignMe */
+
+#alignMe-worksheet {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+
+.alignme-shname {
+	height: 30px;
+	width: 250px;
+}
+
+.alignme-close {
+	cursor: pointer;
+}
+
+.alignme-type {
+	width: 250px;
+	height: 30px;
+}
+
+.alignme-node {
+	width: 65px;
+	height: 30px;
+}
+
+.alignme-swver {
+	width: 65px;
+	height: 30px;
+}
+
+.alignme-filenum {
+	width: 55px;
+	height: 30px;
+}
+
+/* Output */
+
+.output-result {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 80px;
+	font-family: 'Courier New', Courier, monospace !important;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+table.table-alignme {
+	/* word-break: break-word !important; */
+	table-layout: fixed;
+	width: 100%;
+	white-space: nowrap;
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td.td-alignme,
+th.th-alignme {
+	white-space: normal;
+	/* Only needed when it's set differntly somewhere else */
+	word-wrap: break-word;
+	border: 0 none;
+	height: 30px;
+}
+
+td.td-alignme {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Column widths are based on these cells */
+
+/* Worksheet */
+.row-1 {
+	width: 23%;
+}
+
+/* ALignType */
+.row-2 {
+	width: 17%;
+}
+
+/* Node */
+.row-3 {
+	width: 5%;
+}
+
+/* swVersion */
+.row-4 {
+	width: 6%;
+}
+
+/* FileNum */
+.row-5 {
+	width: 4%;
+}
+
+/* Pre CV */
+.row-6 {
+	width: 22%;
+}
+
+/* Post CV */
+.row-7 {
+	width: 22%;
+}
+
+/* Close Button */
+.row-8 {
+	width: 2%;
+}
+
+th.th-alignme {
+	background: linear-gradient(#333 0%, #444 100%);
+	color: #fff;
+	font-weight: bold;
+	height: 40px;
+	text-align: center;
+}
+
+td.td-alignme {
+	background: #fafafa;
+	text-align: center;
+}
+
+/* Zebra Stripe Rows */
+
+tr.tr-alignme:nth-child(even) td {
+	background: #eee;
+}
+
+tr.tr-alignme:nth-child(odd) td {
+	background: #fdfdfd;
+}
+
+/* First-child blank cells! */
+
+tr.tr-alignme td:first-child,
+tr.tr-alignme th:first-child {
+	background: none;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 10px;
+	/* width: 80px; */
+}
+
+/* Add border-radius to specific cells! */
+
+tr.tr-alignme:first-child th.th-alignme:nth-child(2) {
+	border-radius: 5px 0 0 0;
+}
+
+tr.tr-alignme:first-child th.th-alignme:last-child {
+	border-radius: 0 5px 0 0;
+}
+
+/* SUBTITLE */
+
+.subtitle {
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 25px;
+}
+
+/* Highlighted */
+
+.highlighted {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Tutorial */
+.tutorial-nav {
+	display: block;
+	/* border: 1px solid black !important; */
+	background-color: whitesmoke;
+}
+
+/* PreSRT GetCellData-Table */
+.rowCellData-1 {
+	width: 10%;
+}
+
+/* ALignType */
+
+.rowCellData-2 {
+	width: 17%;
+}
+
+/* Node */
+
+.rowCellData-3 {
+	width: 10%;
+}
+
+/* swVersion */
+
+.rowCellData-4 {
+	width: 17%;
+}
+
+/* FileNum */
+
+.rowCellData-5 {
+	width: 7%;
+}
+
+/* Pre CV */
+
+.rowCellData-6 {
+	width: 7%;
+}
+
+/* Post CV */
+
+.rowCellData-7 {
+	width: 7%;
+}
+
+/* Close Button */
+
+.rowCellData-8 {
+	width: 25%;
+}
+
+.btn-presrt {
+	margin: 10px;
+	padding: 10px;
+	/* background-color:burlywood; */
+	/* font-size: 20px !important; */
+}
+
+.h-title {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* KPI-Chart */
+.containerKPI {
+	display: block;
+	margin: 70px auto;
+	overflow: hidden;
+	width: 80%;
+	text-align: center;
+}
+
+div#kpiTextArea textarea {
+	display: block;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: small;
+}
+
+.containerCounter {
+	display: block;
+	margin: auto;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerCounter .counter {
+	margin: 50px;
+}
+
+div.card.cardKPI {
+	margin: 30px;
+}
+
+div.card-body button.btn-kpi {
+	margin-right: 15px;
+}
+
+table.pmHo {
+	margin: auto;
+}
+
+.pmHo td,
+.pmHo th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.pmHo tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.pmHo tr:hover {
+	background-color: #ddd;
+}
+
+.pmHo th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4caf50;
+	color: white;
+}
+
+td.left-line {
+	text-align: left;
+}
+
+/* Home Card */
+.princing-item {
+	transition: all 150ms ease-out;
+}
+
+.princing-item:hover {
+	transform: scale(1.05);
+}
+
+.princing-item:hover .deco-layer--1 {
+	-webkit-transform: translate3d(15px, 0, 0);
+	transform: translate3d(15px, 0, 0);
+}
+
+.princing-item:hover .deco-layer--2 {
+	-webkit-transform: translate3d(-15px, 0, 0);
+	transform: translate3d(-15px, 0, 0);
+}
+
+.bg-gradient {
+	background: #c9d6ff;
+	background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff);
+	background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+ul#ul-card li {
+	margin-bottom: 1.4rem;
+}
+
+.pricing-divider {
+	border-radius: 20px;
+	background: #c64545;
+	padding: 1em 0 4em;
+	position: relative;
+}
+
+.blue .pricing-divider {
+	background: #2d5772;
+}
+
+.green .pricing-divider {
+	background: #1aa85c;
+}
+
+.red b {
+	color: #c64545;
+}
+
+.blue b {
+	color: #2d5772;
+}
+
+.green b {
+	color: #1aa85c;
+}
+
+.pricing-divider-img {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	height: 80px;
+}
+
+.deco-layer {
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.btn-custom {
+	background: #c64545;
+	color: #fff;
+	border-radius: 20px;
+}
+
+.img-float {
+	width: 50px;
+	position: absolute;
+	top: -3.5rem;
+	right: 1rem;
+}

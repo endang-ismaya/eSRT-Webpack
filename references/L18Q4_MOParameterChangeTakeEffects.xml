@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<takeeffects>
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="admNrRbDifferentiationThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="admNrRrcDifferentiationThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="admResourceMinQciPrio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="arpBasedPreEmptionState" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="dlAdmDifferentiationThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="dlAdmOverloadThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="dlMbmsGbrRatio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="dlTransNwBandwidth" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="nrOfPaConnReservationsPerCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="nrOfRbReservationsPerPaConn" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="resourceReservationForDifferentiation" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="resourceReservationForPAState" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="ulAdmDifferentiationThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="ulAdmOverloadThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="ulTransNwBandwidth" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp1" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp10" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp11" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp12" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp13" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp14" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp15" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp16" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp17" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp18" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp19" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp2" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp20" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp21" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp3" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp4" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp5" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp6" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp7" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp8" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AdmissionControl" Attribute="zzzTemp9" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="AirIfLoadProfile" Attribute="dlPrbLoadLevel" Effect="Minimal load level associated with downlink Physical Resource Block (PRB) use." />
+	<definition NodeType="DUS" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictDrxInactivityTimer" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictLongDrxCycle" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictOnDurationTimer" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="AntennaSubunit" Attribute="azimuthHalfPowerBeamwidth" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="AntennaSubunit" Attribute="commonChBeamfrmPortMap" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="AntennaSubunit" Attribute="customComChBeamfrmWtsAmplitude" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="AntennaSubunit" Attribute="customComChBeamfrmWtsPhase" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="caRateAdjustCoeff" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="laaSCellActProhibitTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="laaSCellDeactProhibitTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactDataThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactDataThresHyst" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactUlDataThresh" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactUlDataThreshHyst" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="sCellActProhibitTimer" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="sCellActProhibitTimerPoorCov" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="sCellDeactProhibitTimer" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="sCellScheduleSinrThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="DataRadioBearer" Attribute="dlMaxRetxThreshold" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="DataRadioBearer" Attribute="dlPollPDU" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="DataRadioBearer" Attribute="tPollRetransmitDl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="DataRadioBearer" Attribute="tStatusProhibitUl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="DlComp" Attribute="dlCompMeasRprtMaxSinr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="DlComp" Attribute="dlCompMeasRprtMinSinr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="DrxProfile" Attribute="drxInactivityTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="DrxProfile" Attribute="drxRetransmissionTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="DrxProfile" Attribute="drxState" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="DrxProfile" Attribute="longDrxCycle" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="DrxProfile" Attribute="longDrxCycleOnly" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="DrxProfile" Attribute="onDurationTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="DrxProfile" Attribute="shortDrxCycle" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="DrxProfile" Attribute="shortDrxCycleTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="combCellSectorSelectThreshRx" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="combCellSectorSelectThreshTx" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="estimateBasedPdcchCandSelection" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="initPreschedulingEnable" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="initPreschedulingEnable" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="sinrThrHomToLegPCell" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="sinrThrHomToLegSCell" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="sinrThrLegToHomPCell" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="sinrThrLegToHomSCell" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="sizeThreshDciFormat1A" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="tOutgoingHoExecCdma1xRtt" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="acBarringForEmergency" Effect="Disturbances: Changing this attribute can block emergency calls." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="acBarringForMoData" Effect="Disturbances: Changing this attribute can block data calls." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="acBarringForMoSignalling" Effect="Disturbances: Changing this attribute can block originating traffic." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="acBarringSkipForMmtelVideo" Effect="Disturbances: Changing this attribute can block Video calls." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="acBarringSkipForMmtelVoice" Effect="Disturbances: Changing this attribute can block VoLTE calls." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="acBarringSkipForSms" Effect="Disturbances: Changing this attribute can block sms." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="adaptiveCfiHoProhibit" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="assumedUePowerMsg3" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="beamWeightSet16Tr" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="beamWeightSet16TrTm9" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="catm1SupportEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="catmMbmsDlSubframes" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="cellCapMinMaxWriProt" Effect="cell unlock." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="cellRange" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="cfraEnable" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="channelSelectionSetSize" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="clusteredPuschMprFactor" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="commonSrPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="cqiCapacityDynPucch" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="crsGain" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="csiRs8TxCfgManual" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="csiRsCfgManual" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="csiRsConfigType" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="csiRsConfigType8TxFDD" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="csiRsEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dl256QamEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dlBlerTargetEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dlConfigurableFrequencyStart" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dlFrequencyAllocationProportion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dlHarqVoLTEBlerTarget" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dlInterferenceManagementActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dlInterferenceManagementDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dlPowerRampUpInitialRatio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dlPowerRampUpRate" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dynLoadCtrlMinNewConn" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dynUeAdmCtrlEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="dynUlResourceAllocEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="eDrxAllowed" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="elcActivityThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="elcConfigurationThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="elcEnabled" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="elcPrototypeBitfield" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="enableUeAssistedAdaptiveDrx" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="enableUeAssistedSigReduction" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="estimatedE2ERTT" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="expectedMaxNoOfUsersInCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="highBasebandPriority" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="highSpeedUEActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="highestSupportedCeLevelBr" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="initialBufferSizeDefault" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="initialBufferSizeMsg5Default" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="isDlOnly" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="lastSchedLinkAdaptEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="latencyLongThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="mappingInfo" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="mappingInfoCe" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="maxNoClusteredPuschAlloc" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="maxSoftLockBackoffTime" Effect="Indicates a maximum handover backoff time. The value is applied to inhibit further handover attempts to a EUTRAN target cell that rejects incoming handover for soft-lock of cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="maxValidSubframeDlBr" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="mbsfnSubframesForTm9" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="modificationPeriodCoeff" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="noConsecutiveSubframes" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="noOfChannelSelectionSets" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="noOfPucchFormat3PrbPairs" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="orientMajorAxis" Effect="Orientation of the major axis of uncertainty, in degrees clockwise from north.  Orientation value (N) is derived by the formula:" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="otdoaSuplActive" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="outOfCoverageDepth" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="outOfCoverageSparseGrantingBsr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="outOfCoverageSrTimerPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="outOfCoverageThreshold" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchCfiMode" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveCap" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveDtx" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveQci1" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveSrb" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchLaGinrMargin" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopAdjLowerLimit" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopAdjUpperLimit" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdj" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdjPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdjVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStep" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStepPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStepVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchPowerBoostMax" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThresholdPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThresholdVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchSinrOffsetWithMimo" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchTargetBler" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchTargetBlerPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdcchTargetBlerVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdschMaxNrOfPrbsPerUe" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pdschTypeBGain" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pftNetworkSoftwareVersion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="pftTatPairSelection" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="preambleInitialReceivedTargetPower" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="primaryPlmnReserved" Effect="Disturbances: Changing this attribute can block traffic in the cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="prsConfigIndex" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="prsMutingPatternLen" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="prsPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="prsPowerBoosting" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="prsTransmisScheme" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="puschMaxNrOfPrbsPerUe" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="puschNcpChannelEstWindowSize" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="qQualMin" Effect="Dependencies: The field is mandatory present if the Struct Member threshServingLowQ in SIB3 is used in systemInformationBlockType3." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="rachNoOfAllocationsPerFrame" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="rachPreambleRepetition" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="rachRootSequence" Effect="the need to lock/unlock the cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="radioRecIntPwrOffset" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="rateShapingActive" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="remoteSectorCarrierRef" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="resourcePartitionGroupRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="schedulingInfoSib1BrMod" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="siPeriodicity" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="siPeriodicityBr" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="siValidityTimeBr" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="siWindowLength" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="srDetectHighThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="srProcessingLevel" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="srRetransPeriodTarget" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ssacBarringForMMTELVideo" Effect="Disturbances: Changing this attribute can block video calls in the cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ssacBarringForMMTELVoice" Effect="Disturbances: Changing this attribute can block VoLTE calls in the cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="systemInformationBlock6" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="systemInformationBlock7" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="systemInformationBlock8" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="tTimeAlignmentTimer" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="tUeBlockingTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="tm4Tm9ModeSwitchingHyst" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="tm9Tm4ModeSwitchingEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="tm9Tm4ModeSwitchingHyst" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="tm9Tm4ModeSwitchingThresh" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ttiBundlingAtSetup" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ttiBundlingSwitchThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ttiBundlingSwitchThresHyst" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ul64qamEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ulConfigurableFrequencyStart" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ulFrequencyAllocationProportion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ulHarqVolteBlerTarget" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ulInterferenceManagementActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ulInterferenceManagementDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ulSchedCtrlForOocUesEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="ulSrsEnable" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="useESST" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellRelationUnlicensed" Attribute="earfcn" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="acBarringForEmergency" Effect="Disturbances: Changing this attribute can block emergency calls." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="acBarringForMoData" Effect="Disturbances: Changing this attribute can block data calls." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="acBarringForMoSignalling" Effect="Disturbances: Changing this attribute can block originating traffic." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="acBarringSkipForMmtelVideo" Effect="Disturbances: Changing this attribute can block Video calls." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="acBarringSkipForMmtelVoice" Effect="Disturbances: Changing this attribute can block VoLTE calls." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="acBarringSkipForSms" Effect="Disturbances: Changing this attribute can block sms." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="adaptiveCfiHoProhibit" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="assumedUePowerMsg3" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="catmMbmsDlSubframes" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="cbrsCell" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="cellCapMinMaxWriProt" Effect="at cell unlock." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="cellRange" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="cfraEnable" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="channelBandwidth" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="clusteredPuschMprFactor" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="commonSrPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="cqiCapacityDynPucch" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="crsGain" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="csiRs8TxCfgManual" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="csiRsConfigType8TxTDD" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="csiRsEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dl256QamEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlBlerTargetEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlConfigurableFrequencyStart" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlFrequencyAllocationProportion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlHarqVoLTEBlerTarget" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlInterferenceManagementActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlInterferenceManagementDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlMaxMuMimoLayers" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlPowerRampUpInitialRatio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dlPowerRampUpRate" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dynLoadCtrlMinNewConn" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dynUeAdmCtrlEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="dynUlResourceAllocEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="eDrxAllowed" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="elcActivityThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="elcConfigurationThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="elcEnabled" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="elcPrototypeBitfield" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="enableUeAssistedAdaptiveDrx" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="enableUeAssistedSigReduction" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="estimatedE2ERTT" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="expectedMaxNoOfUsersInCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="frameStartOffset" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="highBasebandPriority" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="highSpeedUEActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="initialBufferSizeDefault" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="initialBufferSizeMsg5Default" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="isDlOnly" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="isLaa" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="lastSchedLinkAdaptEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="latencyLongThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="mappingInfo" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="mappingInfoCe" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="maxNoClusteredPuschAlloc" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="maxSoftLockBackoffTime" Effect="Indicates a maximum handover backoff time. The value is applied to inhibit further handover attempts to a EUTRAN target cell that rejects incoming handover for soft-lock of cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="modificationPeriodCoeff" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="noConsecutiveSubframes" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="noOfChannelSelectionSets" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="noOfPucchFormat3PrbPairs" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="nonCaAnModeF3Enable" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="orientMajorAxis" Effect="Orientation of the major axis of uncertainty, in degrees clockwise from north.  Orientation value (N) is derived by the formula:" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="otdoaSuplActive" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="outOfCoverageDepth" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="outOfCoverageSparseGrantingBsr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="outOfCoverageSrTimerPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="outOfCoverageThreshold" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchCfiMode" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveCap" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveDtx" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveQci1" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveSrb" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchLaGinrMargin" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopAdjLowerLimit" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopAdjUpperLimit" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdj" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdjPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdjVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStep" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStepPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStepVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchPowerBoostMax" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThresholdPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThresholdVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchSinrOffsetWithMimo" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchTargetBler" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchTargetBlerPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdcchTargetBlerVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdschMaxNrOfPrbsPerUe" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pdschTypeBGain" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pftNetworkSoftwareVersion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="pftTatPairSelection" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="preambleInitialReceivedTargetPower" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="primaryPlmnReserved" Effect="Disturbances: Changing this attribute can block traffic in the cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="prsConfigIndex" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="prsMutingPatternLen" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="prsPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="prsPowerBoosting" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="prsTransmisScheme" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="puschMaxNrOfPrbsPerUe" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="puschNcpChannelEstWindowSize" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="qQualMin" Effect="Dependencies: The field is mandatory present if the Struct Member threshServingLowQ in SIB3 is used in systemInformationBlockType3." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="rachNoOfAllocationsPerFrame" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="rachPreambleRepetition" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="rachRootSequence" Effect="If feature Automated Rach Root Sequence Allocation is not activated a parameter change triggers automatic cell lock/unlock." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="radioRecIntPwrOffset" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="rateShapingActive" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="remoteSectorCarrierRef" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="resourcePartitionGroupRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="siPeriodicity" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="siValidityTimeBr" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="siWindowLength" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="specialSubframePattern" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="srDetectHighThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="srProcessingLevel" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="srRetransPeriodTarget" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ssacBarringForMMTELVideo" Effect="Disturbances: Changing this attribute can block video calls in the cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ssacBarringForMMTELVoice" Effect="Disturbances: Changing this attribute can block VoLTE calls in the cell." />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="subframeAssignment" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="systemInformationBlock6" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="systemInformationBlock7" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="systemInformationBlock8" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="tTimeAlignmentTimer" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="tUeBlockingTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ul64qamEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ulConfigurableFrequencyStart" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ulFrequencyAllocationProportion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ulHarqVolteBlerTarget" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ulInterferenceManagementActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ulInterferenceManagementDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ulMaxMuMimoLayers" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ulSchedCtrlForOocUesEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="ulSrsEnable" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="useESST" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="EUtranFreqRelation" Attribute="allowedMeasBandwidth" Effect="Note: The values indicate the number of resource blocks and correspond to the channel bandwidth 1,4MHz, 3MHz, 5MHz, 10MHz, 15MHz, 20MHz respectively specified in 3GPP TS 36.104." />
+	<definition NodeType="DUS" MOClass="EUtranFreqRelation" Attribute="pMax" Effect="Value 1000 means the parameter is not sent in the system information block." />
+	<definition NodeType="DUS" MOClass="EUtranFreqRelation" Attribute="threshXHighQ" Effect="Dependencies: The field is mandatory present if the Struct Member threshServingLowQ in SIB3 is used in systemInformationBlockType3." />
+	<definition NodeType="DUS" MOClass="EUtranFreqRelation" Attribute="threshXLowQ" Effect="Dependencies: The field is mandatory present if the Struct Member threshServingLowQ in SIB3 is used in systemInformationBlockType3." />
+	<definition NodeType="DUS" MOClass="EUtranFreqRelationUnlicensed" Attribute="allowedMeasBandwidth" Effect="Note: The values indicate the number of resource blocks and correspond to the channel bandwidth 1,4MHz, 3MHz, 5MHz, 10MHz, 15MHz, 20MHz respectively specified in 3GPP TS 36.104." />
+	<definition NodeType="DUS" MOClass="EUtranFrequency" Attribute="excludeAdditionalFreqBandList" Effect="sequence:A list of frequency bands to be excluded from the list of additional frequency bands in the additionalFreqBandList MOM attribute. The list shall not include the frequency band indicated by the EARFCN value of the frequency (primary frequency band). These frequency bands are excluded from the list of broadcasted additional frequency bands in SystemInformationBlockType5 in case the feature Multiple Frequency Band Indicators is enabled in the cell." />
+	<definition NodeType="DUS" MOClass="EricssonLeanCarrierFunction" Attribute="disableElcOnVolte" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EricssonLeanCarrierFunction" Attribute="elcDrxOnDurationPostHeating" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EricssonLeanCarrierFunction" Attribute="elcDrxOnDurationPreHeating" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="EricssonLeanCarrierFunction" Attribute="elcPdcchCrsMuting" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ExternalENodeBFunction" Attribute="eranUlCompVlanPortRef" Effect="Change takes effect: Next MO unlock" />
+	<definition NodeType="DUS" MOClass="ExternalENodeBFunction" Attribute="eranVlanPortRef" Effect="Change takes effect: Next MO unlock" />
+	<definition NodeType="DUS" MOClass="ExternalENodeBFunction" Attribute="interENodeBCAInteractionMode" Effect="Change takes effect: Next MO unlock" />
+	<definition NodeType="DUS" MOClass="ExternalUtranCellFDD" Attribute="cellIdentity" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="ExternalUtranCellTDD" Attribute="cellIdentity" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="FlexibleQoSGroup" Attribute="qciProfileRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="MbsfnArea" Attribute="commonSFAllocList" Effect="sChange takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="MbsfnArea" Attribute="commonSFAllocPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="MbsfnArea" Attribute="mbsfnAreaIdentity" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="MbsfnArea" Attribute="mcchModificationPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="MbsfnArea" Attribute="mcchRepetitionPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="MbsfnArea" Attribute="nonMbsfnRegionLength" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="MbsfnArea" Attribute="serviceAreaId" Effect="Change takes effect: Next MO unlock" />
+	<definition NodeType="DUS" MOClass="MbsfnArea" Attribute="signallingMCS" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="alpha" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="anchPowerBoostGainIndex" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="attachWithoutPDNConnectivityList" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="ceLevelNumber" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="cellBarred" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="cellRange" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="cmcIndex" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="dishConfiguration" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="dlAnchPrbIndex" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="dlNonAnchPrbNum" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="earfcndl" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="earfcndlDish" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="earfcnul" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="earfcnulDish" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="enableMfbi" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="eutranCellRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="frequencyInfo" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="intraFrequencyInfo" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="mappingInfo" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="nbDlSinrAdjust" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="networkSignallingValue" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc0Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc1Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc1Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc0Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc1Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc1Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc0Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc1Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc1Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="nprachCapMode4RxEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npuschCapMode4RxEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="npuschReceiverConfiguration" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc0Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc1Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc1Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="pMax" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="pZeroNominalNPusch" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="periodicityDeltaIndexCe0" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="periodicityDeltaIndexCe1" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="physicalLayerCellId" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="plmnAlarmSupprList" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="plmnReservedList" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="preambleIniRecTargetPower" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="primaryFreqBand" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="qHyst" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="qQualMin" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="qRxLevMin" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="rsrpThreshold1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="rsrpThreshold2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="sInterSearchThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="sIntraSearchThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="sectorCarrierRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="siWindowLength" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="spectrumEmissionReqMapping" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="tac" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="ulAnchPrbIndex" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="ulNonAnchPrbNum" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NbIotCell" Attribute="useHostCellPci" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciDrxInactivityTimer" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciLongDrxCycle" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciOnDurationTimer" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="PacketFrequencySyncRef" Attribute="ptpDomain" Effect="The attribute administrativeState must be set to LOCKED before modifying this attribute." />
+	<definition NodeType="DUS" MOClass="PacketTimeSyncRef" Attribute="ptpPathTimeError" Effect="Sum of boundary clock, transport clock and asymmetry errors of worst case path from grandmaster to node." />
+	<definition NodeType="DUS" MOClass="PacketTimeSyncRef" Attribute="transportLayerRef" Effect="Attribute administrativeState must be LOCKED before modifying this attribute." />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="defaultPagingCycle" Effect="Change takes effect: After all cells in the RBS are locked and then unlocked. Lock/unlock cells manually, immediately after changing defaultPagingCycle." />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="defaultPagingCycleNbIot" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked" />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="maxNoOfPagingRecords" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="maxNoOfPagingRecordsNb" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="nB" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="nBBr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="nBNbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="pagingDiscardTimerDrx" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="pagingDiscardTimerEdrx" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="DUS" MOClass="Paging" Attribute="pagingDiscardTimerEdrxNb" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="DUS" MOClass="PmchMch" Attribute="dataMcs" Effect="Change takes effect: lock/unlock MbsfnArea" />
+	<definition NodeType="DUS" MOClass="PmchMch" Attribute="mchSchedulingPeriod" Effect="Change takes effect: lock/unlock MbsfnArea" />
+	<definition NodeType="DUS" MOClass="PmchMch" Attribute="qci" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="PmchMch" Attribute="sfAllocEnd" Effect="Change takes effect: lock/unlock MbsfnArea" />
+	<definition NodeType="DUS" MOClass="PreschedulingProfile" Attribute="preschedulingDataSize" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="PreschedulingProfile" Attribute="preschedulingDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="PreschedulingProfile" Attribute="preschedulingPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="PreschedulingProfile" Attribute="preschedulingSinrThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="aqmMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="counterActiveMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="drxPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="drxProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="pdb" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="pdbOffset" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="pdcpSNLength" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="rlcMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="rlcSNLength" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="rlfPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="rlfProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="serviceType" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="tReorderingUl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="timerPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfileOperatorDefined" Attribute="timerProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="aqmMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="counterActiveMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="drxPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="drxProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="pdb" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="pdbOffset" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="pdcpSNLength" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="rlcMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="rlcSNLength" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="rlfPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="rlfProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="serviceType" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="tReorderingUl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="timerPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="QciProfilePredefined" Attribute="timerProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="ResourcePartition" Attribute="partitionId" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="ResourcePartition" Attribute="plmnList" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="ResourcePartition" Attribute="spidList" Effect="sequence:Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="ResourcePartitionGroupMember" Attribute="resourcePartitionRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="ResourcePartitionGroupMember" Attribute="resourcePartitionShare" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="RfBranch" Attribute="dlAttenuation" Effect="Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately by automatic lock/unlock of the cell." />
+	<definition NodeType="DUS" MOClass="RfBranch" Attribute="dlAttenuationPerFqRange" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="RfBranch" Attribute="dlTrafficDelay" Effect="Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately by automatic lock/unlock of the cell." />
+	<definition NodeType="DUS" MOClass="RfBranch" Attribute="dlTrafficDelayPerFqRange" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="RfBranch" Attribute="ulAttenuation" Effect="Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately by automatic lock/unlock of the cell." />
+	<definition NodeType="DUS" MOClass="RfBranch" Attribute="ulAttenuationPerFqRange" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="RfBranch" Attribute="ulTrafficDelay" Effect="Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately by automatic lock/unlock of the cell." />
+	<definition NodeType="DUS" MOClass="RfBranch" Attribute="ulTrafficDelayPerFqRange" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="Rrc" Attribute="n310NbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="Rrc" Attribute="n311NbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="Rrc" Attribute="t300NbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="Rrc" Attribute="t310NbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="antCalModeTddAasDl" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="configuredMaxTxPower" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="csiRsBeamShape" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="csiRsPowerRatio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="csiRsReConfigIndex" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="csiRsSfConfigIndex" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="csiRsZeroPwrReConfigList" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="csiRsZeroPwrSfConfigIndex" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort3" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort3" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="digitalTilt" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="macro" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="macro2Lobe" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="macroNarrow" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="macroWide" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="noOfRxAntennas" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="noOfTxAntennas" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="radioTransmitPerformanceMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="rfBranchRxRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="rfBranchTxRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="sectorShape" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="txPowerPersistentLock" Effect="Indicates if attribute configuredMaxTxPower is locked or not." />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="ulForcedTimingAdvanceCommand" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="virtualComChBeamfrmWtsAmplitude" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="virtualComChBeamfrmWtsPhase" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SectorCarrier" Attribute="virtualSector" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="SecurityHandling" Attribute="countWrapSupervisionActive" Effect="Change takes effect: Cell lock/unlock." />
+	<definition NodeType="DUS" MOClass="SecurityHandling" Attribute="countWrapThreshold" Effect="Change takes effect: Cell lock/unlock." />
+	<definition NodeType="DUS" MOClass="SignalingRadioBearer" Attribute="dlMaxRetxThreshold" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SignalingRadioBearer" Attribute="dlPollPDU" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SignalingRadioBearer" Attribute="tPollRetransmitDl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="SignalingRadioBearer" Attribute="tStatusProhibitUl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="TermPointToMme" Attribute="additionalCnRef" Effect="Change takes effect: Next MO unlock" />
+	<definition NodeType="DUS" MOClass="TermPointToMmeM3" Attribute="domainName" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="TermPointToMmeM3" Attribute="ipAddress1" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="TermPointToMmeM3" Attribute="ipAddress2" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="TermPointToMmeM3" Attribute="ipv6Address1" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="TermPointToMmeM3" Attribute="ipv6Address2" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="DUS" MOClass="TmaSubUnit" Attribute="dlAttenuation" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="TmaSubUnit" Attribute="dlTrafficDelay" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="TmaSubUnit" Attribute="ulTrafficDelay" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveCDMA2000" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to CDMA2000." />
+	<definition NodeType="DUS" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveCDMA20001xRtt" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to CDMA 1xRtt." />
+	<definition NodeType="DUS" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveGERAN" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to GERAN." />
+	<definition NodeType="DUS" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveIF" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based IF mobility." />
+	<definition NodeType="DUS" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveUTRAN" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to UTRAN." />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaChannelEvaluationTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaChannelSelectionType" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaDrsOffset" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaDrsPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaLbtCheckTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaLbtSuccessRateThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaMasterCarrierTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaMaxOccupancy" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaMultiCarrierAccessProcedureType" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaRssiDuty" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaRssiPeriodicity" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaRssiSamples" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaSCellActDeactDataThres" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UnlicensedAccessFunction" Attribute="laaSCellActDeactDataThresHyst" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="DUS" MOClass="UtranFreqRelation" Attribute="threshXHighQ" Effect="Dependencies: This parameter is included in SIB6 if the threshServingLowQ in SIB3 is included in systemInformationBlockType3." />
+	<definition NodeType="DUS" MOClass="UtranFreqRelation" Attribute="threshXLowQ" Effect="Dependencies: This parameter is included in SIB6 if the threshServingLowQ in SIB3 is included in systemInformationBlockType3." />
+	<definition NodeType="DUS" MOClass="AdditionalCoreNetwork" Attribute="dnsSelectionS1Ref" Effect="Disturbances: Changing this attribute can affect start(restart) duration" />
+	<definition NodeType="DUS" MOClass="AdditionalCoreNetwork" Attribute="plmnList" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="AdditionalCoreNetwork" Attribute="sctpS1Ref" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="AdditionalCoreNetwork" Attribute="upS1IpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="AdditionalCoreNetwork" Attribute="upX2IpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="AuxPlugInUnit" Attribute="piuType" Effect="Change takes effect: At restart." />
+	<definition NodeType="DUS" MOClass="BatteryBackup" Attribute="equalizeChargeCyclicInterval" Effect="The number of days between equalize charging. The cycle is reset at restart." />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="caPreemptionThreshold" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="CarrierAggregationFunction" Attribute="caUsageLimit" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="CellSleepNodeFunction" Attribute="csmEutranInterFMeasReportIncrTimer" Effect="Duration a cell must retain at high intensity of periodic measurements. The duration is applied at feature activation, and at cell and node restarts." />
+	<definition NodeType="DUS" MOClass="ConfigurationVersion" Attribute="configAdmCountdown" Effect="Specifies the number of seconds until node restart, that is until a confirmation of the latest change must be made." />
+	<definition NodeType="DUS" MOClass="ConfigurationVersion" Attribute="rollbackCounter" Effect="If the rollback function is turned on, the rollback counter is initiated to rollbackInitCounterValue and decremented at each node restart occurred during the time rollbackInitTimerValue. When the time rollbackInitTimerValue has elapsed, rollback counter is reset to its initial value. If the rollback counter reaches the value 0 before the time rollbackInitTimerValue has elapsed, a rollback is made." />
+	<definition NodeType="DUS" MOClass="ConfigurationVersion" Attribute="rollbackInitTimerValue" Effect="If the rollback function is turned on, the rollback timer is used to set the time limit during which node restarts decrement the rollbackCounter. The rollbackInitTimerValue starts from initial value after every node restart. After the given time, the node is not in a cyclic restart mode. The rollback counter, rollbackCounter, is then reset to its initial value." />
+	<definition NodeType="DUS" MOClass="ConfigurationVersion" Attribute="rollbackOn" Effect="If true, the system automatically updates the rollback counter at every node restart. A rollback is issued after x number of node restarts (Operated Initiated/Escalated), where x is defined by the rollbackInitCounterValue." />
+	<definition NodeType="DUS" MOClass="ConfigurationVersion" Attribute="timeForAutoCreatedCV" Effect="If the clock on the node is changed, this attribute must be set or else the JVM MP must be restarted." />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="dscpLabel" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="eNBId" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="eNodeBPlmnId" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="eranUlCompVlanPortRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="eranVlanPortRef" Effect="Disturbances: Changing this attribute can affect traffic. A node restart is required." />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="intraRanIpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="minPagingRefillUnits" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="rpUpIpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="sctpRef" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="sctpX2Ref" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="upIpAddressRef" Effect="Disturbances: Changing this attribute can affect traffic. A node restart is required." />
+	<definition NodeType="DUS" MOClass="ENodeBFunction" Attribute="upX2IpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="EUtranCellFDD" Attribute="caPrioThreshold" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="EUtranCellTDD" Attribute="caPrioThreshold" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="EnergyMeter" Attribute="energyMeterEnabled" Effect="Configured state of the energy meter. The configured state is retained after a restart." />
+	<definition NodeType="DUS" MOClass="EthernetLink" Attribute="metric" Effect="disturbance or loss of OAM connectivity, until the node is restarted or the IP address is changed to the correct" />
+	<definition NodeType="DUS" MOClass="EthernetLink" Attribute="mtuSize" Effect="disturbance or loss of OAM connectivity, until the node is restarted or the IP address is changed to the correct" />
+	<definition NodeType="DUS" MOClass="ExternalGeranCell" Attribute="rimSIUpdateTimeOut" Effect="This parameter holds the time in minutes until the next SI needs to have arrived. If an update has not arrived when this value reaches 0 the eNB will assume there are some problems with the RIM transmission and try to restart the association.  The value -1 means that there is no time out." />
+	<definition NodeType="DUS" MOClass="ExternalUtranCellFDD" Attribute="rimSIUpdateTimeOut" Effect="This parameter holds the time in minutes until the next SI needs to have arrived. If an update has not arrived when this value reaches 0 the eNB will assume there are some problems with the RIM transmission and try to restart the association.  The value -1 means that there is no time out." />
+	<definition NodeType="DUS" MOClass="ExternalUtranCellTDD" Attribute="rimSIUpdateTimeOut" Effect="This parameter holds the time in minutes until the next SI needs to have arrived. If an update has not arrived when this value reaches 0 the eNB will assume there are some problems with the RIM transmission and try to restart the association.  The value -1 means that there is no time out." />
+	<definition NodeType="DUS" MOClass="Ip" Attribute="nodeInterfaceName" Effect="Disturbances: Changing the value of this attribute on this MO might cause a disturbance or a loss of OAM connectivity, or cause an ORB restart. If you are uncertain about changing the value of this attribute, activate the robust rollback function by activating the countdown mechanism using the action activateRobustReconfiguration on the ConfigurationVersion MO first." />
+	<definition NodeType="DUS" MOClass="Ip" Attribute="nodeIpv6InterfaceName" Effect="Disturbances: Changing the value of this attribute on this MO might cause a disturbance or a loss of OAM connectivity, or cause an ORB restart. If you are uncertain about changing the value of this attribute, activate the robust rollback function by activating the countdown mechanism using the action activateRobustReconfiguration on the ConfigurationVersion MO first." />
+	<definition NodeType="DUS" MOClass="IpHostLink" Attribute="ipv4Addresses" Effect="sequence:Disturbances: Changing the value of this attribute on this MO might cause a disturbance or a loss of OAM connectivity, or an ORB restart, if the network management tool is connected over the IpHostLink MO. If you are uncertain about changing the value of this attribute, activate the robust rollback function by activating the countdown mechanism using the action activateRobustReconfiguration on the ConfigurationVersion MO first." />
+	<definition NodeType="DUS" MOClass="Jvm" Attribute="admMain" Effect="New start class that is activated at next restart of the JVM." />
+	<definition NodeType="DUS" MOClass="Jvm" Attribute="admOptions" Effect="sequence:A set option is operational after the next Java Machine restart." />
+	<definition NodeType="DUS" MOClass="Mbms" Attribute="m1IpInterfaceRef" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="Mbms" Attribute="synchPeriodLength" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="Mbms" Attribute="tMbmsAuditTimer" Effect="Change takes effect: Node restart" />
+	<definition NodeType="DUS" MOClass="PlugInUnit" Attribute="piuGroupNumber" Effect="Indicates which restart group the plug-in unit belongs to." />
+	<definition NodeType="DUS" MOClass="Program" Attribute="heapSize" Effect="The setting of this attribute have no effect until the Program is restarted." />
+	<definition NodeType="DUS" MOClass="Program" Attribute="poolSize" Effect="The setting of this attribute have no effect until the Program is restarted." />
+	<definition NodeType="DUS" MOClass="RfPort" Attribute="voltageLevel" Effect="Change takes effect: At node restart" />
+	<definition NodeType="DUS" MOClass="SrioTestPort" Attribute="portNr" Effect="Disturbance: Requires a node restart to take affect" />
+	<definition NodeType="DUS" MOClass="UcToolFunction" Attribute="activateVcXoClock" Effect="Disturbances: Requires a node restart to take affect" />
+	<definition NodeType="DUS" MOClass="UcToolFunction" Attribute="initUcToolConnection" Effect="Disturbances: Requires a node restart to take affect" />
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="dnsSelectionS1Ref" Effect="Disturbances: Changing this attribute can affect start(restart) duration" />
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="plmnList" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="sctpS1Ref" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="upS1IpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="upX2IpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="admNrRbDifferentiationThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="admNrRrcDifferentiationThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="admResourceMinQciPrio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="arpBasedPreEmptionState" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlAdmDifferentiationThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlAdmOverloadThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlMbmsGbrRatio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlTransNwBandwidth" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="nrOfPaConnReservationsPerCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="nrOfRbReservationsPerPaConn" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="resourceReservationForDifferentiation" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="resourceReservationForPAState" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="ulAdmDifferentiationThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="ulAdmOverloadThr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="ulTransNwBandwidth" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp1" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp10" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp11" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp12" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp13" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp14" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp15" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp16" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp17" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp18" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp19" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp2" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp20" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp21" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp3" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp4" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp5" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp6" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp7" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp8" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp9" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="dlPrbLoadLevel" Effect="Minimal load level associated with downlink Physical Resource Block (PRB) use." />
+	<definition NodeType="BBU" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictDrxInactivityTimer" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictLongDrxCycle" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictOnDurationTimer" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="caPreemptionThreshold" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="caRateAdjustCoeff" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="caUsageLimit" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="laaSCellActProhibitTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="laaSCellDeactProhibitTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactDataThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactDataThresHyst" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactUlDataThresh" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactUlDataThreshHyst" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActProhibitTimer" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellDeactProhibitTimer" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellScheduleSinrThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActProhibitTimerPoorCov" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CellSleepNodeFunction" Attribute="csmEutranInterFMeasReportIncrTimer" Effect="Duration a cell must retain at high intensity of periodic measurements. The duration is applied at feature activation, and at cell and node restarts." />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="dlMaxRetxThreshold" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="tPollRetransmitDl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="dlPollPDU" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="tStatusProhibitUl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DlComp" Attribute="dlCompMeasRprtMaxSinr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DlComp" Attribute="dlCompMeasRprtMinSinr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="drxInactivityTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="drxRetransmissionTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="drxState" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="longDrxCycle" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="longDrxCycleOnly" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="onDurationTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="shortDrxCycle" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="shortDrxCycleTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="combCellSectorSelectThreshRx" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="combCellSectorSelectThreshTx" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="dnsLookupOnTai" Effect="The RBS uses TAI to automatically obtain all MME IP addresses from the DNS when dnsLookupOnTai is switched on, or at RBS start or restart." />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="dscpLabel" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eNBId" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eNodeBPlmnId" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eranUlCompVlanPortRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eranVlanPortRef" Effect="Disturbances: Changing this attribute can affect traffic. A node restart is required." />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="initPreschedulingEnable" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="intraRanIpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="rpUpIpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sctpRef" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sctpX2Ref" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="tOutgoingHoExecCdma1xRtt" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="upIpAddressRef" Effect="Disturbances: Changing this attribute can affect traffic. A node restart is required." />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="upX2IpAddressRef" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="estimateBasedPdcchCandSelection" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="minPagingRefillUnits" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sizeThreshDciFormat1A" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="acBarringForEmergency" Effect="Disturbances: Changing this attribute can block emergency calls." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="acBarringForMoData" Effect="Disturbances: Changing this attribute can block data calls." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="acBarringForMoSignalling" Effect="Disturbances: Changing this attribute can block originating traffic." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="acBarringSkipForMmtelVideo" Effect="Disturbances: Changing this attribute can block Video calls." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="acBarringSkipForMmtelVoice" Effect="Disturbances: Changing this attribute can block VoLTE calls." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="acBarringSkipForSms" Effect="Disturbances: Changing this attribute can block sms." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="adaptiveCfiHoProhibit" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="beamWeightSet16Tr" Effect="Disturbances: Changing this attribute can affect traffic. A cell lock/unlock is required." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="beamWeightSet16TrTm9" Effect="Disturbances: Changing this attribute can affect traffic. A cell lock/unlock is required." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="caPrioThreshold" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="catm1SupportEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="catmMbmsDlSubframes" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cellBarred" Effect="Disturbances: Changing this attribute to BARRED blocks all traffic in the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cellCapMinMaxWriProt" Effect="at cell unlock." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cellRange" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cfraEnable" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="channelSelectionSetSize" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="clusteredPuschMprFactor" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="commonSrPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="crsGain" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRsConfigType" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRsConfigType8TxFDD" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dl256QamEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlBlerTargetEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlConfigurableFrequencyStart" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlFrequencyAllocationProportion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlInterferenceManagementActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlPowerRampUpInitialRatio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlPowerRampUpRate" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dynLoadCtrlMinNewConn" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dynUeAdmCtrlEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dynUlResourceAllocEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="eDrxAllowed" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcEnabled" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="enableUeAssistedAdaptiveDrx" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="enableUeAssistedSigReduction" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="expectedMaxNoOfUsersInCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="highBasebandPriority" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="highSpeedUEActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="highestSupportedCeLevelBr" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="initialBufferSizeDefault" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="isDlOnly" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="lastSchedLinkAdaptEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="latencyLongThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="mappingInfo" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="mappingInfoCe" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="maxNoClusteredPuschAlloc" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="maxValidSubframeDlBr" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="mbsfnSubframesForTm9" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="modificationPeriodCoeff" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="noConsecutiveSubframes" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="noOfChannelSelectionSets" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="noOfPucchFormat3PrbPairs" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="otdoaSuplActive" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="outOfCoverageSrTimerPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="outOfCoverageThreshold" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCfiMode" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveDtx" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveQci1" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveSrb" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchLaGinrMargin" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdj" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdjPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdjVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStep" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStepPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStepVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchPowerBoostMax" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchTargetBler" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchTargetBlerPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchTargetBlerVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdschMaxNrOfPrbsPerUe" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdschTypeBGain" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="preambleInitialReceivedTargetPower" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="primaryPlmnReserved" Effect="Disturbances: Changing this attribute can block traffic in the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsConfigIndex" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsMutingPatternLen" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsPowerBoosting" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsTransmisScheme" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="puschMaxNrOfPrbsPerUe" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="puschNcpChannelEstWindowSize" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="rachRootSequence" Effect="the need to lock/unlock the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="rateShapingActive" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="resourcePartitionGroupRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="schedulingInfoSib1BrMod" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="siPeriodicity" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="siPeriodicityBr" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="siValidityTimeBr" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="siWindowLength" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="srDetectHighThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="srProcessingLevel" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ssacBarringForMMTELVideo" Effect="Disturbances: Changing this attribute can block video calls in the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ssacBarringForMMTELVoice" Effect="Disturbances: Changing this attribute can block VoLTE calls in the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="systemInformationBlock6" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="systemInformationBlock7" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="systemInformationBlock8" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tTimeAlignmentTimer" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tUeBlockingTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tm9Tm4ModeSwitchingEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ttiBundlingAtSetup" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ttiBundlingSwitchThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ttiBundlingSwitchThresHyst" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ul64qamEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulConfigurableFrequencyStart" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulFrequencyAllocationProportion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulHarqVolteBlerTarget" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulInterferenceManagementActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulSchedCtrlForOocUesEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulSrsEnable" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="assumedUePowerMsg3" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cqiCapacityDynPucch" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRs8TxCfgManual" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRsEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlHarqVoLTEBlerTarget" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlInterferenceManagementDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcActivityThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcConfigurationThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcPrototypeBitfield" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="estimatedE2ERTT" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="initialBufferSizeMsg5Default" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="outOfCoverageDepth" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="outOfCoverageSparseGrantingBsr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveCap" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopAdjLowerLimit" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopAdjUpperLimit" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThresholdPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThresholdVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchSinrOffsetWithMimo" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pftNetworkSoftwareVersion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pftTatPairSelection" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="rachNoOfAllocationsPerFrame" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="rachPreambleRepetition" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="radioRecIntPwrOffset" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="sinrThreshHomToLegacyPCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="sinrThreshHomToLegacySCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="sinrThreshLegacyToHomPCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="sinrThreshLegacyToHomSCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="srRetransPeriodTarget" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulInterferenceManagementDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="useESST" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellRelationUnlicensed" Attribute="earfcn" Effect="Disturbances: Changes may affect traffic. If the earfcn is changed the cell will be automatic locked/unlocked, if needed." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="acBarringForEmergency" Effect="Disturbances: Changing this attribute can block emergency calls." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="acBarringForMoData" Effect="Disturbances: Changing this attribute can block data calls." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="acBarringForMoSignalling" Effect="Disturbances: Changing this attribute can block originating traffic." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="acBarringSkipForMmtelVideo" Effect="Disturbances: Changing this attribute can block Video calls." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="acBarringSkipForMmtelVoice" Effect="Disturbances: Changing this attribute can block VoLTE calls." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="acBarringSkipForSms" Effect="Disturbances: Changing this attribute can block sms." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="adaptiveCfiHoProhibit" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="administrativeState" Effect="Changing this attribute can cause all unlocked NBIoT cells to change administrativeState to LOCKED and then UNLOCKED. This happens when one of the following thresholds is crossed: 18 EUTRAN cells + 1 NBIoT cell or 9 NBIoT cells." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ailgAutoRestartEnabled" Effect="If set to true, AILG is automatically restarted when: cell disabled followed by cell enabled, for example at node start or restart." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="caPrioThreshold" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="catmMbmsDlSubframes" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cbrsCell" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cellBarred" Effect="Disturbances: Changing this attribute to BARRED blocks all traffic in the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cellCapMinMaxWriProt" Effect="at cell unlock." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cellRange" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cfraEnable" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="channelBandwidth" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="clusteredPuschMprFactor" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="commonSrPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="crsGain" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="csiRsConfigType8TxTDD" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dl256QamEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlBlerTargetEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlConfigurableFrequencyStart" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlFrequencyAllocationProportion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlInterferenceManagementActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlMaxMuMimoLayers" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlPowerRampUpInitialRatio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlPowerRampUpRate" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dynLoadCtrlMinNewConn" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dynUeAdmCtrlEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dynUlResourceAllocEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="eDrxAllowed" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcEnabled" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="enableUeAssistedAdaptiveDrx" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="enableUeAssistedSigReduction" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="expectedMaxNoOfUsersInCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="frameStartOffset" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="highBasebandPriority" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="highSpeedUEActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="initialBufferSizeDefault" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="isDlOnly" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="isLaa" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="lastSchedLinkAdaptEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="latencyLongThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="mappingInfo" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="mappingInfoCe" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="maxNoClusteredPuschAlloc" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="modificationPeriodCoeff" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="noConsecutiveSubframes" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="noOfChannelSelectionSets" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="noOfPucchFormat3PrbPairs" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="nonCaAnModeF3Enable" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="otdoaSuplActive" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="outOfCoverageSrTimerPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="outOfCoverageThreshold" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCfiMode" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveDtx" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveQci1" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveSrb" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchLaGinrMargin" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdj" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdjPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdjVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStep" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStepPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStepVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchPowerBoostMax" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchTargetBler" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchTargetBlerPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchTargetBlerVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdschMaxNrOfPrbsPerUe" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdschTypeBGain" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="preambleInitialReceivedTargetPower" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="primaryPlmnReserved" Effect="Disturbances: Changing this attribute can block traffic in the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsConfigIndex" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsMutingPatternLen" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsPowerBoosting" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsTransmisScheme" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="puschMaxNrOfPrbsPerUe" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="puschNcpChannelEstWindowSize" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="rachRootSequence" Effect="to lock/unlock the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="rateShapingActive" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="resourcePartitionGroupRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="siPeriodicity" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="siValidityTimeBr" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="siWindowLength" Effect="Change takes effect: When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="specialSubframePattern" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="srDetectHighThres" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="srProcessingLevel" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ssacBarringForMMTELVideo" Effect="Disturbances: Changing this attribute can block video calls in the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ssacBarringForMMTELVoice" Effect="Disturbances: Changing this attribute can block VoLTE calls in the cell." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="subframeAssignment" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="systemInformationBlock6" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="systemInformationBlock7" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="systemInformationBlock8" Effect="Change takes effect: Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="tTimeAlignmentTimer" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="tUeBlockingTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ul64qamEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulConfigurableFrequencyStart" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulFrequencyAllocationProportion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulHarqVolteBlerTarget" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulInterferenceManagementActive" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulMaxMuMimoLayers" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulSchedCtrlForOocUesEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulSrsEnable" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="assumedUePowerMsg3" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cqiCapacityDynPucch" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="csiRs8TxCfgManual" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="csiRsEnabled" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlHarqVoLTEBlerTarget" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlInterferenceManagementDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcActivityThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcConfigurationThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcPrototypeBitfield" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="estimatedE2ERTT" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="initialBufferSizeMsg5Default" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="outOfCoverageDepth" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="outOfCoverageSparseGrantingBsr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveCap" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopAdjLowerLimit" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopAdjUpperLimit" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThresholdPCell" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThresholdVolte" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchSinrOffsetWithMimo" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pftNetworkSoftwareVersion" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pftTatPairSelection" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="rachNoOfAllocationsPerFrame" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="rachPreambleRepetition" Effect="Change takes effect: Object unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="radioRecIntPwrOffset" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="sinrThreshHomToLegacyPCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="sinrThreshHomToLegacySCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="sinrThreshLegacyToHomPCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="sinrThreshLegacyToHomSCell" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="srRetransPeriodTarget" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulInterferenceManagementDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="useESST" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="disableElcOnVolte" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="elcDrxOnDurationPostHeating" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="elcDrxOnDurationPreHeating" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="elcPdcchCrsMuting" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ExternalENodeBFunction" Attribute="eranUlCompVlanPortRef" Effect="Change takes effect: Next MO unlock" />
+	<definition NodeType="BBU" MOClass="ExternalENodeBFunction" Attribute="eranVlanPortRef" Effect="Disturbances: Changing this attribute can affect traffic. A TermPointToENB lock/unlock for this external eNodeB is required." />
+	<definition NodeType="BBU" MOClass="ExternalENodeBFunction" Attribute="interENodeBCAInteractionMode" Effect="Disturbances: Changing this attribute can affect traffic. A TermPointToENB lock/unlock for this external eNodeB is required." />
+	<definition NodeType="BBU" MOClass="ExternalGeranCell" Attribute="rimSIUpdateTimeOut" Effect="This parameter holds the time in minutes until the next SI needs to have arrived. If an update has not arrived when this value reaches 0 the eNB will assume there are some problems with the RIM transmission and try to restart the association. The value -1 means that there is no time out." />
+	<definition NodeType="BBU" MOClass="ExternalUtranCellFDD" Attribute="cellIdentity" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="ExternalUtranCellFDD" Attribute="rimSIUpdateTimeOut" Effect="This parameter holds the time in minutes until the next SI needs to have arrived. If an update has not arrived when this value reaches 0 the eNB will assume there are some problems with the RIM transmission and try to restart the association. The value -1 means that there is no time out." />
+	<definition NodeType="BBU" MOClass="ExternalUtranCellTDD" Attribute="cellIdentity" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="ExternalUtranCellTDD" Attribute="rimSIUpdateTimeOut" Effect="This parameter holds the time in minutes until the next SI needs to have arrived. If an update has not arrived when this value reaches 0 the eNB will assume there are some problems with the RIM transmission and try to restart the association. The value -1 means that there is no time out." />
+	<definition NodeType="BBU" MOClass="FlexibleQoSGroup" Attribute="qciProfileRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="Mbms" Attribute="m1IpInterfaceRef" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="Mbms" Attribute="synchPeriodLength" Effect="Change takes effect: At node restart" />
+	<definition NodeType="BBU" MOClass="Mbms" Attribute="tMbmsAuditTimer" Effect="Change takes effect: Node restart" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="administrativeState" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="commonSFAllocList" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="commonSFAllocPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="mbsfnAreaIdentity" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="mcchModificationPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="mcchRepetitionPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="nonMbsfnRegionLength" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="serviceAreaId" Effect="Must not be changed when MbsfnArea is unlocked." />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="signallingMCS" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="alpha" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="anchPowerBoostGainIndex" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="attachWithoutPDNConnectivityList" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="ceLevelNumber" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="cellBarred" Effect="Disturbances: Changing this attribute to BARRED blocks all traffic in the cell. Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="cellRange" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="cmcIndex" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="dlAnchPrbIndex" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="dlNonAnchPrbNum" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="earfcndl" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="earfcnul" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="enableMfbi" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="eutranCellRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="frequencyInfo" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="intraFrequencyInfo" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="mappingInfo" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="networkSignallingValue" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="pMax" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="pZeroNominalNPusch" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="physicalLayerCellId" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="plmnAlarmSupprList" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="plmnReservedList" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="preambleIniRecTargetPower" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="primaryFreqBand" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="qHyst" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="qQualMin" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="qRxLevMin" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="sInterSearchThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="sIntraSearchThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="sectorCarrierRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="siWindowLength" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="spectrumEmissionReqMapping" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tac" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="ulAnchPrbIndex" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="ulNonAnchPrbNum" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="useHostCellPci" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="dishConfiguration" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="earfcndlDish" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="earfcnulDish" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nbDlSinrAdjust" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc0Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc1Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc1Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc0Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc1Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc1Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc0Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc1Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc1Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nprachCapMode4RxEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npuschCapMode4RxEnabled" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npuschReceiverConfiguration" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc0Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc1Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc1Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="periodicityDeltaIndexCe0" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="periodicityDeltaIndexCe1" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="prbIndexDL" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="prbIndexUl" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="rsrpThreshold1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="rsrpThreshold2" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciDrxInactivityTimer" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciLongDrxCycle" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciOnDurationTimer" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="defaultPagingCycle" Effect="Change takes effect: After all cells in the RBS are locked and then unlocked. Lock/unlock cells manually, immediately after changing defaultPagingCycle." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="defaultPagingCycleNbIot" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked" />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="maxNoOfPagingRecords" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="maxNoOfPagingRecordsNb" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="nB" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="nBBr" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="nBNbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="pagingDiscardTimerDrx" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="pagingDiscardTimerEdrx" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="pagingDiscardTimerEdrxNb" Effect="Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="dataMcs" Effect="Change takes effect: lock/unlock MbsfnArea" />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="mchSchedulingPeriod" Effect="Change takes effect: lock/unlock MbsfnArea" />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="qci" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="sfAllocEnd" Effect="Change takes effect: lock/unlock MbsfnArea" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingDataSize" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingDuration" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingPeriod" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingProfileId" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingSinrThreshold" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="aqmMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="counterActiveMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="drxPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="drxProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="pdb" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="pdbOffset" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="pdcpSNLength" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rlcMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rlcSNLength" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rlfPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rlfProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="serviceType" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="tReorderingUl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="timerPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="timerProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="aqmMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="counterActiveMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="drxPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="drxProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="pdb" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="pdbOffset" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="pdcpSNLength" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rlcMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rlcSNLength" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rlfPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rlfProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="serviceType" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="tReorderingUl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="timerPriority" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="timerProfileRef" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="ResourcePartition" Attribute="partitionId" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartition" Attribute="plmnList" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartition" Attribute="spidList" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartitionGroupMember" Attribute="resourcePartitionRef" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartitionGroupMember" Attribute="resourcePartitionShare" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="t300NbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="n310NbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="n311NbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="t310NbIot" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="antCalModeTddAasDl" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="configuredMaxTxPower" Effect="Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="digitalTilt" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="noOfRxAntennas" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="noOfTxAntennas" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="radioTransmitPerformanceMode" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="rfBranchRxRef" Effect="Disturbances: Modifying this attribute requires blocking and de-blocking the cell. Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="rfBranchTxRef" Effect="Disturbances: Modifying this attribute requires blocking and de-blocking the cell. Change takes effect: Object unlocked" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="sectorShape" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="txPowerPersistentLock" Effect="Indicates if attribute configuredMaxTxPower is locked or not." />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="ulForcedTimingAdvanceCommand" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="virtualComChBeamfrmWtsAmplitude" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="virtualComChBeamfrmWtsPhase" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="virtualSector" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsPowerRatio" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsReConfigIndex" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsSfConfigIndex" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsZeroPwrReConfigList" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsZeroPwrSfConfigIndex" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort0" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort1" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SecurityHandling" Attribute="countWrapSupervisionActive" Effect="Change takes effect: Cell lock/unlock." />
+	<definition NodeType="BBU" MOClass="SecurityHandling" Attribute="countWrapThreshold" Effect="Change takes effect: Cell lock/unlock." />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="dlMaxRetxThreshold" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="tPollRetransmitDl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="dlPollPDU" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="tStatusProhibitUl" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="TermPointToMme" Attribute="additionalCnRef" Effect="Change takes effect: Next MO unlock" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveCDMA2000" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to CDMA2000." />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveCDMA20001xRtt" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to CDMA 1xRtt." />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveGERAN" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to GERAN." />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveIF" Effect="Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based IF mobility." />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaChannelEvaluationTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaChannelSelectionType" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaDrsOffset" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaDrsPeriodicity" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaLbtCheckTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaLbtSuccessRateThreshold" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaMasterCarrierTimer" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaMaxOccupancy" Effect="Change takes effect: Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaSCellActDeactDataThres" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaSCellActDeactDataThresHyst" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaMultiCarrierAccessProcedureType" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaRssiDuty" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaRssiPeriodicity" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaRssiSamples" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.AntennaNearUnit" Attribute="iuantDeviceType" Effect="Change takes effect: At node restart." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.AntennaSubunit" Attribute="azimuthHalfPowerBeamwidth" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.AntennaSubunit" Attribute="commonChBeamfrmPortMap" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.AntennaSubunit" Attribute="customComChBeamfrmWtsAmplitude" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.AntennaSubunit" Attribute="customComChBeamfrmWtsPhase" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="dlAttenuation" Effect="Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="dlAttenuationPerFqRange" Effect="Change takes effect: Immediately if cell is unlocked, otherwise when cell is unlocked." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="dlTrafficDelay" Effect="Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="dlTrafficDelayPerFqRange" Effect="Change takes effect: Immediately if cell is unlocked, otherwise when cell is unlocked." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="rfPortRef" Effect="Change takes effect: At next unlock of the SectorEquipmentFunction" />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="ulAttenuation" Effect="Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="ulAttenuationPerFqRange" Effect="Change takes effect: Immediately if cell is unlocked, otherwise when cell is unlocked." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="ulTrafficDelay" Effect="Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.RfBranch" Attribute="ulTrafficDelayPerFqRange" Effect="Change takes effect: Immediately if cell is unlocked, otherwise when cell is unlocked." />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.TmaSubUnit" Attribute="dlAttenuation" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.TmaSubUnit" Attribute="dlTrafficDelay" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ReqAntennaSystem.TmaSubUnit" Attribute="ulTrafficDelay" Effect="Change takes effect: Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ReqCcBranch.CcBranch" Attribute="ccLinkRef" Effect="Change takes effect: MO CcLink Lock/Unlock." />
+	<definition NodeType="BBU" MOClass="ReqCcBranch.CcBranch" Attribute="rfBranchRef" Effect="Change takes effect: MO CcLink Lock/Unlock." />
+	<definition NodeType="BBU" MOClass="ResBatteryBackup.BatteryBackup" Attribute="equalizeChargeCyclicInterval" Effect="The number of days between equalize charging. The cycle is reset at restart." />
+	<definition NodeType="BBU" MOClass="RmeSds.ServiceDiscovery" Attribute="primaryGsds" Effect="Change takes effect: Node Restart" />
+	<definition NodeType="BBU" MOClass="RmeSds.ServiceDiscovery" Attribute="secondaryGsds" Effect="Change takes effect: Node Restart" />
+	<definition NodeType="BBU" MOClass="RmeSdsServer.ServiceDiscoveryServer" Attribute="cluster" Effect="Change takes effect: Node Restart" />
+	<definition NodeType="BBU" MOClass="RmeSectorEquipmentFunction.SectorEquipmentFunction" Attribute="administrativeState" Effect="Default=LOCKED" />
+	<definition NodeType="BBU" MOClass="RmeSectorEquipmentFunction.SectorEquipmentFunction" Attribute="noiseFigure" Effect="Change takes effect: Next MO unlock or restart of radio unit (IRU)." />
+	<definition NodeType="BBU" MOClass="RmeSectorEquipmentFunction.SectorEquipmentFunction" Attribute="rfBranchRef" Effect="Change takes effect: Next MO unlock" />
+	<definition NodeType="BBU" MOClass="NodeBFunction" Attribute="dualBandSectorGroup1" Effect="Change takes effect: At next unlock of Local Cell Group." />
+	<definition NodeType="BBU" MOClass="NodeBFunction" Attribute="dualBandSectorGroup2" Effect="Change takes effect: At next unlock of Local Cell Group." />
+	<definition NodeType="BBU" MOClass="NodeBFunction" Attribute="dualBandSectorGroup3" Effect="Change takes effect: At next unlock of Local Cell Group." />
+	<definition NodeType="BBU" MOClass="NodeBFunction" Attribute="dualBandSectorGroup4" Effect="Change takes effect: At next unlock of Local Cell Group." />
+	<definition NodeType="BBU" MOClass="NodeBFunction" Attribute="dualBandSectorGroup5" Effect="Change takes effect: At next unlock of Local Cell Group." />
+	<definition NodeType="BBU" MOClass="NodeBFunction" Attribute="dualBandSectorGroup6" Effect="Change takes effect: At next unlock of Local Cell Group." />
+	<definition NodeType="BBU" MOClass="NodeBSectorCarrier" Attribute="eulThermalLevelPrior" Effect="Change takes effect: At next setup of cell. If cell is setup and the noise floor is locked, at commit." />
+	<definition NodeType="BBU" MOClass="NodeBSectorCarrier" Attribute="numOfRxAntennas" Effect="Change takes effect: At next unlock of Node B Local Cell." />
+	<definition NodeType="BBU" MOClass="NodeBSectorCarrier" Attribute="numOfTxAntennas" Effect="Change takes effect: At next unlock of Node B Local Cell." />
+	<definition NodeType="BBU" MOClass="NodeBSectorCarrier" Attribute="rfBranchRxRef" Effect="Change takes effect: At next unlock of Node B Local Cell." />
+	<definition NodeType="BBU" MOClass="NodeBSectorCarrier" Attribute="rfBranchTxRef" Effect="Change takes effect: At next unlock of Node B Local Cell." />
+	<definition NodeType="BBU" MOClass="NodeBSectorCarrier" Attribute="txBranchAPower" Effect="Change takes effect: At next unlock of Node B Local Cell." />
+	<definition NodeType="BBU" MOClass="NodeBSectorCarrier" Attribute="txPowerPersistentLock" Effect="Indicates if attributes configuredMaxTxPower and txBranchAPower are locked or not." />
+</takeeffects>

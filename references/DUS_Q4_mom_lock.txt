@@ -1,0 +1,1396 @@
+####################################################################################################################################
+MO Class;Attribute;Type;Flags
+####################################################################################################################################
+AdmissionControl;admNrRbDifferentiationThr;Change takes effect: Cell lock/unlock
+AdmissionControl;admNrRrcDifferentiationThr;Change takes effect: Cell lock/unlock
+AdmissionControl;admResourceMinQciPrio;Change takes effect: Cell lock/unlock
+AdmissionControl;arpBasedPreEmptionState;Change takes effect: Cell lock/unlock
+AdmissionControl;dlAdmDifferentiationThr;Change takes effect: Cell lock/unlock
+AdmissionControl;dlAdmOverloadThr;Change takes effect: Cell lock/unlock
+AdmissionControl;dlMbmsGbrRatio;Change takes effect: Cell lock/unlock
+AdmissionControl;dlTransNwBandwidth;Change takes effect: Cell lock/unlock
+AdmissionControl;limitSrNonPa;Change takes effect: Next cell unlock
+AdmissionControl;nrOfPaConnReservationsPerCell;Change takes effect: Cell lock/unlock
+AdmissionControl;nrOfPrevPreempPaRbReservation;Change takes effect: Next cell unlock
+AdmissionControl;nrOfRbReservationsPerPaConn;Change takes effect: Cell lock/unlock
+AdmissionControl;resourceReservationForDifferentiation;Change takes effect: Cell lock/unlock
+AdmissionControl;resourceReservationForPAState;Change takes effect: Cell lock/unlock
+AdmissionControl;srBbmPaUsersPreallocation;Change takes effect: Next cell unlock
+AdmissionControl;ulAdmDifferentiationThr;Change takes effect: Cell lock/unlock
+AdmissionControl;ulAdmOverloadThr;Change takes effect: Cell lock/unlock
+AdmissionControl;ulTransNwBandwidth;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp1;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp10;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp11;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp12;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp13;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp14;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp15;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp16;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp17;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp18;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp19;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp2;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp20;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp21;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp3;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp4;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp5;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp6;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp7;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp8;Change takes effect: Cell lock/unlock
+AdmissionControl;zzzTemp9;Change takes effect: Cell lock/unlock
+AirIfLoadProfile;dlPrbLoadLevel;Minimal load level associated with downlink Physical Resource Block (PRB) use.
+AnrPciConflictDrxProfile;anrPciConflictDrxInactivityTimer;Change takes effect: Object unlocked
+AnrPciConflictDrxProfile;anrPciConflictLongDrxCycle;Change takes effect: Object unlocked
+AnrPciConflictDrxProfile;anrPciConflictOnDurationTimer;Change takes effect: Object unlocked
+AntennaSubunit;azimuthHalfPowerBeamwidth;Change takes effect: Next cell unlock
+AntennaSubunit;commonChBeamfrmPortMap;Change takes effect: Next cell unlock
+AntennaSubunit;customComChBeamfrmWtsAmplitude;Change takes effect: Next cell unlock
+AntennaSubunit;customComChBeamfrmWtsPhase;Change takes effect: Next cell unlock
+CarrierAggregationFunction;caRateAdjustCoeff;Change takes effect: Cell lock/unlock
+CarrierAggregationFunction;dcSCellActDeactDataThres;Change takes effect: Next cell unlock
+CarrierAggregationFunction;dcSCellActDeactDataThresHyst;Change takes effect: Next cell unlock
+CarrierAggregationFunction;dcSCellDeactDelayTimer;Change takes effect: Next cell unlock
+CarrierAggregationFunction;laaSCellActProhibitTimer;Change takes effect: Next cell unlock
+CarrierAggregationFunction;laaSCellDeactProhibitTimer;Change takes effect: Next cell unlock
+CarrierAggregationFunction;sCellActDeactDataThres;Change takes effect: Cell lock/unlock
+CarrierAggregationFunction;sCellActDeactDataThresHyst;Change takes effect: Cell lock/unlock
+CarrierAggregationFunction;sCellActDeactUlDataThresh;Change takes effect: Cell lock/unlock
+CarrierAggregationFunction;sCellActDeactUlDataThreshHyst;Change takes effect: Cell lock/unlock
+CarrierAggregationFunction;sCellActProhibitTimer;Change takes effect: Cell lock/unlock
+CarrierAggregationFunction;sCellActProhibitTimerPoorCov;Change takes effect: Cell lock/unlock
+CarrierAggregationFunction;sCellDeactProhibitTimer;Change takes effect: Cell lock/unlock
+CarrierAggregationFunction;sCellScheduleSinrThres;Change takes effect: Cell lock/unlock
+DataRadioBearer;dlMaxRetxThreshold;Change takes effect: Cell lock/unlock
+DataRadioBearer;dlPollPDU;Change takes effect: Cell lock/unlock
+DataRadioBearer;tPollRetransmitDl;Change takes effect: Cell lock/unlock
+DataRadioBearer;tStatusProhibitUl;Change takes effect: Cell lock/unlock
+DlComp;dlCompMeasRprtMaxSinr;Change takes effect: Cell lock/unlock
+DlComp;dlCompMeasRprtMinSinr;Change takes effect: Cell lock/unlock
+DrxProfile;drxInactivityTimer;Change takes effect: Next cell unlock
+DrxProfile;drxRetransmissionTimer;Change takes effect: Next cell unlock
+DrxProfile;drxState;Change takes effect: Next cell unlock
+DrxProfile;longDrxCycle;Change takes effect: Next cell unlock
+DrxProfile;longDrxCycleOnly;Change takes effect: Next cell unlock
+DrxProfile;onDurationTimer;Change takes effect: Next cell unlock
+DrxProfile;shortDrxCycle;Change takes effect: Next cell unlock
+DrxProfile;shortDrxCycleTimer;Change takes effect: Next cell unlock
+ENodeBFunction;combCellSectorSelectThreshRxChange takes effect: Next cell unlock
+ENodeBFunction;combCellSectorSelectThreshTxChange takes effect: Next cell unlock
+ENodeBFunction;estimateBasedPdcchCandSelection;Change takes effect: Cell lock/unlock
+ENodeBFunction;initPreschedulingEnable;Change takes effect: Object unlocked
+ENodeBFunction;sinrThrHomToLegPCell;Change takes effect: Next cell unlock
+ENodeBFunction;sinrThrHomToLegSCell;Change takes effect: Next cell unlock
+ENodeBFunction;sinrThrLegToHomPCell;Change takes effect: Next cell unlock
+ENodeBFunction;sinrThrLegToHomSCell;Change takes effect: Next cell unlock
+ENodeBFunction;sizeThreshDciFormat1A;Change takes effect: Cell lock/unlock
+ENodeBFunction;softLockRwRWaitTimerInternal;Length of waiting time before soft-lock of cell starts to release all ongoing calls with Release with Redirect (RwR), when eNodeB internally triggers soft-lock of cell.
+ENodeBFunction;softLockRwRWaitTimerOperator;Length of waiting time before soft-lock of cell starts to release all ongoing calls with Release with Redirect (RwR), when operator triggers soft-lock of cell.
+ENodeBFunction;tOutgoingHoExecCdma1xRtt;Change takes effect: Cell lock/unlock
+EUtranCellFDD;acBarringForEmergency;Disturbances: Changing this attribute can block emergency calls.
+EUtranCellFDD;acBarringForMoData;Disturbances: Changing this attribute can block mobile originating data calls.
+EUtranCellFDD;acBarringForMoSignalling;Disturbances: Changing this attribute can block mobile originating signaling call.
+EUtranCellFDD;acBarringSkipForMmtelVideo;Disturbances: Changing this attribute can block Video calls.
+EUtranCellFDD;acBarringSkipForMmtelVoice;Disturbances: Changing this attribute can block VoLTE calls.
+EUtranCellFDD;acBarringSkipForSms;Disturbances: Changing this attribute can block sms.
+EUtranCellFDD;adaptiveCfiHoProhibit;Change takes effect: Cell lock/unlock
+EUtranCellFDD;assumedUePowerMsg3;Change takes effect: Object unlocked
+EUtranCellFDD;beamWeightSet16Tr;Disturbances: Changing this attribute can affect traffic. A cell lock/unlock is required.
+EUtranCellFDD;beamWeightSet16TrTm9;Disturbances: Changing this attribute can affect traffic. A cell lock/unlock is required.
+EUtranCellFDD;caPrioThreshold;Change takes effect: Next cell unlock
+EUtranCellFDD;catm1SupportEnabled;Change takes effect: Cell lock/unlock
+EUtranCellFDD;catmMbmsDlSubframes;Change takes effect: Next cell unlock
+EUtranCellFDD;cellBarred;Disturbances: Changing this attribute to BARRED blocks all traffic in the cell.
+EUtranCellFDD;cellCapMinMaxWriProt;If set to true, feature Automated Cell Capacity Estimation cannot reset cellCapMinCellSubCap and cellCapMaxCellSubCap at cell unlock. If set to false, feature Automated Cell Capacity Estimation can change cellCapMinCellSubCap and cellCapMaxCellSubCap at cell unlock.
+EUtranCellFDD;cellRange;Change takes effect: Object unlocked
+EUtranCellFDD;cfraEnable;Change takes effect: Cell lock/unlock
+EUtranCellFDD;changeNotification;For each System Information Block (SIB), indicates when the SIB content is changed, if system information change notification is broadcast prior to broadcast of updated system information.
+EUtranCellFDD;channelSelectionSetSize;Change takes effect: Object unlocked
+EUtranCellFDD;clusteredPuschMprFactor;Change takes effect: Object unlocked
+EUtranCellFDD;commonSrPeriodicity;Change takes effect: Cell lock/unlock
+EUtranCellFDD;cqiCapacityDynPucch;Change takes effect: Cell lock/unlock
+EUtranCellFDD;crsGain;Change takes effect: Cell lock/unlock
+EUtranCellFDD;csiRs8TxCfgManual;Change takes effect: Cell lock/unlock
+EUtranCellFDD;csiRsCfgManual;Change takes effect: Next cell unlock
+EUtranCellFDD;csiRsConfigType;Change takes effect: Next cell unlock
+EUtranCellFDD;csiRsConfigType8TxFDD;Change takes effect: Cell lock/unlock
+EUtranCellFDD;csiRsEnabled;Change takes effect: Cell lock/unlock
+EUtranCellFDD;dl256QamEnabled;Change takes effect: Cell lock/unlock
+EUtranCellFDD;dlBlerTargetEnabled;Change takes effect: Next cell unlock
+EUtranCellFDD;dlConfigurableFrequencyStart;Change takes effect: Object unlocked
+EUtranCellFDD;dlFrequencyAllocationProportion;Change takes effect: Object unlocked
+EUtranCellFDD;dlHarqVoLTEBlerTarget;Change takes effect: Next cell unlock
+EUtranCellFDD;dlInterferenceManagementActive;Change takes effect: Object unlocked
+EUtranCellFDD;dlInterferenceManagementDuration;Change takes effect: Object unlocked
+EUtranCellFDD;dlPowerRampUpInitRatio;Change takes effect: Cell lock/unlock
+EUtranCellFDD;dlPowerRampUpRate;Change takes effect: Cell lock/unlock
+EUtranCellFDD;dynLoadCtrlMinNewConn;Change takes effect: Next cell unlock
+EUtranCellFDD;dynUeAdmCtrlEnabled;Change takes effect: Cell lock/unlock
+EUtranCellFDD;dynUlResourceAllocEnabled;Change takes effect: Cell lock/unlock
+EUtranCellFDD;eDrxAllowed;Change takes effect: Next cell unlock
+EUtranCellFDD;elcActivityThreshold;Change takes effect: Object unlocked
+EUtranCellFDD;elcConfigurationThreshold;Change takes effect: Object unlocked
+EUtranCellFDD;elcEnabled;Change takes effect: Object unlocked
+EUtranCellFDD;elcPrototypeBitfield;Change takes effect: Object unlocked
+EUtranCellFDD;enableUeAssistedAdaptiveDrx;Change takes effect: Object unlocked
+EUtranCellFDD;enableUeAssistedSigReduction;Change takes effect: Object unlocked
+EUtranCellFDD;estimatedE2ERTT;Change takes effect: Cell lock/unlock
+EUtranCellFDD;expectedMaxNoOfUsersInCell;Change takes effect: Object unlocked
+EUtranCellFDD;highBasebandPriority;Change takes effect: Next cell unlock
+EUtranCellFDD;highSpeedUEActive;Change takes effect: Object unlocked
+EUtranCellFDD;highestSupportedCeLevelBr;Change takes effect: Next cell unlock
+EUtranCellFDD;initialBufferSizeDefault;Change takes effect: Cell lock/unlock
+EUtranCellFDD;initialBufferSizeMsg5Default;Change takes effect: Object unlocked
+EUtranCellFDD;isDlOnly;Change takes effect: Object unlocked
+EUtranCellFDD;lastSchedLinkAdaptEnabled;Change takes effect: Cell lock/unlock
+EUtranCellFDD;latencyLongThreshold;Change takes effect: Next cell unlock
+EUtranCellFDD;loadBasedCaEnabled;Change takes effect: Next cell unlock
+EUtranCellFDD;loadBasedCaMsrThr;Change takes effect: Next cell unlock
+EUtranCellFDD;mappingInfo;Change takes effect: When EUtranCellFDD/TDD object is unlocked
+EUtranCellFDD;mappingInfoCe.MappingInfoSIBsBr;Change takes effect: Next cell unlock
+EUtranCellFDD;maxNoClusteredPuschAlloc;Change takes effect: Object unlocked
+EUtranCellFDD;maxSoftLockBackoffTime;Indicates a maximum handover backoff time. The value is applied to inhibit further handover attempts to a EUTRAN target cell that rejects incoming handover for soft-lock of cell.
+EUtranCellFDD;maxValidSubframeDlBr;Change takes effect: Next cell unlock
+EUtranCellFDD;mbsfnSubframesForTm9.MbsfnSubframesForTm9;Change takes effect: Next cell unlock
+EUtranCellFDD;measuredMaxNoOfUsersInCell;Change takes effect: Object unlocked
+EUtranCellFDD;modificationPeriodCoeff;Change takes effect: When EUtranCellFDD/TDD object is unlocked
+EUtranCellFDD;msg3FrequencyAllocationBr;Change takes effect: Next cell unlock
+EUtranCellFDD;noConsecutiveSubframes.NoOfSubframesVals;Change takes effect: Object unlocked
+EUtranCellFDD;noOfChannelSelectionSets;Change takes effect: Cell lock/unlock
+EUtranCellFDD;noOfPucchFormat3PrbPairs;Change takes effect: Cell lock/unlock
+EUtranCellFDD;orientMajorAxis;Orientation of the major axis of uncertainty, in degrees clockwise from north.Orientation value (N) is derived by the formula:
+EUtranCellFDD;otdoaSuplActive;Change takes effect: Object unlocked.
+EUtranCellFDD;outOfCoverageDepth;Change takes effect: Cell lock/unlock
+EUtranCellFDD;outOfCoverageSparseGrantingBsr;Change takes effect: Cell lock/unlock
+EUtranCellFDD;outOfCoverageSrTimerPeriodicitylong;Change takes effect: Cell lock/unlock
+EUtranCellFDD;outOfCoverageThreshold;Change takes effect: Cell lock/unlock
+EUtranCellFDD;pdcchCfiMode.Change takes effect: Object unlocked
+EUtranCellFDD;pdcchCovImproveCap;Change takes effect: Cell lock/unlock
+EUtranCellFDD;pdcchCovImproveDtx;Change takes effect: Cell lock/unlock
+EUtranCellFDD;pdcchCovImproveQci1;Change takes effect: Cell lock/unlock
+EUtranCellFDD;pdcchCovImproveSrb;Change takes effect: Cell lock/unlock
+EUtranCellFDD;pdcchLaGinrMargin;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchOuterLoopAdjLowerLimit;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchOuterLoopAdjUpperLimit;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchOuterLoopInitialAdj;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchOuterLoopInitialAdjPCell;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchOuterLoopInitialAdjVolte;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchOuterLoopUpStep;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchOuterLoopUpStepPCell;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchOuterLoopUpStepVolte;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchPowerBoostMax;Change takes effect: Cell lock/unlock
+EUtranCellFDD;pdcchSinrChangeThreshold;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchSinrChangeThresholdPCell;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchSinrChangeThresholdVolte;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchSinrOffsetWithMimo;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchTargetBler;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchTargetBlerPCell;Change takes effect: Object unlocked
+EUtranCellFDD;pdcchTargetBlerVolte;Change takes effect: Object unlocked
+EUtranCellFDD;pdschMaxNrOfPrbsPerUe;Change takes effect: Object unlocked
+EUtranCellFDD;pdschTypeBGain;Change takes effect: Cell lock/unlock
+EUtranCellFDD;pftNetworkSoftwareVersion;Change takes effect: Object unlocked
+EUtranCellFDD;pftTatPairSelection;Change takes effect: Next cell unlock
+EUtranCellFDD;prachFrequencyAllocation;Change takes effect: Next cell unlock
+EUtranCellFDD;preambleInitialReceivedTargetPower;Change takes effect: Cell lock/unlock
+EUtranCellFDD;primaryPlmnReserved;Disturbances: Changing this attribute can block traffic in the cell.
+EUtranCellFDD;prsConfigIndex;Change takes effect: Object unlocked
+EUtranCellFDD;prsMutingPattern;Change takes effect: Object unlocked
+EUtranCellFDD;prsMutingPatternLen;Change takes effect: Object unlocked
+EUtranCellFDD;prsPeriod;Change takes effect: Object unlocked
+EUtranCellFDD;prsPowerBoosting;Change takes effect: Object unlocked
+EUtranCellFDD;prsTransmisScheme;Change takes effect: Object unlocked
+EUtranCellFDD;pucchOverdimensioning;Number of resource blocks outside each Physical Uplink Control Channel (PUCCH) region that are available for scheduling Physical Uplink Shared Channel (PUSCH).
+EUtranCellFDD;puschFrequencyAllocationBr;Change takes effect: Next cell unlock
+EUtranCellFDD;puschMaxNrOfPrbsPerUe;Change takes effect: Object unlocked
+EUtranCellFDD;puschNcpChannelEstWindowSize;Change takes effect: Next cell unlock
+EUtranCellFDD;qQualMin;Dependencies: The field is mandatory present if the Struct Member threshServingLowQ in SIB3 is used in systemInformationBlockType3.
+EUtranCellFDD;rachNoOfAllocationsPerFrame;Change takes effect: Object unlocked.
+EUtranCellFDD;rachPreambleRepetition;Change takes effect: Object unlocked.
+EUtranCellFDD;rachRootSequence;If feature Automated Rach Root Sequence Allocation is not activated a parameter change triggers automatic cell lock/unlock.If feature Automated Rach Root Sequence Allocation is activated the parameter is changed without the need to lock/unlock the cell.
+EUtranCellFDD;radioRecIntPwrOffset;Change takes effect: Next cell unlock
+EUtranCellFDD;rateShapingActive;Change takes effect: Cell lock/unlock
+EUtranCellFDD;remoteSectorCarrierRef;Change takes effect: Next cell unlock
+EUtranCellFDD;resourcePartitionGroupRef;Change takes effect: Cell lock/unlock
+EUtranCellFDD;schedulingInfoSib1BrMod;Change takes effect: Next cell unlock
+EUtranCellFDD;siPeriodicity.PeriodicitySI;Change takes effect: When EUtranCellFDD/TDD object is unlocked.
+EUtranCellFDD;siPeriodicityBr.PeriodicitySI;Change takes effect: Next cell unlock
+EUtranCellFDD;siValidityTimeBr;Change takes effect: Object unlocked
+EUtranCellFDD;siWindowLength;Change takes effect: When EUtranCellFDD/TDD object is unlocked
+EUtranCellFDD;srDetectHighThres;Change takes effect: Cell lock/unlock
+EUtranCellFDD;srProcessingLevel;Change takes effect: Cell lock/unlock
+EUtranCellFDD;srRetransPeriodTarget;Change takes effect: Cell lock/unlock
+EUtranCellFDD;ssacBarringForMMTELVideo.AcBarringConfig;Disturbances: Changing this attribute can block video calls in the cell.
+EUtranCellFDD;ssacBarringForMMTELVoice.AcBarringConfig;Disturbances: Changing this attribute can block VoLTE calls in the cell.
+EUtranCellFDD;systemInformationBlock6;Change takes effect: Object lock/unlock
+EUtranCellFDD;systemInformationBlock7;Change takes effect: Object lock/unlock
+EUtranCellFDD;systemInformationBlock8;Change takes effect: Object lock/unlock
+EUtranCellFDD;tTimeAlignmentTimer;Change takes effect: Cell lock/unlock
+EUtranCellFDD;tUeBlockingTimer;Change takes effect: Next cell unlock
+EUtranCellFDD;ttiBundlingSwitchThres;Change takes effect: Cell lock/unlock
+EUtranCellFDD;ulFrequencyAllocationPrEUtranCellFDD;ulHarqVolteBlerTarget;Change takes effect: Object unlocked
+EUtranCellFDD;ulSchedCtrlForOocUesEnabled;Change takes effect: Cell lock/unlock
+EUtranCellFDD;ulSrsEnable;Changtakes effect: Cell lock/unlock
+EUtranCellTDD;acBarringForEmergency;Disturbances: Changing this attribute can block emergency calls.
+EUtranCellTDD;acBarringForMoData.AcBarringConfig;Disturbances: Changing this attribute can block mobile originating data calls.
+EUtranCellTDD;acBarringForMoSignalling.AcBarringConfig;Disturbances: Changing this attribute can block mobile originating signaling call.
+EUtranCellTDD;acBarringSkipForMmtelVideo;Disturbances: Changing this attribute can block Video calls.
+EUtranCellTDD;acBarringSkipForMmtelVoice;Disturbances: Changing this attribute can block VoLTE calls.
+EUtranCellTDD;acBarringSkipForSms;Disturbances: Changing this attribute can block sms.
+EUtranCellTDD;adaptiveCfiHoProhibit;Change takes effect: Cell lock/unlock
+EUtranCellTDD;assumedUePowerMsg3;Change takes effect: Object unlocked
+EUtranCellTDD;caPrioThreshold;Change takes effect: Next cell unlock
+EUtranCellTDD;catmMbmsDlSubframes;Change takes effect: Next cell unlock
+EUtranCellTDD;cbrsCell;Change takes effect: Next cell unlock
+EUtranCellTDD;cellBarred;Disturbances: Changing this attribute to BARRED blocks all traffic in the cell.
+EUtranCellTDD;cellCapMinMaxWriProt;If set to true, feature Automated Cell Capacity Estimation cannot reset cellCapMinCellSubCap and cellCapMaxCellSubCap at cell unlock.If set to false, feature Automated Cell Capacity Estimation can change cellCapMinCellSubCap and cellCapMaxCellSubCap at cell unlock.
+EUtranCellTDD;cellRange;Change takes effect: Object unlocked
+EUtranCellTDD;cfraEnable;Change takes effect: Cell lock/unlock
+EUtranCellTDD;changeNotification.ChangeNotificationSIBs;For each System Information Block (SIB), indicates when the SIB content is changed, if system information change notification is broadcast prior to broadcast of updated system information.
+EUtranCellTDD;channelBandwidth;Change takes effect: Object unlocked
+EUtranCellTDD;dlHarqVoLTEBlerTarget;Change takes effect: Next cell unlock
+EUtranCellTDD;dlInterferenceManagementActive;Change takes effect: Object unlocked
+EUtranCellTDD;dlInterferenceManagementDuration;Change takes effect: Object unlocked
+EUtranCellTDD;dlMaxMuMimoLayers;Change takes effect: Next cell unlock
+EUtranCellTDD;dlPowerRampUpInitRatio;Change takes effect: Cell lock/unlock
+******************************************EUtranCellTDD;earfcn;long;restricted,mandatory
+*************************************EUtranCellTDD;elcActivityThreshold;Change takes effect: Object unlocked
+EUtranCellTDD;elcConfigurationTeshold;Change takes effect: Object unlocked************************************************************************************************************************************
+EUtranCellTDD;elcEnabled;Change takes effect: Object unlocked
+EUtranCellTDD;elcPrototypeBitfield; longChange takes effect: Object unlocked
+EUtranCellTDD;enableUeAssistedAdaptiveDrx;Change takes effect: Object unlocked
+EUtranCellTDD;enableUeAssistedSigReduction;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;estimatedE2ERTT;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;expectedMaxNoOfUsersInCell; ;The expected max number of UE in RRC_CONNECTED mode in the cell. Will be used at unlock of the cell to distribute cells to different cores in Digital Units and Baseband Units with a multicore Main Processor. A value of -1 indicates that measuredMaxNoOfUsersInCell will be used to control the cell distribution.
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;frameStartOffset;structRef:FrameStartOffsetTDD
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;highBasebandPriority;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;highSpeedUEActive;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;initialBufferSizeDefault;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;initialBufferSizeMsg5Default;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;isDlOnly;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;isLaa;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;lastSchedLinkAdaptEnabled;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;latencyLongThreshold;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;loadBasedCaEnabled;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;loadBasedCaMsrThr;structRef:LoadBasedCaMsrThr
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;mappingInfo;structRef:MappingInfoSIBs
+The System Information (SI) message to which each System Information Block (SIB) is mapped.
+Change takes effect: When EUtranCellFDD/TDD object is unlocked
+************************************************************************************************************************************
+EUtranCellTDD;mappingInfoCe;structRef:MappingInfoSIBsBr
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;maxNoClusteredPuschAlloc;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;maxSoftLockBackoffTime; ;Indicates a maximum handover backoff time. The value is applied to inhibit further handover attempts to a EUTRAN target cell that rejects incoming handover for soft-lock of cell.
+************************************************************************************************************************************
+EUtranCellTDD;measuredMaxNoOfUsersInCell;long;readOnly,noNotification
+Peak number of UE in RRC_CONNECTED mode measured in the cell. This attribute will be updated during operation of the eNB and used at unlock of the cell to distribute cells to different cores in Digital Units and Baseband Units with a multicore Main Processor. If attribute expectedMaxNoOfUsersInCell is changed from -1 to zero or higher, attribute measuredMaxNoOfUsersInCell will be reset to zero and not used to control the cell distribution.
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;modificationPeriodCoeff;Change takes effect: When EUtranCellFDD/TDD object is unlocked
+************************************************************************************************************************************
+EUtranCellTDD;noConsecutiveSubframes;enumRef:NoOfSubframesVals
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;noOfChannelSelectionSets;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;noOfCrsPorts;long;readOnly,nonPersistent
+Number of CRS ports used for a cell that is sending CRS over air interface. -1 means undefined when a cell is not sending CRS over air interface. For example when a cell is locked or disabled.
+************************************************************************************************************************************
+EUtranCellTDD;noOfPucchFormat3PrbPairs;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;nonCaAnModeF3Enable;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;orientMajorAxis;Orientation of the major axis of uncertainty, in degrees clockwise from north.Orientation value (N) is derived by the formula:
+************************************************************************************************************************************
+EUtranCellTDD;otdoaSuplActive;Change takes effect: Object unlocked.
+************************************************************************************************************************************
+EUtranCellTDD;outOfCoverageDepth;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;outOfCoverageSparseGrantingBsrChange takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;outOfCoverageSrTimerPeriodicitylong
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;outOfCoverageThreshold;Change takes effect: Cell lock/unlock
+EUtranCellTDD;pdcchCfiMode;enumRef:CChange takes effect: Object unlocked
+Change takes effect: Cell lock/unlock
+*****EUtranCellTDD;pdcchCovImproveDtx;Change takes effect: Cell lock/unlock
+EUtranCellTDD;pdcchCovImproveQci1;Change takes effect: Cell lock/unlock
+EUtranCellTDD;pdcchCovImproveSrb;Change ta************************************************************************************************************************************
+*************************************EUtranCellTDD;pdcchOuterLoopAdjLowerLimit;Change takes effect: Object unlocked
+EUtranCellTDD;pdcchOuterLoopAdjperLimit;Change takes effect: Object unlocked************************************************************************************************************************************
+EUtranCellTDD;pdcchOuterLoopInitialAdj;Change takes effect: Object unlocked
+EUtranCellTDD;pdcchOuterLoopInitialAdjPCell;Change takes effect: Object unlocked
+EUtranCellTDD;pdcchOuterLoopInitialAdjVolte;Change takes effect: Object unlocked
+EUtranCellTDD;pdcchOuterLoopUpStep;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchOuterLoopUpStepPCell;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchOuterLoopUpStepVolte;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchPowerBoostMax;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;pdcchSinrChangeThreshold;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchSinrChangeThresholdPCell;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchSinrChangeThresholdVolte;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchSinrOffsetWithMimo;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchTargetBler;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchTargetBlerPCell;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdcchTargetBlerVolte;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdschMaxNrOfPrbsPerUe;Maximum number of physical resource blocks (PRBs) allowed on PDSCH for each UE.
+For PDSCH resource allocation type 0, the actual maximum number of PRBs that is allocated will be a multiple of RBGs (Resource Block Groups) that is nearest to the set value but without exceeding it.
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pdschTypeBGain;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;pftNetworkSoftwareVersion;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pftTatPairSelection;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;prachFrequencyAllocation;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;preambleInitialReceivedTargetPowerChange takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;primaryPlmnReserved;Disturbances: Changing this attribute can block traffic in the cell.
+************************************************************************************************************************************
+EUtranCellTDD;prsConfigIndex;Change takes effect: Object unlocked
+EUtranCellTDD;prsMutingPattern;Change takes effect: Object unlocked
+EUtranCellTDD;prsMutingPatternLen;Change takes effect: Object unlocked
+EUtranCellTDD;prsPeriod;Change takes effect: Object unlocked
+EUtranCellTDD;prsPowerBoosting;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;prsTransmisScheme;enumRef:TransmissionScheme
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;pucchOverdimensioning;Number of resource blocks outside each Physical Uplink Control Channel (PUCCH) region that are available for scheduling Physical Uplink Shared Channel (PUSCH).
+Unit: Resource Block
+************************************************************************************************************************************
+EUtranCellTDD;puschMaxNrOfPrbsPerUe;Maximum number of physical resource blocks allowed on PUSCH for each UE.
+Change takes effect: Object unlocked
+Unit: Resource Block
+************************************************************************************************************************************
+EUtranCellTDD;puschNcpChannelEstWindowSize; enumRef:PuschChannelEstWindowSize
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;qQualMin;Dependencies: The field is mandatory present if the Struct Member threshServingLowQ in SIB3 is used in systemInformationBlockType3.
+************************************************************************************************************************************
+EUtranCellTDD;rachNoOfAllocationsPerFrame;long;EricssonOnly
+Change takes effect: Object unlocked.
+************************************************************************************************************************************
+EUtranCellTDD;rachPreambleRepetition;boolean;EricssonOnly
+Change takes effect: Object unlocked.
+************************************************************************************************************************************
+EUtranCellTDD;rachRootSequence; ;If feature Automated Rach Root Sequence Allocation is not activated a parameter change triggers automatic cell lock/unlock.
+If feature Automated Rach Root Sequence Allocation is activated the parameter is changed without the need to lock/unlock the cell.
+************************************************************************************************************************************
+EUtranCellTDD;radioRecIntPwrOffset;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;rateShapingActive;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;remoteSectorCarrierRef;sequence:string;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;resourcePartitionGroupRef;moRef:ResourcePartitionGroup
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;siPeriodicity;structRef:PeriodicitySI
+The periodicity of System Information (SI) messages. If a System Information Block (SIB) is not mapped to a SI message, the SI message is not transmitted.
+Change takes effect: When EUtranCellFDD/TDD object is unlocked.
+************************************************************************************************************************************
+EUtranCellTDD;siValidityTimeBr;enumRef:ValidityTime
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;siWindowLength;Change takes effect: When EUtranCellFDD/TDD object is unlocked
+************************************************************************************************************************************
+EUtranCellTDD;specialSubframePattern;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;srDetectHighThres;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;srProcessingLevel;enumRef:SrProcessingLevel
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;srRetransPeriodTarget;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;ssacBarringForMMTELVideo.AcBarringConfig
+Disturbances: Changing this attribute can block video calls in the cell.
+************************************************************************************************************************************
+EUtranCellTDD;ssacBarringForMMTELVoice.AcBarringConfig
+Disturbances: Changing this attribute can block VoLTE calls in the cell.
+************************************************************************************************************************************
+EUtranCellTDD;subframeAssignment; long;mandatory
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;systemInformationBlock6;structRef:SIB6
+Change takes effect: Object lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;systemInformationBlock7;structRef:SIB7
+Change takes effect: Object lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;systemInformationBlock8;structRef:SIB8
+Change takes effect: Object lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;tTimeAlignmentTimer;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;tUeBlockingTimer;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;ul64qamEnabled;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;ulConfigurableFrequencyStartChange takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;ulFrequencyAllocationProportionlong
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;ulHarqVolteBlerTarget;Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;ulInterferenceManagementActive Change takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;ulInterferenceManagementDurationChange takes effect: Object unlocked
+************************************************************************************************************************************
+EUtranCellTDD;ulMaxMuMimoLayers;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EUtranCellTDD;ulSchedCtrlForOocUesEnabled;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;ulSrsEnable;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranCellTDD;useESST;boolean;noNotification,EricssonOnly
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+EUtranFreqRelationallowedMeasBandwidth;Note: The values indicate the number of resource blocks and correspond to the channel bandwidth 1,4MHz, 3MHz, 5MHz, 10MHz, 15MHz, 20MHz respectively specified in 3GPP TS 36.104.
+************************************************************************************************************************************
+EUtranFreqRelationpMax;Value 1000 means the parameter is not sent in the system information block.
+************************************************************************************************************************************
+EUtranFreqRelationthreshXHighQ; ;Dependencies: The field is mandatory present if the Struct Member threshServingLowQ in SIB3 is used in systemInformationBlockType3.
+************************************************************************************************************************************
+EUtranFreqRelationthreshXLowQ;Dependencies: The field is mandatory present if the Struct Member threshServingLowQ in SIB3 is used in systemInformationBlockType3.
+************************************************************************************************************************************
+EUtranFreqRelationUnlicensedallowedMeasBandwidth;Note: The values indicate the number of resource blocks and correspond to the channel bandwidth 1,4MHz, 3MHz, 5MHz, 10MHz, 15MHz, 20MHz respectively specified in 3GPP TS 36.104.
+************************************************************************************************************************************
+EUtranFrequency; additionalFreqBandList;sequence:long;readOnly,nonPersistent
+A list of additional frequency bands the frequency belongs to. The list is automatically set by the eNB. The list does not include the frequency band indicated by the EARFCN value of the frequency (primary frequency band). These additional frequency bands are broadcasted to the UEs in SystemInformationBlockType5 in case the feature Multiple Frequency Band Indicators is enabled in the cell.
+************************************************************************************************************************************
+EUtranFrequency; excludeAdditionalFreqBandList;sequence:long
+A list of frequency bands to be excluded from the list of additional frequency bands in the additionalFreqBandList MOM attribute. The list shall not include the frequency band indicated by the EARFCN value of the frequency (primary frequency band). These frequency bands are excluded from the list of broadcasted additional frequency bands in SystemInformationBlockType5 in case the feature Multiple Frequency Band Indicators is enabled in the cell.
+************************************************************************************************************************************
+EricssonLeanCarrierFunctiondisableElcOnVolte;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EricssonLeanCarrierFunctionelcDrxOnDurationPostHeating;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EricssonLeanCarrierFunctionelcDrxOnDurationPreHeating;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+EricssonLeanCarrierFunctionelcPdcchCrsMuting;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+ExternalENodeBFunctioneranUlCompVlanPortRef;moRef:ManagedObject
+Change takes effect: Next MO unlock
+************************************************************************************************************************************
+ExternalENodeBFunctioneranVlanPortRef;moRef:ManagedObject
+Disturbances: Changing this attribute can affect traffic. A TermPointToENB lock/unlock for this external eNodeB is required.
+Change takes effect: Next MO unlock
+************************************************************************************************************************************
+ExternalENodeBFunctioninterENodeBCAInteractionMode; enumRef:InterENodeBCAInteractionMode
+Disturbances: Changing this attribute can affect traffic. A TermPointToENB lock/unlock for this external eNodeB is required.
+Change takes effect: Next MO unlock
+************************************************************************************************************************************
+ExternalEUtranCellFDD freqBand; long;readOnly
+The primary frequency band the cell belongs to according to its defined EARFCN. This frequency band indicator is broadcasted to the UEs in SystemInformationBlockType1.
+************************************************************************************************************************************
+ExternalEUtranCellFDD remoteCellState;enumRef:OperState;readOnly,nonPersistent,noNotification
+Reflects whether the indicated cell is currently able to serve as an SCell. The remote cell must be operState ENABLED and adminState UNLOCKED.
+************************************************************************************************************************************
+ExternalEUtranCellFDD remoteCellStateEranUlComp;enumRef:OperState;readOnly,nonPersistent
+Dependencies: X2 connection must be operational and software compatible. Remote cell must be operState ENABLED and adminState UNLOCKED.
+************************************************************************************************************************************
+ExternalEUtranCellFDD remoteCellStateInterEnbUlComp;enumRef:OperState;readOnly,nonPersistent,noNotification
+Dependencies: X2 connection must be operational and software compatible. Remote cell must be operState ENABLED and adminState UNLOCKED.
+************************************************************************************************************************************
+ExternalEUtranCellTDD freqBand; long;readOnly
+The primary frequency band the cell belongs to according to its defined EARFCN. This frequency band indicator is broadcasted to the UEs in SystemInformationBlockType1.
+************************************************************************************************************************************
+ExternalEUtranCellTDD remoteCellState;enumRef:OperState;readOnly,nonPersistent,noNotification
+Reflects whether the indicated cell is currently able to serve as an SCell. The remote cell must be operState ENABLED and adminState UNLOCKED.
+************************************************************************************************************************************
+ExternalEUtranCellTDD remoteCellStateEranUlComp;enumRef:OperState;readOnly,nonPersistent
+Dependencies: X2 connection must be operational and software compatible. Remote cell must be operState ENABLED and adminState UNLOCKED.
+************************************************************************************************************************************
+ExternalEUtranCellTDD remoteCellStateInterEnbUlComp;enumRef:OperState;readOnly,nonPersistent,noNotification
+Dependencies: X2 connection must be operational and software compatible. Remote cell must be operState ENABLED and adminState UNLOCKED.
+************************************************************************************************************************************
+ExternalUtranCellFDDcellIdentity;structRef:CellIdentityUtra; mandatory
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+ExternalUtranCellTDDcellIdentity;structRef:CellIdentityUtra; mandatory
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+FlexibleQoSGroup;qciProfileRef;moRef:ManagedObject;mandatory
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+GigaBitEthernet; administrativeState;enumRef:AdmState
+Traffic is not stopped if administrativeState is set to LOCKED.
+Disturbances: Changing this attribute to LOCKED can prevent new traffic from being setup.
+Default=LOCKED
+************************************************************************************************************************************
+GpsOutSyncLink;administrativeState;enumRef:AdmState
+If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Default=LOCKED
+************************************************************************************************************************************
+GpsSyncRef;administrativeState;enumRef:AdmState
+If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Default=LOCKED
+************************************************************************************************************************************
+HptsiSyncRef;administrativeState;enumRef:AdmState
+Default=LOCKED
+************************************************************************************************************************************
+HptsiSyncRef;hptsiClockSource;enumRef:HptsiClockSource;readOnly
+The HPTSI clock source.
+************************************************************************************************************************************
+HptsiSyncRef;hptsiStateOfClockSource;enumRef:HptsiStateOfClockSource;readOnly
+The HPTSI state of clock source.
+************************************************************************************************************************************
+HwUnit;administrativeState;enumRef:AdminState
+[If set to SHUTTINGDOWN, the state is immediately brought to LOCKED.]
+Default=UNLOCKED
+************************************************************************************************************************************
+InstantUplinkAccessiuaTargetBufferSize;IUA target buffer size in IUA active mode. Transport block size of IUA-SPS grant depends on SINR of UE and iuaUePrbLimit.
+************************************************************************************************************************************
+InterPiuLink;administrativeState;enumRef:AdmState
+Default=LOCKED
+************************************************************************************************************************************
+IpAccessHostEt;administrativeState;enumRef:AdmState
+Disturbances: Changing this attribute to LOCKED can prevent new traffic from being setup.
+Default=LOCKED
+************************************************************************************************************************************
+IpAccessHostEt;ipAddress;string
+Lock before modify: true
+************************************************************************************************************************************
+IpSyncRef;administrativeState;enumRef:AdmState
+Default=LOCKED
+************************************************************************************************************************************
+IpSyncRef;ntpServerIpAddress; string
+Lock before modify: true
+************************************************************************************************************************************
+Licensing;integrationUnlockStateInfo;structRef:IntegrationUnlockInfo;readOnly
+Indicates information about the integration unlock status and the time remaining in the current state.
+************************************************************************************************************************************
+MbsfnArea;administrativeState;enumRef:AdminState
+Note: If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Change takes effect: Object unlocked
+Default=LOCKED
+************************************************************************************************************************************
+MbsfnArea;commonSFAllocList;sequence:structRef-SubFrameConfig
+Change takes effect: Object unlocked
+Precondition: Attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+MbsfnArea;commonSFAllocPeriod;Change takes effect: Object unlocked
+Precondition: Attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+MbsfnArea;mbsfnAreaIdentity;long;mandatory
+Change takes effect: Object unlocked
+Precondition: Attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+MbsfnArea;mcchModificationPeriod;Change takes effect: Object unlocked
+Precondition: Attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+MbsfnArea;mcchRepetitionPeriod;Change takes effect: Object unlocked
+Precondition: Attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+MbsfnArea;nonMbsfnRegionLength;Change takes effect: Object unlocked
+Precondition: Attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+MbsfnArea;serviceAreaId;sequence:long
+Must not be changed when MbsfnArea is unlocked.
+Change takes effect: Next MO unlock
+************************************************************************************************************************************
+MbsfnArea;signallingMCS;long;mandatory
+Change takes effect: Object unlocked
+Precondition: Attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+NbIotCell;activePlmnList; sequence:structRef-PlmnIdentity;nonUnique,readOnly,nonPersistent
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;administrativeState;enumRef:AdminState
+Note: Only LOCKED or UNLOCKED is permitted to this attribute since Soft Lock is not supported in NbIotCell.
+Disturbances: Changing this attribute to LOCKED causes loss of traffic. Changing this attribute can cause all unlocked NBIoT cells to change administrativeState to LOCKED and then UNLOCKED. This happens when one of the following thresholds is crossed: 18 EUTRAN cells + 1 NBIoT cell or 9 NBIoT cells.
+Default=LOCKED
+************************************************************************************************************************************
+NbIotCell;alpha;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;anchPowerBoostGainIndex;enumRef:AnchorPowerBoostIndex
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;attachWithoutPDNConnectivityListsequence:boolean; nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;ceLevelNumber;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+NbIotCell;cellBarred; enumRef:CellBarred
+Disturbances: Changing this attribute to BARRED blocks all traffic in the cell.
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;cellRange;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;cmcIndex;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;dishConfiguration;boolean;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;dlAnchPrbIndex;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;dlNonAnchPrbNum;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;earfcndl;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;earfcndlDish;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;earfcnul;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;earfcnulDish;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;enableMfbi;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;eutranCellRef;moRef:ManagedObject
+Change takes effect: Cell lock/unlock
+Precondition: Only applicable for inband or guardband deployment. The NbIotCell Mo must be locked.
+************************************************************************************************************************************
+NbIotCell;frequencyInfo;sequence:structRef-NbIotFrequencyInfo
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;intraFrequencyInfo.NbIotIntraFrequencyInfo
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;mappingInfo;structRef:MappingInfoNbSIBs
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;nbDlSinrAdjust;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;networkSignallingValue;enumRef:NetworkSignallingValue
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepMsg23Cmc0Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepMsg23Cmc1Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepMsg23Cmc1Ce1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepMsg23Cmc2Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepMsg23Cmc2Ce1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepMsg23Cmc2Ce2;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepRaCmc0Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepRaCmc1Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepRaCmc1Ce1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepRaCmc2Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepRaCmc2Ce1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdcchNumRepRaCmc2Ce2;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdschNumRepMsg2Cmc0Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdschNumRepMsg2Cmc1Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdschNumRepMsg2Cmc1Ce1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdschNumRepMsg2Cmc2Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdschNumRepMsg2Cmc2Ce1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npdschNumRepMsg2Cmc2Ce2;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;nprachCapMode4RxEnabled;boolean;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npuschCapMode4RxEnabled;boolean;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;npuschReceiverConfiguration;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;numRepPreambleNbCmc0Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;numRepPreambleNbCmc1Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;numRepPreambleNbCmc1Ce1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;numRepPreambleNbCmc2Ce0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;numRepPreambleNbCmc2Ce1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;numRepPreambleNbCmc2Ce2;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;pMax;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;pZeroNominalNPusch;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;periodicityDeltaIndexCe0;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+NbIotCell;periodicityDeltaIndexCe1;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+NbIotCell;physicalLayerCellId;long;mandatory
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;plmnAlarmSupprList; sequence:boolean; nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;plmnReservedList;sequence:boolean; nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;preambleIniRecTargetPower;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;primaryFreqBand;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;qHyst;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;qQualMin;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;qRxLevMin;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;rsrpThreshold1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;rsrpThreshold2;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;sInterSearchThreshold;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;sIntraSearchThreshold;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;sectorCarrierRef;sequence:moRef-SectorCarrier
+Change takes effect: For standalone: Next Nb-IoT cell unlock
+For inband and guardband: Next Nb-IoT cell unlock after next host LTE cell unlock
+************************************************************************************************************************************
+NbIotCell;siWindowLength;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;spectrumEmissionReqMapping;sequence:structRef-SpectrumEmissionReqMappingnonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;tTatDedicatedNbCe0;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;tTatDedicatedNbCe1;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;tTatDedicatedNbCe2;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;tac;long;mandatory
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;ulAnchPrbIndex;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;ulNonAnchPrbNum;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+NbIotCell;useHostCellPci;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+Ncli;administrativeState;enumRef:AdmState
+The NCLI Server is stopped by setting the administrativeState to LOCKED. This will close down all ongoing NCLI sessions immediately.
+When setting the administrativeState to SHUTTING_DOWN, 1800 seconds (30 minutes) will elapse before the MO goes into state LOCKED. During this time no new NCLI sessions are accepted.
+Setting the administrativeState to UNLOCKED starts the NCLI Server.
+Default=UNLOCKED
+************************************************************************************************************************************
+NodeGroupSyncMemberadministrativeState;enumRef:AdmState
+Locking this MO isolates the node from the Node Group.
+Default=LOCKED
+************************************************************************************************************************************
+NonPlannedPciDrxProfilenonPlannedPciDrxInactivityTimerenumRef:DrxInactivityTimer
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+NonPlannedPciDrxProfilenonPlannedPciLongDrxCycle;enumRef:LongDrxCycle
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+NonPlannedPciDrxProfilenonPlannedPciOnDurationTimer; enumRef:OnDurationTimer
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+PacketFrequencySyncRefadministrativeState;enumRef:AdmState
+Default=LOCKED
+************************************************************************************************************************************
+PacketFrequencySyncRefipAccessHostEtRef;moRef:IpAccessHostEt; mandatory
+The attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+PacketFrequencySyncRefpacketSyncStatus;long;readOnly,nonPersistent
+2CLOCK_CLASS: The clockClass of the grandmaster clock, reported by the PTP server in Announce messages:
+32LOW_SYNC_RATE: The PTP server states that the intended interval between synchronization messages is too long to meet the needs of the ordinary clock slave.
+128 LOW_DELAY_REQ_RATE: The PTP server in its Delay_Resp messages states a minimum allowed interval between Delay_Req messages that is too long to meet the needs of ordinary clock slave.
+1024 UC_NEG_MC_NOK: In the phase of unicast negotiations, the clockClass is not less than or equal to 7 (PacketTimeSyncRef) or 14 (PacketFrequencySyncRef) and/or clockAccuracy is not less than or equal to hexadecimal 22 (PacketTimeSyncRef) of the grandmaster clock reported in the first Announce message.
+************************************************************************************************************************************
+PacketFrequencySyncRefptpDomain;long;mandatory
+The attribute administrativeState must be set to LOCKED before modifying this attribute.
+************************************************************************************************************************************
+PacketFrequencySyncRefptpQualityLevel;long;readOnly,nonPersistent,noNotification
+Indicates the quality level of the master clock.
+************************************************************************************************************************************
+PacketFrequencySyncRefserverAddress;string; mandatory
+Lock before modify: true
+************************************************************************************************************************************
+PacketTimeSyncRef administrativeState;enumRef:AdmState
+Default=LOCKED
+************************************************************************************************************************************
+PacketTimeSyncRef packetSyncStatus;long;readOnly,nonPersistent
+2CLOCK_CLASS: The clockClass of the grandmaster clock, reported by PTP server in Announce messages:
+4CLOCK_ACCURACY: The clockAccuracy of the grandmaster clock, reported by the PTP server in Announce messages, is greater than or equal to hexadecimal 22 (that is, 34 in decimal).
+32LOW_SYNC_RATE: PTP server states intended interval between synchronization messages that is too long for ordinary clock slave.
+128 LOW_DELAY_REQ_RATE: PTP server states in Delay_Resp messages a minimum allowed interval between Delay_Req messages that is too long for ordinary clock slave.
+1024 UC_NEG_MC_NOK: In the phase of unicast negotiations, clockClass is more than 7 (PacketTimeSyncRef) or 14 (PacketFrequencySyncRef), or clockAccuracy is at least equal to hexadecimal 22 of the grandmaster clock reported in the first Announce message, or both.
+The frequencyTraceable flag of grandmaster clock reported by PTP server in header of PTP messages.
+The timeTraceable flag of the grandmaster clock reported by PTP server in header of PTP messages.
+16384 INCONSISTENT_WITH_CLOCK_CLASS
+The timeTraceable or frequencyTraceable flag of the grandmaster clock or both are inconsistent with clockClass of grandmaster reported in Announce messages.
+************************************************************************************************************************************
+PacketTimeSyncRef ptpOwnPortIdentity.PtpPortIdentity;readOnly
+This attribute reflects the same value as portDs::portClockIdentity, portNumber.
+************************************************************************************************************************************
+PacketTimeSyncRef ptpParentPortIdentity;structRef:PtpPortIdentity;readOnly,nonPersistent,noNotification
+This attribute reflects same value as parentDs::parentClockIdentity, parentPortNumber.
+************************************************************************************************************************************
+PacketTimeSyncRef ptpPathTimeError; ;Sum of boundary clock, transport clock and asymmetry errors of worst case path from grandmaster to node.
+************************************************************************************************************************************
+PacketTimeSyncRef serverAddress;string
+The attribute administrativeState must be LOCKED before modifying this attribute.
+************************************************************************************************************************************
+PacketTimeSyncRef transportLayerRef;moRef:ManagedObject;mandatory
+Attribute administrativeState must be LOCKED before modifying this attribute.
+************************************************************************************************************************************
+Paging;defaultPagingCycle;Disturbances: If cell lock/unlock is not performed immediately after changing defaultPagingCycle, the number of discarded paging messages increases, and KPI drops.
+Change takes effect: After all cells in the RBS are locked and then unlocked. Lock/unlock cells manually, immediately after changing defaultPagingCycle.
+************************************************************************************************************************************
+Paging;defaultPagingCycleNbIot;Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked
+************************************************************************************************************************************
+Paging;maxNoOfPagingRecords;Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked.
+************************************************************************************************************************************
+Paging;maxNoOfPagingRecordsNb;Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked.
+************************************************************************************************************************************
+Paging;nB;enumRef:NBValue
+Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked.
+************************************************************************************************************************************
+Paging;nBBr; enumRef:NBValueBr
+Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked.
+************************************************************************************************************************************
+Paging;nBNbIot;enumRef:NbValueNbIot
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+Paging;pagingDiscardTimerDrx;Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked.
+************************************************************************************************************************************
+Paging;pagingDiscardTimerEdrx;Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked.
+************************************************************************************************************************************
+Paging;pagingDiscardTimerEdrxNb;Change takes effect: After all the cells in the RBS have been locked, and subsequently been unlocked.
+************************************************************************************************************************************
+PfmUnit; administrativeState;enumRef:AdmState
+If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Default=LOCKED
+************************************************************************************************************************************
+PiuDevice;administrativeState;enumRef:AdmState; EricssonOnly
+If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Disturbances: Changing this attribute to LOCKED can cause loss of traffic.
+Default=UNLOCKED
+************************************************************************************************************************************
+PiuDevice;availabilityStatus; enumRef:AvailabilityStatus; readOnly,nonPersistent,noNotification,EricssonOnly
+- DEPENDENCY_LOCKED
+************************************************************************************************************************************
+PlmnAbConfProfile acBarringForCsfb;structRef:AcBarringConfig
+Disturbances: Changing this attribute can block CSFB calls.
+************************************************************************************************************************************
+PlmnAbConfProfile acBarringForEmergency;Disturbances: Changing this attribute can block emergency calls.
+************************************************************************************************************************************
+PlmnAbConfProfile acBarringForMoData.AcBarringConfig
+Disturbances: Changing this attribute can block data calls.
+************************************************************************************************************************************
+PlmnAbConfProfile acBarringForMoSignalling.AcBarringConfig
+Disturbances: Changing this attribute can block originating traffic.
+************************************************************************************************************************************
+PlmnAbConfProfile acBarringSkipForMmtelVideo;Disturbances: Changing this attribute can block Video calls.
+************************************************************************************************************************************
+PlmnAbConfProfile acBarringSkipForMmtelVoice;Disturbances: Changing this attribute can block VoLTE calls.
+************************************************************************************************************************************
+PlmnAbConfProfile acBarringSkipForSms;Disturbances: Changing this attribute can block sms.
+************************************************************************************************************************************
+PlmnAbConfProfile ssacBarringForMmtelVideo.AcBarringConfig
+Disturbances: Changing this attribute can block video calls in the cell.
+************************************************************************************************************************************
+PlmnAbConfProfile ssacBarringForMmtelVoice.AcBarringConfig
+Disturbances: Changing this attribute can block VoLTE calls in the cell.
+************************************************************************************************************************************
+PlugInModule;administrativeState;enumRef:AdminState;nonPersistent
+[If set to SHUTTINGDOWN, the state is immediately brought to LOCKED.]
+Default=UNLOCKED
+************************************************************************************************************************************
+PlugInUnit;administrativeState;enumRef:AdmState
+Default=LOCKED
+************************************************************************************************************************************
+PlugInUnit;yellowLed;enumRef:LedStatus;readOnly,nonPersistent,noNotification
+OUT = PIU unlocked
+STEADY_LIGHT = PIU locked
+************************************************************************************************************************************
+PmchMch; dataMcs;long;mandatory
+Specifies the value for parameter I-MCS in TS 36.213, Table 7.1.7.1-1, which defines the Modulation and Coding Scheme (MCS) applicable for the subframes of this (P)MCH as indicated by the field commonSF-Alloc. The MCS does however neither apply to the subframes that may carry MCCH i.e. the subframes indicated by the field sf-AllocInfo within SystemInformationBlockType13 nor for the first subframe of each MCH scheduling period (which may contain the MCH scheduling information provided by MAC).
+Change takes effect: lock/unlock MbsfnArea
+************************************************************************************************************************************
+PmchMch; mchSchedulingPeriod;Change takes effect: lock/unlock MbsfnArea
+************************************************************************************************************************************
+PmchMch; qci;sequence:long
+QCI must not be changed when MbsfnArea is unlocked.
+Change takes effect: Object unlocked
+Precondition: All MbmsService MOs under the PmchMch must be deleted. The corresponding MbsfnArea must have administrative state LOCKED.
+************************************************************************************************************************************
+PmchMch; sfAllocEnd;Change takes effect: lock/unlock MbsfnArea
+************************************************************************************************************************************
+PrefTrafficMgmt; spidBlacklistHo;sequence:long;nonUnique
+List of UEs affected by sub-routine to block incoming handover when PLMN ID is broadcasted as "reserved for operator use".
+If set to -1, UEs with no SPID value allocated are also affected by the sub-routine to block incoming handover when PLMN ID is broadcasted as "reserved for operator use".
+************************************************************************************************************************************
+PreschedulingProfilePreschedulingProfileId;string; restricted,noNotification,mandatory
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+PreschedulingProfilepreschedulingDataSize;Change takes effect: Object unlocked
+************************************************************************************************************************************
+PreschedulingProfilepreschedulingDuration;Change takes effect: Object unlocked
+************************************************************************************************************************************
+PreschedulingProfilepreschedulingPeriod;Change takes effect: Object unlocked
+************************************************************************************************************************************
+PreschedulingProfilepreschedulingSinrThreshold;Change takes effect: Object unlocked
+************************************************************************************************************************************
+PtmResOpUseConfig resMsrUsageThreshold;- Incoming HOs of users with SPIDs specified in ptmSubscriberGroupRef are blocked.
+************************************************************************************************************************************
+PtmResOpUseConfig resSRatioThreshold;- Incoming HOs of users with SPIDs specified in ptmSubscriberGroupRef are blocked.
+************************************************************************************************************************************
+QciProfileOperatorDefinedaqmMode;enumRef:AQMMode
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefinedcounterActiveMode;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefineddrxPriority;Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfileOperatorDefineddrxProfileRef;moRef:DrxProfile
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfileOperatorDefinedpdb;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefinedpdbOffset;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefinedpdcpSNLength;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefinedqci;long;restricted,mandatory
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfileOperatorDefinedresourceType;enumRef:ResourceType; restricted,noNotification,mandatory
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfileOperatorDefinedrlcMode;enumRef:RlcMode
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefinedrlcSNLength;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefinedrlfPriority;Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfileOperatorDefinedrlfProfileRef;moRef:RlfProfile
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfileOperatorDefinedserviceType;enumRef:ServiceType
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefinedtReorderingUl;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfileOperatorDefinedtimerPriority;Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfileOperatorDefinedtimerProfileRef;moRef:TimerProfile
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfilePredefinedaqmMode;enumRef:AQMMode
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefinedcounterActiveMode;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefineddrxPriority;Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfilePredefineddrxProfileRef;moRef:DrxProfile
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfilePredefinedpdb;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefinedpdbOffset;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefinedpdcpSNLength;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefinedresourceType;enumRef:ResourceType; restricted,mandatory
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfilePredefinedrlcMode;enumRef:RlcMode
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefinedrlcSNLength;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefinedrlfPriority;Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfilePredefinedrlfProfileRef;moRef:RlfProfile
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfilePredefinedserviceType;enumRef:ServiceType
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefinedtReorderingUl;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+QciProfilePredefinedtimerPriority;Change takes effect: Object unlocked
+************************************************************************************************************************************
+QciProfilePredefinedtimerProfileRef;moRef:TimerProfile
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+ReliableProgramUniter normalisation;enumRef:RPUNormalisationMode
+Normalisation at PIU unlock is always done, regardless of the value of this attribute.
+************************************************************************************************************************************
+ResourcePartition partitionId;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+ResourcePartition plmnList; sequence:structRef-PlmnIdentity
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+ResourcePartition spidList; sequence:long
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+ResourcePartitionGroupMemberresourcePartitionRef; moRef:ResourcePartition;mandatory
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+ResourcePartitionGroupMemberresourcePartitionShare;long;mandatory
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+RfBranch;dlAttenuation;sequence:long;nonUnique,mandatory
+Disturbances: Changing this attribute can affect traffic. If cell is unlocked, changing the attribute triggers cell lock/unlock.
+Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately by automatic lock/unlock of the cell.
+************************************************************************************************************************************
+RfBranch;dlAttenuationPerFqRange;sequence:long;nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+RfBranch;dlTrafficDelay; sequence:long;nonUnique
+Disturbances: Changing this attribute can affect traffic. If cell is unlocked, changing the attribute triggers cell lock/unlock.
+Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately by automatic lock/unlock of the cell.
+************************************************************************************************************************************
+RfBranch;dlTrafficDelayPerFqRange; sequence:long;nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+RfBranch;rfPortRef;moRef:ManagedObject
+Change takes effect: At next unlock of the SectorEquipmentFunction
+Precondition: Locked SectorEquipmentFunction
+************************************************************************************************************************************
+RfBranch;ulAttenuation;sequence:long;nonUnique,mandatory
+Disturbances: Changing this attribute can affect traffic. If cell is unlocked, changing the attribute triggers cell lock/unlock.
+Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately by automatic lock/unlock of the cell.
+************************************************************************************************************************************
+RfBranch;ulAttenuationPerFqRange;sequence:long;nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+RfBranch;ulTrafficDelay; sequence:long;nonUnique
+Disturbances: Changing this attribute can affect traffic. If cell is unlocked, changing the attribute triggers cell lock/unlock.
+Change takes effect: If cell is locked, takes effect when cell is unlocked. If cell is unlocked, takes effect immediately by automatic lock/unlock of the cell.
+************************************************************************************************************************************
+RfBranch;ulTrafficDelayPerFqRange; sequence:long;nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+RfPort;administrativeState;enumRef:AdmState; nonPersistent
+Note: If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Default=LOCKED
+************************************************************************************************************************************
+RiPort;administrativeState;enumRef:AdmState
+Disturbances: Changing this attribute to LOCKED or SHUTTING_DOWN causes loss of traffic.
+Default=UNLOCKED
+************************************************************************************************************************************
+Rrc;n310NbIot;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+Rrc;n311NbIot;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+Rrc;t300NbIot;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+Rrc;t310NbIot;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SciProfile;sci;long;restricted,mandatory
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+SectorCarrier;antCalModeTddAasDl;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;configuredMaxTxPower;To prevent the cell from transmitting, it must be locked.
+Change takes effect: Object unlocked
+Precondition: Attribute can be set only when cell is locked.
+************************************************************************************************************************************
+SectorCarrier;csiRsBeamShape; enumRef:CsiRsBeamShape; noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;csiRsPowerRatio;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;csiRsReConfigIndex;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;csiRsSfConfigIndex;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;csiRsZeroPwrReConfigList;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;csiRsZeroPwrSfConfigIndex;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;customComBeamfrmWtsAmplPort0; sequence:long;nonUnique,noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;customComBeamfrmWtsAmplPort1; sequence:long;nonUnique,noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;customComBeamfrmWtsAmplPort2; sequence:long;nonUnique,noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;customComBeamfrmWtsAmplPort3; sequence:long;nonUnique,noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;customComBeamfrmWtsPhasePort0;sequence:long;nonUnique,noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;customComBeamfrmWtsPhasePort1;sequence:long;nonUnique,noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;customComBeamfrmWtsPhasePort2;sequence:long;nonUnique,noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;customComBeamfrmWtsPhasePort3;sequence:long;nonUnique,noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;digitalTilt;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;macro;enumRef:Macro;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;macro2Lobe; enumRef:Macro2Lobe;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;macroNarrow;enumRef:MacroNarrow;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;macroWide;enumRef:MacroWide;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;microSleepTxActivation;boolean;readOnly,nonPersistent
+Micro Sleep Tx functions in baseband are activated at cell unlock.
+************************************************************************************************************************************
+SectorCarrier;noOfRxAntennas;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;noOfTxAntennas;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;radioTransmitPerformanceMode; enumRef:RadioOperatingMode
+Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;rfBranchRxRef;sequence:moRef-RfBranch
+Disturbances: Modifying this attribute requires blocking and de-blocking the cell.
+Change takes effect: Object unlocked
+Precondition: Locked Cell
+************************************************************************************************************************************
+SectorCarrier;rfBranchTxRef;sequence:moRef-RfBranch
+Disturbances: Modifying this attribute requires blocking and de-blocking the cell.
+Change takes effect: Object unlocked
+Precondition: Locked Cell
+************************************************************************************************************************************
+SectorCarrier;sectorShape;enumRef:SectorShape
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;txPowerPersistentLock;Indicates if attribute configuredMaxTxPower is locked or not.
+************************************************************************************************************************************
+SectorCarrier;ulForcedTimingAdvanceCommandChange takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SectorCarrier;virtualComChBeamfrmWtsAmplitudesequence:long;nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;virtualComChBeamfrmWtsPhase;sequence:long;nonUnique
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorCarrier;virtualSector;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+SectorEquipmentFunctionadministrativeState;enumRef:AdminState
+Note: If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Default=LOCKED
+************************************************************************************************************************************
+SectorEquipmentFunctionrfBranchRef;sequence:moRef-ManagedObject
+Change takes effect: Next MO unlock
+Precondition: Locked MO
+************************************************************************************************************************************
+SecurityHandling;countWrapSupervisionActive;Change takes effect: Cell lock/unlock.
+************************************************************************************************************************************
+SecurityHandling;countWrapThreshold; longChange takes effect: Cell lock/unlock.
+************************************************************************************************************************************
+SignalingRadioBearerdlMaxRetxThreshold;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SignalingRadioBearerdlPollPDU;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SignalingRadioBearertPollRetransmitDl;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SignalingRadioBearertStatusProhibitUl;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+SupportUnit; administrativeState;enumRef:AdminState
+[If set to SHUTTINGDOWN, the state is immediately brought to LOCKED.]
+Default=UNLOCKED
+************************************************************************************************************************************
+SyncEthEgress;administrativeState;enumRef:AdmState
+Default=LOCKED
+************************************************************************************************************************************
+Synchronization; freqHoldoverAlarmConfig;structRef:FreqHoldoverAlarmConfig
+Specifies the configuration of the Radio Clock in Frequency Holdover alarm.
+************************************************************************************************************************************
+Synchronization; nodeSystemClock;enumRef:ClockState;readOnly,noNotification
+State of the system clock on the node.
+************************************************************************************************************************************
+Synchronization; radioClockState;enumRef:RadioClockState;readOnly,nonPersistent,noNotification
+Indicates state of radio clock on node.
+************************************************************************************************************************************
+Synchronization; timeHoldoverAlarmConfig;structRef:TimeHoldoverAlarmConfig
+Specifies the configuration of the Radio Clock in Time Holdover alarm.
+************************************************************************************************************************************
+TermPointToENB;administrativeState;enumRef:AdminState
+Note: If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Disturbances: Changing this attribute to LOCKED or SHUTTINGDOWN causes loss of X2 connectivity.
+Default=LOCKED
+************************************************************************************************************************************
+TermPointToENB;ipAddress;string
+Dependencies: To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToENB;ipv6Address;string
+To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToGNB;administrativeState;enumRef:AdminState
+Note: If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Default=LOCKED
+************************************************************************************************************************************
+TermPointToGNB;ipAddress;string
+Dependencies: To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToGNB;ipv6Address;string
+Dependencies: To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToMme;additionalCnRef;moRef:AdditionalCoreNetwork
+Change takes effect: Next MO unlock
+************************************************************************************************************************************
+TermPointToMme;administrativeState;enumRef:AdminState
+Note: If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Disturbances: Changing this attribute to LOCKED or SHUTTINGDOWN causes loss of traffic.
+Default=LOCKED
+************************************************************************************************************************************
+TermPointToMme;domainName; string
+To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToMme;ipAddress1; string
+To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToMme;ipAddress2; string
+To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToMme;ipv6Address1;string
+To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToMme;ipv6Address2;string
+To set this attribute, administrativeState must be LOCKED.
+************************************************************************************************************************************
+TermPointToMmeM3;administrativeState;enumRef:AdminState
+Note: If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Disturbances: Changing this attribute to LOCKED or SHUTTINGDOWN can cause loss of traffic. Loss of MBMS capability if Internal MCE is used.
+Default=LOCKED
+************************************************************************************************************************************
+TermPointToMmeM3;domainName; string
+To set this attribute, administrativeState must be LOCKED.
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+TermPointToMmeM3;ipAddress1; string
+To set this attribute, administrativeState must be LOCKED.
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+TermPointToMmeM3;ipAddress2; string
+To set this attribute, administrativeState must be LOCKED.
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+TermPointToMmeM3;ipv6Address1;string
+To set this attribute, administrativeState must be LOCKED.
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+TermPointToMmeM3;ipv6Address2;string
+To set this attribute, administrativeState must be LOCKED.
+Change takes effect: Object unlocked
+************************************************************************************************************************************
+TimingUnit;tuSystemClock;enumRef:ClockState;readOnly,noNotification
+State of the system clock signal.
+************************************************************************************************************************************
+TmaSubUnit;dlAttenuation;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+TmaSubUnit;dlTrafficDelay;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+TmaSubUnit;ulTrafficDelay;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+TmfConfiguration;dcToRetBlocked; If DC to RET is blocked or not.
+false means DC to RET is not blocked.
+true means DC to RET is blocked if not connected.
+************************************************************************************************************************************
+TuSyncRef;administrativeState;enumRef:AdmState
+Default=LOCKED
+************************************************************************************************************************************
+TwampResponder;administrativeState;enumRef:AdmState
+When LOCKED, the TWAMP Responder does not respond on incoming probe packets.
+Default=LOCKED
+************************************************************************************************************************************
+UcToolFunction;activateVcXoClock;boolean;noNotification,EricssonOnly
+Indicates that the 30.72 MHz VcXo clock shall be sent out on the production test port by the GIC.
+************************************************************************************************************************************
+UeMeasControl;ueMeasurementsActive; Activates or deactivates A3/A5/B2 measurements on EUTRAN inter-frequencies and on GERAN, UTRAN, CDMA2000 HRPD and CDMA2000 1xRtt frequencies for mobility purposes. This attribute also activates or deactivates A4/B1 measurements on EUTRAN inter-frequencies, GERAN and UTRAN frequencies for soft lock of cell purposes.
+Disturbances: Changing this attribute to false can cause loss of traffic. Blocks outgoing measurement-based IF and IRAT mobility.
+************************************************************************************************************************************
+UeMeasControl;ueMeasurementsActiveCDMA2000; Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to CDMA2000.
+************************************************************************************************************************************
+UeMeasControl;ueMeasurementsActiveCDMA20001xRttDisturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to CDMA 1xRtt.
+************************************************************************************************************************************
+UeMeasControl;ueMeasurementsActiveGERAN;Activates or deactivates GERAN measurements for mobility and soft lock of cells purposes when feature Mobility Control at Poor Coverage is enabled.
+Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to GERAN.
+************************************************************************************************************************************
+UeMeasControl;ueMeasurementsActiveIF;Activates or deactivates EUTRAN inter-frequency measurements for mobility and soft lock of cells purposes when feature Mobility Control at Poor Coverage is enabled.
+Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based IF mobility.
+************************************************************************************************************************************
+UeMeasControl;ueMeasurementsActiveUTRAN;Activates or deactivates UTRAN measurements for mobility and soft lock of cells purposes when feature Mobility Control at Poor Coverage is enabled.
+Disturbances: Changing this attribute to false can cause loss of traffic. Blocks measurement based mobility to UTRAN.
+************************************************************************************************************************************
+UlCompGroup; administrativeState;enumRef:AdmState
+Note: If this attribute is set to SHUTTING_DOWN, it will immediately go into the state LOCKED.
+Disturbances: Changing this attribute to LOCKED or SHUTTINGDOWN disables UL CoMP.
+Default=LOCKED
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaChannelEvaluationTimer;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaChannelSelectionType;enumRef:ChannelSelectionType
+Change takes effect: Next cell unlock
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaDrsOffset;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaDrsPeriodicity;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaLbtCheckTimer;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaLbtSuccessRateThreshold;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaMasterCarrierTimer;Change takes effect: Next cell unlock
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaMaxOccupancy;Change takes effect: Cell lock/unlock
+************************************************************************************************************************************
+UnlicensedAccessFunctionlaaMultiCarrierAccessProcedureType enumRef:MultCarrierAccessProcedureType;noNotification,EricssonOnly
+Change takes effect: Next cell unlock
+UnlicensedAccessFunctionlaaRssiDuty;Change takes effect: Next cell unlock
+UnlicensedAccessFunctionlaaRssiPeriodicity;Change takes effect: Next cell unlock
+UnlicensedAccessFunctionlaaRssiSamples;Change takes effect: Next cell unlock
+UnlicensedAccessFunctionlaaSCellActDeactDataThres;Change takes effect: Next cell unlock
+UnlicensedAccessFunctionlaaSCellActDeactDataThresHyst;Change takes effect: Next cell unlock
+UtranFreqRelation threshXHighQ; ;Dependencies: This parameter is included in SIB6 if the threshServingLowQ in SIB3 is included in systemInformationBlockType3.
+UtranFreqRelation threshXLowQ;Dependencies: This parameter is included in SIB6 if the threshServingLowQ in SIB3 is included in systemInformationBlockType3.

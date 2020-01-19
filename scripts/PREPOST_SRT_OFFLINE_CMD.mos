@@ -1,0 +1,28 @@
+#########################
+## Rev 5.4 (10/11/2018)
+## Rev 5.3 (9/30/2018)
+## Rev 5.2 (7/19/2018)
+## Rev 5.1 (6/7/2018)
+## Rev 5.0 (1/8/2018)
+#########################
+
+$date = `date "+%y%m%d_%H%M%S"`
+$sitename = `$gawk -v nodename="$mibprefix" 'BEGIN{ gsub(".*=","",nodename);print(nodename)}'
+lt all
+l+mm mobatch_srtdata/KGET_SRT_$sitename.log
+kget all
+l-
+
+l+mm mobatch_srtdata/$sitename_SRT_CHECK.log
+pv $sitename
+s+
+invxrc fdd
+invxr fdd
+cvls
+altc
+hgetc RfBranch= reservedBy|rfPortRef|auPortRef
+hgetc rfbranch [ud]lTrafficDelay$|[ud]lattenuation$
+hgetc SectorCarrier= reservedBy
+/cm/sysconread
+fgeti ^EUtranCellFDD= estimatedE2ERTT
+l-

@@ -1,0 +1,16 @@
+{
+	"name": "srtwp",
+	"version": "2.7.11",
+	"description": "ran tools",
+	"main": "app.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Endang Ismaya",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {}
+}
