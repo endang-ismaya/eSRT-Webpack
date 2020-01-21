@@ -12,7 +12,8 @@
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="<?php echo base_url('assets/images/high-res.ico'); ?>" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('assets/css/bootswatch.minty.css'); ?>" />
+  <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('assets/fontawesome-free/css/all.min.css'); ?>" />
+  <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('assets/css/sandstone.min.css'); ?>" />
   <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('assets/css/custom.css'); ?>" />
   <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url('assets/css/spinner.css'); ?>" />
 </head>
@@ -22,11 +23,11 @@
 		<source src="http://localhost/srtwp/assets/video/PexelsVideos1494285_6MB.mp4" type="video/mp4">
 	</video> -->
   <?php $this->load->view('templates/nav_html.php'); ?>
-  <div class="row mb-0">
+  <!-- <div class="row mb-0">
     <div class="col-sm-12">
       <p class="text-light bg-primary text-center subtitle">~<?php echo $breadcrumb; ?>~</p>
     </div>
-  </div>
+  </div> -->
   <?php if ($iVersion == -1) { ?>
     <div class="row mb-2 mt-0">
       <div class="col-sm-12 text-center">

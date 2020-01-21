@@ -2,6 +2,11 @@ html,
 body {
 	height: 100%;
 	font-size: 16px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("http://localhost/srtwp/assets/images/distance-2.jpg");
+	background-position: unset;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 body {
@@ -9,8 +14,8 @@ body {
 	display: flex;
 	-ms-flex-align: center;
 	align-items: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	/* padding-top: 40px; */
+	/* padding-bottom: 40px; */
 }
 
 .form-signin {
@@ -36,13 +41,13 @@ body {
 	z-index: 20;
 }
 
-.form-signin input[type='email'] {
+.form-signin input[type="email"] {
 	margin-bottom: -1px;
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 }
 
-.form-signin input[type='password'] {
+.form-signin input[type="password"] {
 	margin-bottom: 10px;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
@@ -58,10 +63,9 @@ body {
 
 .content {
 	position: fixed;
-	bottom: 30%;
-	/* background: rgba(0, 0, 0, 0.5); */
+	bottom: 45vh;
 	color: #f1f1f1;
-	width: 100%;
+	width: 160vw;
 	padding: 20px;
 }
 
@@ -74,6 +78,6 @@ body {
 	opacity: 0.3;
 }
 
-.content h1 {
+/* .content h1 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+} */

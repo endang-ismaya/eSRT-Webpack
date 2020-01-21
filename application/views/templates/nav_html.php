@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
   <a class="navbar-brand" href="<?php echo base_url(); ?>">
     <img src="<?php echo base_url('assets/images/icons8-RadioTower-48.png'); ?>" alt="brand-logo" class="ml-2"></a>
-  <h1>eSRT-webPack<span class="h1-jmbtron text-warning">
+  <h1 class="text-danger">eSRT-webPack<span class="h1-jmbtron text-warning">
       <?php echo $titleVersion; ?></span></h1>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
     <span class="navbar-toggler-icon"></span>

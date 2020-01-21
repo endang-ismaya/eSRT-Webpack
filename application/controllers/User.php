@@ -99,7 +99,7 @@ class User extends MY_Controller
       $this->data['form_value']['user_login'] = $this->UserModel->getUserLogin();
       $this->data['form_value']['password_login'] = $this->UserModel->getPasswordLogin();
 
-      $this->data['main_view'] = 'users/preferences.html.php';
+      $this->data['main_view'] = 'users/preferences_html';
       $this->data['title'] = 'User Preferences';
       $this->data['form_action'] = 'user/preferences';
       $this->load->view('layout_html', $this->data);

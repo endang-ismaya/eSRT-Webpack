@@ -19,20 +19,21 @@ body {
 }
 
 body.home {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://localhost/srtwp/assets/images/asphalt-bitumen-black-1038935.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("http://localhost/srtwp/assets/images/asphalt-bitumen-black-1038935.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 body.others {
-	background: url('http://localhost/srtwp/assets/images/bg/4k-wallpaper-clean-desk-1420701.jpg');
+	background: url("http://localhost/srtwp/assets/images/bg/4k-wallpaper-clean-desk-1420701.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .bodyProcess {
 	padding: 0px;
-	background: url('http://localhost/srtwp/assets/images/bg/4k-wallpaper-architecture-background-1308624.jpg') !important;
+	background: url("http://localhost/srtwp/assets/images/bg/4k-wallpaper-architecture-background-1308624.jpg") !important;
 }
 
 .disabled-button {
@@ -86,7 +87,8 @@ div.row.home-carousel {
 	padding-bottom: 0 !important;
 	padding-top: 8px !important;
 	margin-bottom: 0 !important;
-	background: url('../images/photo-1524936811367-5cc4b5ae7fe3.jpg') no-repeat center center fixed;
+	background: url("../images/photo-1524936811367-5cc4b5ae7fe3.jpg") no-repeat
+		center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -183,7 +185,7 @@ blockquote form {
 	margin-top: 20px;
 	margin-left: 50px;
 	margin-right: 80px;
-	font-family: 'Courier New', Courier, monospace !important;
+	font-family: "Courier New", Courier, monospace !important;
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -306,7 +308,8 @@ tr.tr-alignme:first-child th.th-alignme:last-child {
 /* SUBTITLE */
 
 .subtitle {
-	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+		sans-serif;
 	font-size: 25px;
 }
 
@@ -379,7 +382,8 @@ tr.tr-alignme:first-child th.th-alignme:last-child {
 }
 
 .h-title {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "Gill Sans MT",
+		Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* KPI-Chart */
@@ -397,7 +401,7 @@ div#kpiTextArea textarea {
 	height: 300px;
 	margin-bottom: 20px;
 	padding: 10px;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: "Courier New", Courier, monospace;
 	font-size: small;
 }
 
