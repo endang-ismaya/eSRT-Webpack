@@ -28,7 +28,6 @@
           <li><b>Correction</b> Get Cell Data while selection modump folder</li>
         </ul>
       </ul>
-      <!-- <button type="button" class="btn btn-lg btn-block btn-custom">Let's try it Now!!</button> -->
     </div>
   </div>
   <div class="col"></div>
