@@ -10,6 +10,7 @@ body {
 body {
 	position: relative;
 	min-height: 100vh;
+	background-color: #3f4144;
 }
 
 .boxsizingBorder {
@@ -20,15 +21,18 @@ body {
 
 body.home {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("http://localhost/srtwp/assets/images/asphalt-bitumen-black-1038935.jpg");
+		url("http://localhost/srtwp/assets/images/distance-4.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 body.others {
-	background: url("http://localhost/srtwp/assets/images/bg/4k-wallpaper-clean-desk-1420701.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("http://localhost/srtwp/assets/images/distance-3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	/* background-position: center; */
 }
 
 .bodyProcess {
