@@ -148,35 +148,6 @@ class Toolv2 extends MY_Controller
       );
       echo json_encode($output);
     }
-
-    // if (isset($_POST['scripts'])) {
-    //   $scripts = $_POST['scripts'];
-    // } else {
-    //   $scripts = '';
-    // }
-    // if (isset($_POST['options'])) {
-    //   $options = $_POST['options'];
-    // } else {
-    //   $options = '';
-    // }
-    // if (isset($_POST['pathFolder'])) {
-    //   $pathFolder = htmlentities(strip_tags($_POST['pathFolder']));
-    // } else {
-    //   $pathFolder = '';
-    // }
-    // if (file_exists($pathFolder)) {
-    // $this->ProgramRunModel->setProgram($this->program);
-    // $this->ProgramRunModel->setScripts($scripts);
-    // $this->ProgramRunModel->setOptions($options);
-    // $output = $this->ProgramRunModel->execute();
-    // $output = "$this->program $scripts $options";
-    // echo "$this->program $scripts $options";
-    // } else {
-    // $output = 'Folder is not exists!!';
-    // echo $output;
-    // }
-
-    // echo $output;
   }
 
   private function is_folder_exists()

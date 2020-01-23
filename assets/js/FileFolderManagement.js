@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 class FileFolderManagement {
 	constructor(baseUrlInput, fileFolderInput) {
 		this.baseUrlInput = baseUrlInput;

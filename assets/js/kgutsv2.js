@@ -95,8 +95,8 @@ class KgutsV2 extends FileFolderManagement {
 		const html = `
 		${jsonResult.html}
     <hr>
-    <div>time-span: ${jsonResult.timeSpan}</div>
-    <div>error-message: <span class="text-danger">${jsonResult.resultMessage}</span></div>
+    <div>Time-span: ${jsonResult.timeSpan}</div>
+    <div>Error-message: <span class="text-danger">${jsonResult.resultMessage}</span></div>
 		`;
 		this.divParentReport.insertAdjacentHTML('afterBegin', html);
 

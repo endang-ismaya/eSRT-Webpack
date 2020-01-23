@@ -56,6 +56,10 @@ echo "Sitelist File: $2"
 
 cd "$1"
 CURRENT=`pwd`
+
+grep . "$2" > tmpfile
+
+
 ## echo "$CURRENT"
 ## Create folder in each sitename
 while read -r || [[ $REPLY ]]; do
@@ -250,6 +254,8 @@ rm tmp2
 rm tmp3
 rm tmp4
  
-done < "$2"
+done < tmpfile
+
+rm tmpfile
 
 # echo "completed" > GREP_DONE.log

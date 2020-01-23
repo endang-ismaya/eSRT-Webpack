@@ -538,3 +538,7 @@ ul#ul-card li {
 	top: -3.5rem;
 	right: 1rem;
 }
+
+.text-success-dark {
+	color: #21bf73;
+}
