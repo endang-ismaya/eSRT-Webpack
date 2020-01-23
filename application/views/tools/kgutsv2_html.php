@@ -9,7 +9,7 @@
       </div>
       <div class="card">
         <div class="card-header bg-dark">REPORT <i class="fas fa-file-signature float-right fa-2x"></i></div>
-        <div class="card-body bg-gradient"></div>
+        <div class="card-body bg-gradient" id="kguts-cardbody-report"></div>
       </div>
     </div>
     <div class="col-sm-3">

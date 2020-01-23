@@ -1,9 +1,12 @@
+/* eslint-disable no-restricted-syntax */
+// eslint-disable-next-line no-undef
 class KgutsV2 extends FileFolderManagement {
-	constructor(baseUrl, fileFolderInput, btnFileLocator, btnParseToText, btnParseToJson) {
+	constructor(baseUrl, fileFolderInput, btnFileLocator, btnParseToText, btnParseToJson, divParentReport) {
 		super(baseUrl, fileFolderInput);
 		this.btnFileLocator = btnFileLocator;
 		this.btnParseToText = btnParseToText;
 		this.btnParseToJson = btnParseToJson;
+		this.divParentReport = divParentReport;
 
 		this.setButtonsDisabled([this.btnParseToText, this.btnParseToJson]);
 		this.btnFileLocator.addEventListener('click', this.onClickFileFolderLocator);
@@ -29,7 +32,6 @@ class KgutsV2 extends FileFolderManagement {
 
 	onChangeFileFolder = async () => {
 		const content = await this.fileFolderStatus();
-		console.log(content);
 
 		if (!content.isExists) {
 			const container = document.querySelector('#card-1');
@@ -64,19 +66,74 @@ class KgutsV2 extends FileFolderManagement {
 		}
 	};
 
-	onClickParseToText = () => {
-		console.log(`parse to text`);
+	onClickParseToText = async () => {
+		this.spinnerStart();
+
+		const fileOrFolderPath = this.fileFolderInput.value;
+		const inputJson = {
+			jsonString: {
+				tool: 'KGUTSV2',
+				fileOrFolderPath: fileOrFolderPath
+			}
+		};
+
+		const rawResponse = await fetch(`${this.baseUrl}/toolv2/runscript`, {
+			method: 'POST',
+			headers: {
+				Accept: 'application/json',
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(inputJson)
+		});
+
+		const result = await rawResponse.json();
+
+		// print to web
+		this.clearDivParentReport();
+		const jsonResult = JSON.parse(result);
+
+		const html = `
+		${jsonResult.html}
+    <hr>
+    <div>time-span: ${jsonResult.timeSpan}</div>
+    <div>error-message: <span class="text-danger">${jsonResult.resultMessage}</span></div>
+		`;
+		this.divParentReport.insertAdjacentHTML('afterBegin', html);
+
+		this.spinnerStop();
 	};
 
 	onClickParseToJson = () => {
-		console.log(`parse to json`);
+		// print to web
+		this.clearDivParentReport();
+
+		const html = `
+		<div class="text-primary">Tool is under development.</div>
+    <hr>
+    <div>time-span: 00h:00m:00s:001ms</div>
+    <div>error-message: <span class="text-danger">Please wait for further notification!.</span></div>
+		`;
+
+		this.divParentReport.insertAdjacentHTML('afterBegin', html);
+	};
+
+	clearDivParentReport = () => {
+		this.divParentReport.innerHTML = '';
 	};
 }
 
 const btnFileLocator = document.querySelector('#file-locator');
 const baseUrl = document.querySelector('#base-url');
+const divParentReport = document.querySelector('#kguts-cardbody-report');
 const modumpFolderSelection = document.querySelector('#kgutsv2-modump-folder');
 const btnParseToText = document.querySelector('#kgutsv2-parse-text');
 const btnParseToJson = document.querySelector('#kgutsv2-parse-json');
 
-const kgutsv2 = new KgutsV2(baseUrl, modumpFolderSelection, btnFileLocator, btnParseToText, btnParseToJson);
+const kgutsv2 = new KgutsV2(
+	baseUrl,
+	modumpFolderSelection,
+	btnFileLocator,
+	btnParseToText,
+	btnParseToJson,
+	divParentReport
+);

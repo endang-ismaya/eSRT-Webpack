@@ -27,7 +27,7 @@ class Toolv2 extends MY_Controller
   {
     parent::__construct();
     $this->load->model('ToolsModel');
-    $this->load->model('ProgramRunModel');
+    $this->load->model('ProgramRunModelv2');
     $this->load->model('HomeModel');
     $this->setVersion();
   }
@@ -60,6 +60,10 @@ class Toolv2 extends MY_Controller
         $this->getFolderList();
         break;
 
+      case 'runscript':
+        $this->runScript();
+        break;
+
       default:
         if (isset($_POST['scripts'])) {
           echo "Error 404 - Page Not Found";
@@ -83,14 +87,14 @@ class Toolv2 extends MY_Controller
           "isExists" => true
         );
       } else {
-        $output = $output = array(
+        $output = array(
           "status" => true,
           "isExists" => false
         );
       }
       echo json_encode($output);
     } catch (\Throwable $th) {
-      $output = $output = array(
+      $output = array(
         "status" => false,
         "isExists" => false
       );
@@ -116,8 +120,6 @@ class Toolv2 extends MY_Controller
       array_push($output, $row['folderpath']);
     }
 
-    // $output = array('one', 'two', 'three');
-
     echo json_encode($output);
   }
 
@@ -125,34 +127,56 @@ class Toolv2 extends MY_Controller
   {
     ini_set('max_execution_time', 0);
 
-    if (isset($_POST['scripts'])) {
-      $scripts = $_POST['scripts'];
-    } else {
-      $scripts = '';
-    }
-    if (isset($_POST['options'])) {
-      $options = $_POST['options'];
-    } else {
-      $options = '';
-    }
-    if (isset($_POST['pathFolder'])) {
-      $pathFolder = htmlentities(strip_tags($_POST['pathFolder']));
-    } else {
-      $pathFolder = '';
-    }
-    if (file_exists($pathFolder)) {
-      $this->ProgramRunModel->setProgram($this->program);
-      $this->ProgramRunModel->setScripts($scripts);
-      $this->ProgramRunModel->setOptions($options);
-      $output = $this->ProgramRunModel->execute();
-      // $output = "$this->program $scripts $options";
-      // echo "$this->program $scripts $options";
-    } else {
-      $output = 'Folder is not exists!!';
-      // echo $output;
+    try {
+      $_POST = json_decode(file_get_contents('php://input'), true);
+
+      if (isset($_POST['jsonString'])) {
+        $jsonString = $_POST['jsonString'];
+      } else {
+        $jsonString = '';
+      }
+
+      $this->ProgramRunModelv2->setProgram($this->program);
+      $this->ProgramRunModelv2->setJsonString(json_encode($jsonString));
+      $message = $this->ProgramRunModelv2->execute();
+
+      echo json_encode($message);
+    } catch (\Throwable $th) {
+      $output = array(
+        "status" => false,
+        "message" => "Something went wrong!, Please try it again later!"
+      );
+      echo json_encode($output);
     }
 
-    echo $output;
+    // if (isset($_POST['scripts'])) {
+    //   $scripts = $_POST['scripts'];
+    // } else {
+    //   $scripts = '';
+    // }
+    // if (isset($_POST['options'])) {
+    //   $options = $_POST['options'];
+    // } else {
+    //   $options = '';
+    // }
+    // if (isset($_POST['pathFolder'])) {
+    //   $pathFolder = htmlentities(strip_tags($_POST['pathFolder']));
+    // } else {
+    //   $pathFolder = '';
+    // }
+    // if (file_exists($pathFolder)) {
+    // $this->ProgramRunModel->setProgram($this->program);
+    // $this->ProgramRunModel->setScripts($scripts);
+    // $this->ProgramRunModel->setOptions($options);
+    // $output = $this->ProgramRunModel->execute();
+    // $output = "$this->program $scripts $options";
+    // echo "$this->program $scripts $options";
+    // } else {
+    // $output = 'Folder is not exists!!';
+    // echo $output;
+    // }
+
+    // echo $output;
   }
 
   private function is_folder_exists()
