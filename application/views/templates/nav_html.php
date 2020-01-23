@@ -14,7 +14,7 @@
       <li class="nav-item dropdown <?php echo $tools_menu; ?>">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Tools </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="<?php echo base_url('/tools/kguts'); ?>">Kguts </a>
+          <a class="dropdown-item" href="<?php echo base_url('/toolv2/kguts'); ?>">Kguts </a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/alignme'); ?>">AlignMe</a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/kcompare'); ?>">KCompare</a>
           <div class="dropdown-divider"></div>

@@ -19,21 +19,8 @@ class Tools extends MY_Controller
     'stmt' => '',
     'home' => 'others',
     'video' => 'd-none',
+    'js_main' => true,
     'js_spinner' => true,
-    'js_kguts' => false,
-    'js_alignme' => false,
-    'js_tools' => false,
-    'js_fganotification' => false,
-    'js_apexchart' => false,
-    'js_error' => false,
-    'js_att_ix_presrt' => false,
-    'js_att_kpi_chartsfn' => false,
-    'js_att_kpi_charts' => false,
-    'js_att_ix_posthc' => false,
-    'js_kcompare' => false,
-    'js_umts_logs' => false,
-    'js_att_fgatest' => false,
-    'js_att_sc' => false
   ];
 
   public $program = 'C:\xampp\htdocs\srtwp\bin\eSRTWebPack\eSRTWebPack.exe';

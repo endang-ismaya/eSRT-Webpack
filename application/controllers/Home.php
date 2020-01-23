@@ -18,20 +18,6 @@ class Home extends MY_Controller
     'breadcrumb'            => 'Home',
     'home'                  => 'home',
     'video'                 => '',
-    'js_spinner'            => false,
-    'js_kguts'              => false,
-    'js_alignme'            => false,
-    'js_tools'              => false,
-    'js_fganotification'    => false,
-    'js_apexchart'          => false,
-    'js_error'              => false,
-    'js_att_ix_presrt'      => false,
-    'js_att_kpi_chartsfn'   => false,
-    'js_att_kpi_charts'     => false,
-    'js_kcompare'           => false,
-    'js_att_ix_posthc'      => false,
-    'js_umts_logs'          => false,
-    'js_att_fgatest'        => false
   ];
 
   public function __construct()

@@ -1,5 +1,4 @@
 <?php
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,15 +18,7 @@
 </head>
 
 <body class="<?php echo $home; ?>">
-  <!-- <video autoplay muted loop oncontextmenu="return false;" id="myVideo" class="<?php echo $video; ?>">
-		<source src="http://localhost/srtwp/assets/video/PexelsVideos1494285_6MB.mp4" type="video/mp4">
-	</video> -->
   <?php $this->load->view('templates/nav_html.php'); ?>
-  <!-- <div class="row mb-0">
-    <div class="col-sm-12">
-      <p class="text-light bg-primary text-center subtitle">~<?php echo $breadcrumb; ?>~</p>
-    </div>
-  </div> -->
   <?php if ($iVersion == -1) { ?>
     <div class="row mb-2 mt-0">
       <div class="col-sm-12 text-center">
@@ -37,67 +28,71 @@
     </div>
   <?php } ?>
   <div id="mainx">
+    <input type="hidden" id="base-url" value="<?php echo base_url(); ?>">
     <?php $this->load->view($main_view); ?>
   </div>
   <?php $this->load->view('templates/footer_html.php'); ?>
   <script src="<?php echo base_url('assets/js/jquery-3.3.1.min.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/popper.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/main.js'); ?>" />
   </script>
-  <?php if ($js_error) { ?>
+  <?php if (isset($js_main)) { ?>
+    <script src="<?php echo base_url('assets/js/main.js'); ?>" />
+    </script>
+  <?php } ?>
+  <?php if (isset($js_fileFolderManagement)) { ?>
+    <script src="<?php echo base_url('assets/js/FileFolderManagement.js'); ?>" />
+    </script>
+  <?php } ?>
+  <?php if (isset($js_error)) { ?>
     <script src="<?php echo base_url('assets/js/error.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_apexchart) { ?>
+  <?php if (isset($js_apexchart)) { ?>
     <script src="<?php echo base_url('assets/js/apexcharts_cdn.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_spinner) { ?>
+  <?php if (isset($js_spinner)) { ?>
     <script src="<?php echo base_url('assets/js/spinner.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_kguts) { ?>
+  <?php if (isset($js_kguts)) { ?>
     <script src="<?php echo base_url('assets/js/kguts.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_alignme) { ?>
+  <?php if (isset($js_alignme)) { ?>
     <script src="<?php echo base_url('assets/js/alignme.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_tools) { ?>
+  <?php if (isset($js_tools)) { ?>
     <script src="<?php echo base_url('assets/js/tools.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_fganotification) { ?>
-    <script src="<?php echo base_url('assets/js/fganotification.js'); ?>" />
-    </script>
-  <?php } ?>
-  <?php if ($js_att_ix_presrt) { ?>
+  <?php if (isset($js_att_ix_presrt)) { ?>
     <script src="<?php echo base_url('assets/js/att-ix-presrt.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_att_kpi_chartsfn) { ?>
+  <?php if (isset($js_att_kpi_chartsfn)) { ?>
     <script src="<?php echo base_url('assets/js/kpicharts-fn.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_att_kpi_charts) { ?>
+  <?php if (isset($js_att_kpi_charts)) { ?>
     <script src="<?php echo base_url('assets/js/kpicharts.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_att_ix_posthc) { ?>
+  <?php if (isset($js_att_ix_posthc)) { ?>
     <script src="<?php echo base_url('assets/js/att-ixposthc.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_kcompare) { ?>
+  <?php if (isset($js_kcompare)) { ?>
     <script src="<?php echo base_url('assets/js/kcompare.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_umts_logs) { ?>
+  <?php if (isset($js_umts_logs)) { ?>
     <script src="<?php echo base_url('assets/js/umtslogs.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if ($js_att_fgatest) { ?>
+  <?php if (isset($js_att_fgatest)) { ?>
     <script src="<?php echo base_url('assets/js/att_fgatest.js'); ?>" />
     </script>
   <?php } ?>
@@ -107,6 +102,10 @@
   <?php } ?>
   <?php if (isset($js_att_nbiot)) { ?>
     <script src="<?php echo base_url('assets/js/att_nbiotcell.js'); ?>" />
+    </script>
+  <?php } ?>
+  <?php if (isset($js_kgutsv2)) { ?>
+    <script src="<?php echo base_url('assets/js/kgutsv2.js'); ?>" />
     </script>
   <?php } ?>
 </body>
