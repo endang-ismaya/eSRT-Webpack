@@ -5,8 +5,8 @@
       <div class="alert alert-warning" role="alert">
         <ul></ul>
       </div>
-      <div class="card mb-2 bg-gradient">
-        <div class="card-header">MARKET <i class="fas fa-map-marked-alt float-right fa-2x"></i></div>
+      <div class="card bg-gradient mb-2">
+        <div class="card-header"><span class="font-weight-bold text-primary">MARKET</span> <i class="fas fa-map-marked-alt float-right fa-2x"></i></div>
         <div class="card-body">
           <select id="optMarket-presrt" class="custom-select w-25">
             <option selected>--Select market--</option>
@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="card mb-2 bg-gradient">
-        <div class="card-header">MODUMP FOLDER <i class="fas fa-folder-open float-right fa-2x"></i></div>
+        <div class="card-header"><span class="font-weight-bold text-primary">MODUMP FOLDER</span> <i class="fas fa-folder-open float-right fa-2x"></i></div>
         <div class="card-body">
           <?php
           if (isset($error)) {
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="card mb-2 bg-gradient">
-        <div class="card-header">CIQ</div>
+        <div class="card-header"><span class="font-weight-bold text-primary">CIQ FILE</span></div>
         <div class="card-body">
           <?php
           if (isset($error)) {
@@ -53,16 +53,16 @@
         </div>
       </div>
       <div class="card bg-gradient">
-        <div class="card-header">REPORT <i class="fas fa-file-signature float-right fa-2x"></i></div>
-        <div class="card-body">
-          <pre id="output-result" class="output-result"></pre>
-          <div id="celldata-result"></div>
+        <div class="card-header"><span class="font-weight-bold text-primary">REPORT </span> <i class="fas fa-file-signature float-right fa-2x"></i></div>
+        <div class="card-body p-0">
+          <pre id="output-result" class="output-result my-1 mx-2"></pre>
+          <div id="celldata-result my-1 mx-2"></div>
         </div>
       </div>
     </div>
     <div class="col-md-2">
       <div class="card bg-gradient">
-        <div class="card-header">ACTION <i class="fas fa-location-arrow"></i></div>
+        <div class="card-header"><span class="font-weight-bold text-primary">ACTION</span> <i class="fas fa-location-arrow"></i></div>
         <div class="card-body">
           <button id="btnATTIXGetcelldata" type="button" class="btn btn-lg btn-block">Get Cell Data</button>
           <button id="btnATTIXExistingrelation" type="button" class="btn btn-lg btn-block">Create Existing Relations</button>
@@ -72,7 +72,7 @@
       </div>
       <div class="card mt-2 bg-gradient">
         <div class="card-header mb-0">
-          RATFREQPRIO <i class="fas fa-location-arrow"></i>
+          <span class="font-weight-bold text-primary">RATFREQPRIO</span> <i class="fas fa-location-arrow"></i>
         </div>
         <div class="card-body">
           <button id="btnRatFreqPrio-01" type="button" class="btn btn-lg btn-block">Non B30 & Non B14</button>
