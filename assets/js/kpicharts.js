@@ -19,7 +19,6 @@ $(document).ready(function() {
 function runKPIReset() {
 	$('#chart-container').html('');
 	$('#areaKPI').val('');
-	$('body').removeClass('kpiClass');
 	$('body').addClass('others');
 }
 
@@ -60,7 +59,6 @@ function cbRunTrafficPerformance(data) {
 	if (data.toString().trim() === 'valid') {
 		loadTrafficPerformance();
 		$('body').removeClass('others');
-		$('body').addClass('kpiClass');
 	} else {
 		$('#chart-container').html(data);
 	}
@@ -104,7 +102,6 @@ function cbrunDropCount(data) {
 	if (data.toString().trim() === 'valid') {
 		loadDropCount();
 		$('body').removeClass('others');
-		$('body').addClass('kpiClass');
 	} else {
 		$('#chart-container').html(data);
 	}
@@ -148,7 +145,6 @@ function cbRunPmHo(data) {
 	if (data.toString().trim() === 'valid') {
 		loadPmHo();
 		$('body').removeClass('others');
-		$('body').addClass('kpiClass');
 	} else {
 		$('#chart-container').html(data);
 	}
@@ -192,7 +188,6 @@ function cbRunFGAs(data) {
 	if (data.toString().trim() === 'valid') {
 		loadFGAChart();
 		$('body').removeClass('others');
-		$('body').addClass('kpiClass');
 	} else {
 		$('#chart-container').html(data);
 	}
