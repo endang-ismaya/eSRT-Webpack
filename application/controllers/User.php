@@ -20,36 +20,12 @@ class User extends MY_Controller
     'breadcrumb'        => 'User Preferences',
     'home'              => 'others',
     'video' => 'd-none',
-    'js_spinner'            => false,
-    'js_kguts'              => false,
-    'js_alignme'            => false,
-    'js_tools'              => false,
-    'js_fganotification'    => false,
-    'js_apexchart'          => false,
-    'js_error'              => false,
-    'js_att_ix_presrt'      => false,
-    'js_att_kpi_chartsfn'   => false,
-    'js_att_kpi_charts'     => false,
-    'js_kcompare'           => false,
-    'js_att_ix_posthc'      => false,
-    'js_umts_logs'          => false,
-    'js_att_fgatest'        => false
   ];
 
   public function __construct()
   {
     parent::__construct();
     $this->load->model('UserModel');
-    $this->load->model('HomeModel');
-    $this->setVersion();
-  }
-
-  private function setVersion()
-  {
-    $this->HomeModel->setAllVersion();
-    $this->data['iVersion'] = $this->HomeModel->getiVersion();
-    $this->data['serverVersion'] = $this->HomeModel->getServerVersion();
-    $this->data['titleVersion'] = $this->HomeModel->getTitleVersion();
   }
 
   public function index($userMenu = '')

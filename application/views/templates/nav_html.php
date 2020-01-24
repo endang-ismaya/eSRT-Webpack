@@ -1,8 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
   <a class="navbar-brand" href="<?php echo base_url(); ?>">
     <img src="<?php echo base_url('assets/images/icons8-RadioTower-48.png'); ?>" alt="brand-logo" class="ml-2"></a>
-  <h1 class="text-danger">eSRT-webPack<span class="h1-jmbtron text-warning">
-      <?php echo $titleVersion; ?></span></h1>
+  <h1 class="text-danger">eSRT-webPack<span id="small-version" class="h1-jmbtron text-warning ml-1"></span></h1>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,7 +39,6 @@
       <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="text-light">
             <?php echo ucfirst($this->session->userdata['username']); ?></span></a>
         <ul class="dropdown-menu">
-          <!-- <li class="dropdown-item"><a href="http://localhost/srtwp/user/preferences">-- Preferences</a></li> -->
           <li class="dropdown-item"><a href="http://localhost/srtwp/help/support">-- Contact Support</a></li>
           <li class="dropdown-divider"></li>
           <li class="dropdown-item"><a href="http://localhost/srtwp/login/logout" onclick="return confirm('Are you sure?')">--

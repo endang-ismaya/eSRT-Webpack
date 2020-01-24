@@ -28,16 +28,6 @@ class DatabaseFileLocator extends MY_Controller
   {
     parent::__construct();
     $this->load->model('DatabaseFileLocatorModel');
-    $this->load->model('HomeModel');
-    $this->setVersion();
-  }
-
-  private function setVersion()
-  {
-    $this->HomeModel->setAllVersion();
-    $this->data['iVersion'] = $this->HomeModel->getiVersion();
-    $this->data['serverVersion'] = $this->HomeModel->getServerVersion();
-    $this->data['titleVersion'] = $this->HomeModel->getTitleVersion();
   }
 
   public function index($limit = 5, $page = 1)

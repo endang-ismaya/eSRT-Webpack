@@ -19,6 +19,7 @@ class Toolv2 extends MY_Controller
     'stmt' => '',
     'home' => 'others',
     'video' => 'd-none',
+    'js_home' => true
   ];
 
   public $program = 'c:\xampp\htdocs\srtwp\bin\srtwpv2\Srtwp.exe';
@@ -29,15 +30,6 @@ class Toolv2 extends MY_Controller
     $this->load->model('ToolsModel');
     $this->load->model('ProgramRunModelv2');
     $this->load->model('HomeModel');
-    $this->setVersion();
-  }
-
-  private function setVersion()
-  {
-    $this->HomeModel->setAllVersion();
-    $this->data['iVersion'] = $this->HomeModel->getiVersion();
-    $this->data['serverVersion'] = $this->HomeModel->getServerVersion();
-    $this->data['titleVersion'] = $this->HomeModel->getTitleVersion();
   }
 
   public function index($toolMenu = '')
@@ -60,6 +52,10 @@ class Toolv2 extends MY_Controller
         $this->getFolderList();
         break;
 
+      case 'getallversions':
+        $this->getAllVersions();
+        break;
+
       case 'runscript':
         $this->runScript();
         break;
@@ -71,6 +67,37 @@ class Toolv2 extends MY_Controller
           redirect('error404');
         }
         break;
+    }
+  }
+
+  private function getAllVersions()
+  {
+    // ini_set('max_execution_time', 0);
+
+    try {
+
+      $this->HomeModel->setAllVersion();
+      $localVersion = $this->HomeModel->getLocalVersion();
+      $serverVersion = $this->HomeModel->getServerVersion();
+      $linkNewVersion = $this->HomeModel->getLinkNewVersion();
+
+      $output = array(
+        "local" => $localVersion,
+        "server" => $serverVersion,
+        "link" => $linkNewVersion
+      );
+
+      echo json_encode($output);
+    } catch (\Throwable $th) {
+      $this->HomeModel->setAllVersion();
+      $localVersion = $this->HomeModel->getLocalVersion();
+
+      $output = array(
+        "local" => $localVersion,
+        "server" => $localVersion,
+        "link" => "#"
+      );
+      echo json_encode($output);
     }
   }
 
@@ -147,16 +174,6 @@ class Toolv2 extends MY_Controller
         "message" => "Something went wrong!, Please try it again later!"
       );
       echo json_encode($output);
-    }
-  }
-
-  private function is_folder_exists()
-  {
-    if (file_exists($this->input->post('folderlist'))) {
-      return true;
-    } else {
-      $this->form_validation->set_message('is_folder_exists', 'Destination folder is not exist!');
-      return false;
     }
   }
 }

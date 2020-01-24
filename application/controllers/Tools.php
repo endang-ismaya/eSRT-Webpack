@@ -30,16 +30,6 @@ class Tools extends MY_Controller
     parent::__construct();
     $this->load->model('ToolsModel');
     $this->load->model('ProgramRunModel');
-    $this->load->model('HomeModel');
-    $this->setVersion();
-  }
-
-  private function setVersion()
-  {
-    $this->HomeModel->setAllVersion();
-    $this->data['iVersion'] = $this->HomeModel->getiVersion();
-    $this->data['serverVersion'] = $this->HomeModel->getServerVersion();
-    $this->data['titleVersion'] = $this->HomeModel->getTitleVersion();
   }
 
   public function index($toolsMenu = '')

@@ -19,14 +19,6 @@
 
 <body class="<?php echo $home; ?>">
   <?php $this->load->view('templates/nav_html.php'); ?>
-  <?php if ($iVersion == -1) { ?>
-    <div class="row mb-2 mt-0">
-      <div class="col-sm-12 text-center">
-        <span class="badge badge-pill badge-danger">There is a new version
-          <?php echo '(v' . $serverVersion . ')'; ?> available for download!</span>
-      </div>
-    </div>
-  <?php } ?>
   <div id="mainx">
     <input type="hidden" id="base-url" value="<?php echo base_url(); ?>">
     <?php $this->load->view($main_view); ?>
@@ -36,6 +28,10 @@
   <script src="<?php echo base_url('assets/js/popper.js'); ?>"></script>
   <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
   </script>
+  <?php if (isset($js_home)) { ?>
+    <script src="<?php echo base_url('assets/js/home.js'); ?>" />
+    </script>
+  <?php } ?>
   <?php if (isset($js_main)) { ?>
     <script src="<?php echo base_url('assets/js/main.js'); ?>" />
     </script>

@@ -18,25 +18,16 @@ class Home extends MY_Controller
     'breadcrumb'            => 'Home',
     'home'                  => 'home',
     'video'                 => '',
+    'js_home'               => true
   ];
 
   public function __construct()
   {
     parent::__construct();
-    $this->load->model('HomeModel');
-    $this->setVersion();
   }
 
   public function index()
   {
     $this->load->view('layout_html', $this->data);
-  }
-
-  private function setVersion()
-  {
-    $this->HomeModel->setAllVersion();
-    $this->data['iVersion'] = $this->HomeModel->getiVersion();
-    $this->data['serverVersion'] = $this->HomeModel->getServerVersion();
-    $this->data['titleVersion'] = $this->HomeModel->getTitleVersion();
   }
 }

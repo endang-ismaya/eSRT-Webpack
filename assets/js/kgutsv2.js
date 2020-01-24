@@ -21,7 +21,6 @@ class KgutsV2 extends FileFolderManagement {
 		this.bodyDisabled();
 
 		const content = await fetch(`${this.baseUrl}/filelocator`);
-		console.log(content.status);
 		if (content.status === 200) {
 			this.setEmptyFolderList();
 			this.onInitSetFolderList();
