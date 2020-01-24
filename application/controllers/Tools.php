@@ -21,6 +21,7 @@ class Tools extends MY_Controller
     'video' => 'd-none',
     'js_main' => true,
     'js_spinner' => true,
+    'js_home' => true
   ];
 
   public $program = 'C:\xampp\htdocs\srtwp\bin\eSRTWebPack\eSRTWebPack.exe';

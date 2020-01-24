@@ -1,5 +1,3 @@
-/* Layout.html.php */
-
 html,
 body {
 	max-width: 100%;
@@ -32,12 +30,10 @@ body.others {
 		url('http://localhost/srtwp/assets/images/distance-3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* background-position: center; */
 }
 
 .bodyProcess {
 	padding: 0px;
-	/* background: url('http://localhost/srtwp/assets/images/bg/4k-wallpaper-architecture-background-1308624.jpg') !important; */
 }
 
 .disabled-button {
@@ -77,8 +73,6 @@ div.row.home-carousel {
 .content {
 	position: relative;
 	bottom: 0;
-	/* background: rgba(0, 0, 0, 0.5); */
-	/* color: #f1f1f1; */
 	width: 100%;
 	padding: 5px;
 }
@@ -99,7 +93,6 @@ div.row.home-carousel {
 }
 
 /* Footer */
-
 .footer-btm {
 	margin-bottom: 60px;
 }
@@ -126,7 +119,6 @@ div.row.home-carousel {
 }
 
 /* db_filelocator */
-
 blockquote {
 	display: table;
 	margin-bottom: 1em;
@@ -146,7 +138,6 @@ blockquote form {
 }
 
 /* AlignMe */
-
 #alignMe-worksheet {
 	margin-top: 20px;
 	margin-left: 50px;
@@ -183,7 +174,6 @@ blockquote form {
 }
 
 /* Output */
-
 .output-result {
 	margin-top: 20px;
 	margin-left: 50px;
@@ -221,7 +211,6 @@ td.td-alignme {
 }
 
 /* Column widths are based on these cells */
-
 /* Worksheet */
 .row-1 {
 	width: 23%;
@@ -276,7 +265,6 @@ td.td-alignme {
 }
 
 /* Zebra Stripe Rows */
-
 tr.tr-alignme:nth-child(even) td {
 	background: #eee;
 }
@@ -286,7 +274,6 @@ tr.tr-alignme:nth-child(odd) td {
 }
 
 /* First-child blank cells! */
-
 tr.tr-alignme td:first-child,
 tr.tr-alignme th:first-child {
 	background: none;
@@ -299,7 +286,6 @@ tr.tr-alignme th:first-child {
 }
 
 /* Add border-radius to specific cells! */
-
 tr.tr-alignme:first-child th.th-alignme:nth-child(2) {
 	border-radius: 5px 0 0 0;
 }
@@ -316,17 +302,9 @@ tr.tr-alignme:first-child th.th-alignme:last-child {
 }
 
 /* Highlighted */
-
 .highlighted {
 	font-weight: bold;
 	font-style: italic;
-}
-
-/* Tutorial */
-.tutorial-nav {
-	display: block;
-	/* border: 1px solid black !important; */
-	background-color: whitesmoke;
 }
 
 /* PreSRT GetCellData-Table */
@@ -335,43 +313,36 @@ tr.tr-alignme:first-child th.th-alignme:last-child {
 }
 
 /* ALignType */
-
 .rowCellData-2 {
 	width: 17%;
 }
 
 /* Node */
-
 .rowCellData-3 {
 	width: 10%;
 }
 
 /* swVersion */
-
 .rowCellData-4 {
 	width: 17%;
 }
 
 /* FileNum */
-
 .rowCellData-5 {
 	width: 7%;
 }
 
 /* Pre CV */
-
 .rowCellData-6 {
 	width: 7%;
 }
 
 /* Post CV */
-
 .rowCellData-7 {
 	width: 7%;
 }
 
 /* Close Button */
-
 .rowCellData-8 {
 	width: 25%;
 }
@@ -379,8 +350,6 @@ tr.tr-alignme:first-child th.th-alignme:last-child {
 .btn-presrt {
 	margin: 10px;
 	padding: 10px;
-	/* background-color:burlywood; */
-	/* font-size: 20px !important; */
 }
 
 .h-title {

@@ -1,5 +1,4 @@
 <?php ?>
-<!-- The video -->
 <div class="row home content mb-0">
   <div class="col"></div>
   <div class="col-4 princing-item red">
