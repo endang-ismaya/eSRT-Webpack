@@ -13,13 +13,13 @@
       <li class="nav-item dropdown <?php echo $tools_menu; ?>">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Tools </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="<?php echo base_url('/toolv2/kguts'); ?>">Kguts </a>
+          <a class="dropdown-item" href="<?php echo base_url('/toolv2/kguts'); ?>">Kguts <span class="badge badge-warning ml-1">Updated</span></a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/alignme'); ?>">AlignMe</a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/kcompare'); ?>">KCompare</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?php echo base_url('/tools/umtslogs'); ?>">UMTS Logs Reporting</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="<?php echo base_url('/tools/att_ixpresrt'); ?>">AT&T - IX Pre-SRT <span class="badge badge-warning ml-1">Updated</span></a></a>
+          <a class="dropdown-item" href="<?php echo base_url('/tools/att_ixpresrt'); ?>">AT&T - IX Pre-SRT </a></a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/att_sc'); ?>">AT&T - IX SystemContants</a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/att_kpicharts'); ?>" target="_blank">AT&T - KPI Charts</a>
           <a class="dropdown-item" href="<?php echo base_url('/tools/att_ixposthc'); ?>">AT&T - IX HealthCheck</a>

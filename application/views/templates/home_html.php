@@ -2,7 +2,7 @@
 <div class="row home content mb-0">
   <div class="col"></div>
   <div class="col-4 princing-item red">
-    <div class="pricing-divider ">
+    <div class="pricing-divider">
       <h3 class="text-light text-center">What's New</h3>
       <h4 class="my-0 display-2 text-light font-weight-normal mb-3 text-center"><span class="h3">~</span> <span id="home-version">vx.x.x</span> <span class="h5">~</span></h4>
       <svg class='pricing-divider-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1' preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
@@ -16,15 +16,17 @@
 	c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z' fill='#FFFFFF'></path>
       </svg>
     </div>
-    <div class="card-body mt-0 shadow text-white" style="height: 500px">
+    <div class="card-body mt-0 shadow text-white">
       <ul id="ul-card" class="list-unstyled mb-5 position-relative">
-        <li><b>Update: </b> AT&T IX Pre-IX</li>
+        <li><b>Update: </b>Kguts</li>
         <ul>
-          <li><b>Added</b> RATFreqPrio: Non B30 & Non B14</li>
-          <li><b>Added</b> RATFreqPrio: B30 & Non B14</li>
-          <li><b>Added</b> RATFreqPrio: NSB & B14</li>
-          <li><b>Added</b> RATFreqPrio: Create Existing RATFreqPrio</li>
-          <li><b>Correction</b> Get Cell Data while selection modump folder</li>
+          <li><b>update</b> New backend</li>
+          <li><b>update</b> Pre-check for kget and grep files</li>
+          <li><b>update</b> New process notification</li>
+        </ul>
+        <li><b>New: </b> Release notification </li>
+        <ul>
+          <li><b>New</b> Alert of new release at the top of the page</li>
         </ul>
       </ul>
     </div>
