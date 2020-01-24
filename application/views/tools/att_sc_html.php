@@ -6,7 +6,7 @@
         <ul></ul>
       </div>
       <div class="card mb-2 bg-gradient">
-        <div class="card-header">MODUMP FOLDER <i class="fas fa-folder-open float-right fa-2x"></i></div>
+        <div class="card-header py-2"><span class="font-weight-bold text-primary">MODUMP FOLDER </span> <i class="fas fa-folder-open float-right fa-2x"></i></div>
         <div class="card-body">
           <?php
           if (isset($error)) {
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="card bg-gradient">
-        <div class="card-header">REPORT <i class="fas fa-file-signature float-right fa-2x"></i></div>
+        <div class="card-header"><span class="font-weight-bold text-primary">REPORT </span> <i class="fas fa-file-signature float-right fa-2x text-info"></i></div>
         <div class="card-body">
           <div id="sc-output"></div>
         </div>
@@ -31,22 +31,22 @@
     </div>
     <div class="col-md-3">
       <div class="card mr-3 bg-gradient">
-        <div class="card-header">ACTION <i class="fas fa-location-arrow"></i></div>
+        <div class="card-header"><span class="font-weight-bold text-primary">ACTION </span> <i class="fas fa-location-arrow"></i></div>
         <div class="card-body">
           <div class="font-weight-bold bg-gradient p-2 mr-3">
-            <label for="fga-selection">FGA Selection:</label><br>
+            <label for="fga-selection"><span class="font-weight-bold text-primary">FGA SELECTION: </span></label><br>
             <input type="checkbox" value="FGA187" style="width: 25px; height: 25px;" class="sc-fga"><span style="font-size: 35px;" class="ml-3">FGA187</span><br>
             <input type="checkbox" value="SC3877" style="width: 25px; height: 25px;" class="sc-fga"><span style="font-size: 35px;" class="ml-3">SC3877</span><br>
           </div>
           <hr>
           <div class="font-weight-bold p-2 mr-3">
-            <label for="fga-selection">Options:</label><br>
+            <label for="fga-selection"><span class="font-weight-bold text-primary">SCRIPT OPTIONS: </span></label><br>
             <input type="checkbox" value="DEFAULT" style="width: 24px; height: 24px;" class="sc-default-set"><span style="font-size: 20px;" class="ml-3 align-text-bottom">Print Default Set</span><br>
             <input type="checkbox" value="RESET-ALL" style="width: 24px; height: 24px;" class="sc-reset-all"><span style="font-size: 20px;" class="ml-3 align-text-bottom">Reset all to default</span><br>
           </div>
           <hr>
           <div class="font-weight-bold bg-gradient p-3 mr-3">
-            <label for="sc-configuration">SC Configuration:</label>
+            <label for="sc-configuration"><span class="font-weight-bold text-primary">SC CONFIGURATION: </span></label>
             <select class="form-control form-control-lg" id="sc-config-name" style="font-size: 12px;">
               <option value="NSB_BBU_MACRO_L19Q3">NSB_BBU_MACRO_L19Q3</option>
               <option value="NSB_BBU_CRAN_L19Q3">NSB_BBU_CRAN_L19Q3</option>
