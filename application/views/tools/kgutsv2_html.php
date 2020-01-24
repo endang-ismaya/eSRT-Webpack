@@ -2,13 +2,13 @@
   <div class="row">
     <div id="box1" class="col-sm-9">
       <div class="card mb-2" id="card-1">
-        <div class="card-header bg-success"> MODUMP FOLDER <i class="fas fa-folder-open float-right fa-2x"></i></div>
+        <div class="card-header bg-success py-2">MODUMP FOLDER <i class="fas fa-folder-open float-right fa-2x"></i></div>
         <div class="card-body bg-light">
           <select id="kgutsv2-modump-folder" class="custom-select"></select>
         </div>
       </div>
       <div class="card">
-        <div class="card-header bg-dark">REPORT <i class="fas fa-file-signature float-right fa-2x"></i></div>
+        <div class="card-header bg-dark py-2">REPORT <i class="fas fa-file-signature float-right fa-2x"></i></div>
         <div class="card-body bg-gradient" id="kguts-cardbody-report"></div>
       </div>
     </div>
