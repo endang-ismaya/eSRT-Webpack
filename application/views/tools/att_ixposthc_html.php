@@ -1,9 +1,10 @@
 <div class="container-fluid">
   <div class="row">
-    <div id="box1" class="col-sm-10">
+    <div class="col-md-1"></div>
+    <div id="box1" class="col-md-8">
       <div class="alert alert-warning" role="alert"> Invalid Input!, Please check if Directory exist. </div>
-      <div class="card mb-2">
-        <div class="card-header">Modump's folder</div>
+      <div class="card bg-gradient mb-2">
+        <div class="card-header py-2"><span class="font-weight-bold text-primary">MODUMP FOLDER </span> <i class="fas fa-folder-open float-right fa-2x"></i></div>
         <div class="card-body">
           <?php
           if (isset($error)) {
@@ -19,16 +20,16 @@
           <?php } ?>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header">HealtCheck Report</div>
-        <div id="body-report">
-          <pre id="output-result" class="output-result"></pre>
+      <div class="card bg-gradient">
+        <div class="card-header"><span class="font-weight-bold text-primary">REPORT </span> <i class="fas fa-file-signature float-right fa-2x text-info"></i></div>
+        <div id="body-report" class="p-0">
+          <pre id="output-result" class="output-result my-1 mx-2"></pre>
         </div>
       </div>
     </div>
     <div class="col-sm-2">
       <div class="card">
-        <div class="card-header">Menu</div>
+        <div class="card-header"><span class="font-weight-bold text-primary">ACTION </span> <i class="fas fa-location-arrow"></i></div>
         <div class="card-body">
           <button id="posthc-run" type="button" class="btn btn-lg btn-block"> Create HealthCheck.log </button>
           <button id="posthc-read" type="button" class="btn btn-lg btn-block btn-primary"> Read Health Check </button>
@@ -132,6 +133,7 @@
         </div>
       </div>
     </div>
+    <div class="col-md-1"></div>
   </div>
 </div>
 <div id="main-show">
