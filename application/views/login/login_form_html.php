@@ -21,7 +21,7 @@
     echo form_open('login', $attributes);
     ?>
     <img class="mb-4" src="<?php echo base_url('assets/images/high-res.ico'); ?>" alt="ris-logo" width="72" height="72">
-    <h1 class="h3 mb-3 font-weight-normal text-danger">~ eSRT-webPack ~</h1>
+    <h1 class="h3 mb-3 font-weight-bold text-white">~ eSRT-webPack ~</h1>
     <!-- pesan start -->
     <?php if (!empty($pesan)) : ?>
       <p class="text-danger"><?php echo $pesan; ?></p>
@@ -38,9 +38,9 @@
       <input type="password" name="password" id="password" size="20" class="form-control" placeholder="Password" value="<?php echo set_value('password'); ?>" required>
       <?php echo form_error('password', '<p class="field_error">', '</p>'); ?>
     </div>
-    <input class="btn btn-lg btn-outline-secondary btn-block text-white" type="submit" id="submit" value="Login">
+    <input class="btn btn-lg btn-dark btn-block text-white" type="submit" id="submit" value="Login">
     <?php echo form_close(); ?>
-    <p class="mt-5 mb-3 text-muted">&copy; 2018-2020</p>
+    <p class="mt-5 mb-3 text-muted small">&copy; com.endang-ismaya 2018-2020</p>
   </div>
 </body>
 
