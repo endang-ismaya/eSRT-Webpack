@@ -18,15 +18,9 @@
     </div>
     <div class="card-body mt-0 shadow text-white">
       <ul id="ul-card" class="list-unstyled mb-5 position-relative">
-        <li><b>Update: </b>Kguts</li>
+        <li><b>Update:</b> AlignMe</li>
         <ul>
-          <li><b>update</b> New backend</li>
-          <li><b>update</b> Pre-check for kget and grep files</li>
-          <li><b>update</b> New process notification</li>
-        </ul>
-        <li><b>New: </b> Release notification </li>
-        <ul>
-          <li><b>New</b> Alert of new release at the top of the page</li>
+          <li>Added L19Q4</li>
         </ul>
       </ul>
     </div>

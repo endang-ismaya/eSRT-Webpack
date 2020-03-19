@@ -503,13 +503,15 @@ function swSelection(sheet) {
 	let opt8 = '<option>W18</option>';
 	let opt9 = '<option>W15</option>';
 	let opt10 = '<option>W14</option>';
+	let opt11 = '<option>L19Q4</option>';
 
 	if (sheet.startsWith('UMTS')) {
 		opt7 = '<option selected>W18</option>';
 	} else {
-		opt1 = '<option selected>L19Q3</option>';
+		opt11 = '<option selected>L19Q4</option>';
 	}
 	return `
+        ${opt11}
         ${opt1}
         ${opt2}
         ${opt3}

@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<takeeffects>
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="plmnList" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="sctpS1Ref" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="upS1IpAddressRef" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="AdditionalCoreNetwork" Attribute="upX2IpAddressRef" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="admNrRbDifferentiationThr" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="admNrRrcDifferentiationThr" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="admResourceMinQciPrio" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="arpBasedPreEmptionState" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlAdmDifferentiationThr" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlAdmOverloadThr" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlMbmsGbrRatio" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlNonPaGbrTn" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="dlTransNwBandwidth" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="limitSrNonPa" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="nrOfPaConnHpaReservPerCell" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="nrOfPaConnReservationsPerCell" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="nrOfPrevPreempPaRbReservation" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="nrOfRbReservationsPerPaConn" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="resourceReservationForDifferentiation" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="resourceReservationForPAState" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="srBbmPaUsersPreallocation" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="ulAdmDifferentiationThr" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="ulAdmOverloadThr" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="ulNonPaGbrTn" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="ulTransNwBandwidth" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp1" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp10" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp11" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp12" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp13" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp14" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp15" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp16" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp17" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp18" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp19" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp2" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp3" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp4" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp5" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp6" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp7" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp8" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AdmissionControl" Attribute="zzzTemp9" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="ailgChangePeriod" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="ailgHighPrio" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="ailgLoadType" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="ailgLowPrioModType" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="dlPrbLoadLevel" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="minLoadLevelPdcch" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="noOfOcngPrbSeries" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="ocngPrbSerie" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AirIfLoadProfile" Attribute="trafficModelPrb" Effect="Feature start" />
+	<definition NodeType="BBU" MOClass="AnrFunction" Attribute="plmnWhiteListEnabled" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="AnrFunction" Attribute="plmnWhiteListGeranEnabled" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="AnrFunction" Attribute="plmnWhiteListUtranEnabled" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="AnrFunction" Attribute="probCellDetectLowHoSuccThres" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="AnrFunction" Attribute="probCellDetectLowHoSuccTime" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="AnrFunction" Attribute="probCellDetectMedHoSuccThres" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="AnrFunction" Attribute="probCellDetectMedHoSuccTime" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="AnrFunction" Attribute="problematicCellPolicy" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="AnrFunctionEUtran" Attribute="anrUesThreshInterFDecr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="AnrFunctionEUtran" Attribute="anrUesThreshInterFIncrAnr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="AnrFunctionEUtran" Attribute="anrUesThreshInterFIncrHo" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="AnrFunctionEUtran" Attribute="anrUesThreshInterFMax" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="AnrFunctionEUtran" Attribute="anrUesThreshInterFMin" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="AnrFunctionUtran" Attribute="cellAddEcNoThresholdUtranDelta" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="AnrFunctionUtran" Attribute="cellAddRscpThresholdUtranDelta" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictDrxInactivityTimer" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictLongDrxCycle" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="AnrPciConflictDrxProfile" Attribute="anrPciConflictOnDurationTimer" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="BandCombCompression" Attribute="requestMaxCCsDL" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandCombCompression" Attribute="requestMaxCCsUL" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandCombCompression" Attribute="requestReducedFormat" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandCombCompression" Attribute="requestReducedIntNonContComb" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandCombCompression" Attribute="requestSkipFallbackComb" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandCombCompression" Attribute="requestedBandCombCompression" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandCombCompression" Attribute="requestedFreqBandsFiltered" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandIndication" Attribute="bandEUtra" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandIndication" Attribute="caBandwidthClassDl" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="BandIndication" Attribute="caBandwidthClassUl" Effect="At next UE Capability Enquiry including at new connection." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="caPreemptionThreshold" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="caPreference" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="caRateAdjustCoeff" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="caUsageLimit" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="dcSCellActDeactDataThres" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="dcSCellActDeactDataThresHyst" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="dcSCellDeactDelayTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="dynamicSCellSelectionMethod" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="effectiveBwImpactDl2Layer" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="effectiveBwImpactDl4Layer" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="enhancedSelectionOfMimoAndCa" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="fourLayerMimoPreferred" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="pdcchEnhancedLaForVolte" Effect="At the next initial SCell selection during the ongoing connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactDataThres" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactDataThresHyst" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactUlDataThresh" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActDeactUlDataThreshHyst" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActProhibitTimer" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellDeactProhibitTimer" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellEvaluationLevel" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellScheduleSinrThres" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellSelectionMode" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="selectionPolicyUlWeighting" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="useAbsolutePrioForCspEffBw" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="waitForAdditionalSCellOpportunity" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="waitForBetterSCellRep" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="waitForBlindSelSCellRepLessTtt" Effect="New connection. Also during ongoing connection, related to next SCell configuration during the connection." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="waitForCaOpportunity" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="dlOnlySCellPriorityEnabled" Effect="At the next initial SCell selection during the ongoing connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="fddTddSCellPriority" Effect="At the next initial SCell selection during the ongoing connection" />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="requestedBandCombCompresssion" Effect="Takes effect at next UE capability refresh." />
+	<definition NodeType="BBU" MOClass="CarrierAggregationFunction" Attribute="sCellActProhibitTimerPoorCov" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttBandRelation" Attribute="cdma2000FreqBandRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttCellRelation" Attribute="externalCdma20001xRttCellRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttFreqRelation" Attribute="b2Thr1RsrpCdma20001xFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttFreqRelation" Attribute="b2Thr1RsrqCdma20001xFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttFreqRelation" Attribute="b2Thr2Cdma20001xFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttFreqRelation" Attribute="cdma2000FreqRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttFreqRelation" Attribute="csFallbackPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttFreqRelation" Attribute="csFallbackPrioEC" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttFreqRelation" Attribute="qOffsetFreq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma20001xRttFreqRelation" Attribute="voicePrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma2000FreqRelation" Attribute="b2Cdma2000OffsetPerPC" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="Cdma2000FreqRelation" Attribute="b2Thr1RsrpCdma2000FreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="Cdma2000FreqRelation" Attribute="b2Thr1RsrqCdma2000FreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="Cdma2000FreqRelation" Attribute="b2Thr2Cdma2000FreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="Cdma2000FreqRelation" Attribute="connectedModeMobilityPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma2000FreqRelation" Attribute="qOffsetFreq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Cdma2000FreqRelation" Attribute="qciB2ThrOffsets" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="dlMaxRetxThreshold" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="tPollRetransmitDl" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="tPollRetransmitUl" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="ulMaxRetxThreshold" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="dlPollPDU" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="headerCompression" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="pelr" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="tStatusProhibitDl" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="tStatusProhibitUl" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="DataRadioBearer" Attribute="ulPollPDU" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="DlComp" Attribute="dlCompMeasRprtMaxSinr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DlComp" Attribute="dlCompMeasRprtMinSinr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="drxInactivityTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="drxRetransmissionTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="drxState" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="longDrxCycle" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="longDrxCycleOnly" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="onDurationTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="shortDrxCycle" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="DrxProfile" Attribute="shortDrxCycleTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="alignTtiBundWUlTrigSinr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="caUnknownImeisvEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="combCellSectorSelectThreshRx" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="combCellSectorSelectThreshTx" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="dscpLabel" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eNBId" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eNodeBPlmnId" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="endcDataUsageReportEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="endcPowerOffsetLte" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="endcSplitAllowedMoVoice" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="endcSplitAllowedNonDynPwrShUe" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eranUlCompReSelectLinkTime" Effect="Next tunnel setup" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eranUlCompVlanPortRef" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="eranVlanPortRef" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="initPreschedulingEnable" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="interEnbCaTunnelDscp" Effect="Next tunnel setup" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="interEnbUlCompTunnelDscp" Effect="Next tunnel setup" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="intraRanIpAddressRef" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="maxNrOfEnbPartnersEranUlComp" Effect="Next tunnel setup" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="maxNrOfInterEnbUlCompLbm" Effect="Next tunnel setup" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="measuringEcgiWithAgActive" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="mtRreWithoutNeighborActive" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="nbRrcConnReestActive" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="nnsfMode" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="pdbMeasurementDelta" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="rpUpIpAddressRef" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sctpEndcX2Ref" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sctpRef" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sctpX2Ref" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="srsPeriodicityTdd" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="tMoVoiceBearerEstSupervision" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="tOutgoingHoExecCdma1xRtt" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="tRelocOverall" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="tS1HoCancelTimer" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="tWaitForConnEstInd" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="tddVoipDrxProfileId" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="ulHeavyUeBsrHyst" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="ulHeavyUeBsrThresh" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="ulHeavyUeDetectTime" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="ulPhyProcResTradingEnabled" Effect="After all cells in the eNodeB have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="upEndcX2IpAddressRef" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="upIpAddress2Ref" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="upIpAddressRef" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="upX2IpAddress2Ref" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="upX2IpAddressRef" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="x2SetupTwoWayRelations" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="estimateBasedPdcchCandSelection" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="minPagingRefillUnits" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sinrThrHomToLegPCell" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sinrThrHomToLegSCell" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sinrThrLegToHomPCell" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sinrThrLegToHomSCell" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ENodeBFunction" Attribute="sizeThreshDciFormat1A" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="adaptiveCfiHoProhibit" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ailgAutoRestartEnabled" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="arpPriorityLevelForSPIFHo" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="beamWeightSet16Tr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="beamWeightSet16TrTm9" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="caPrioThreshold" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="catm1SupportEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="catmMbmsDlSubframes" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cellRange" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cfraEnable" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="channelSelectionSetSize" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="clusteredPuschMprFactor" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="commonSrPeriodicity" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="covTriggerdBlindHoAllowedBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="crsGain" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRsConfigType" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRsConfigType8TxFDD" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dl256QamEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlBlerTargetEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlCchAndRefSigBlockActive" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlCchAndRefSigBoost" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlChannelBandwidth" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlConfigurableFrequencyStart" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlFrequencyAllocationProportion" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlInterferenceManagementActive" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlInterferenceManagementDuration" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlInternalChannelBandwidth" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlPowerRampUpInitRatio" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlPowerRampUpRate" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="drxActive" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dummyCdmaBandClass" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dynLoadCtrlMinNewConn" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dynUeAdmCtrlEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dynUlResourceAllocEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="eDrxAllowed" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="eDrxUeType" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="earfcndl" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="earfcnul" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcEnabled" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcLongDrxCycle" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="enableDrxAwareRlcArq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="enableServiceSpecificHARQ" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="enableUeAssistedAdaptiveDrx" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="enableUeAssistedSigReduction" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="endcAllowedPlmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="estimatedE2ERTT" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="expectedMaxNoOfUsersInCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="extGUtranCellRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="filterUeDlThpTimeThr" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="filterUeDlThpVolThr" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="frameStartOffset" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="harqOffsetDl" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="harqOffsetUl" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="highBasebandPriority" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="highSpeedUEActive" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="highestSupportedCeLevelBr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="initialBufferSizeDefault" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="initialBufferSizeMsg5Default" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="isDlOnly" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="lastSchedLinkAdaptEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="latencyLongThreshold" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="loadBasedCaEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="loadBasedCaMsrThr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="mappingInfo" Effect="When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="mappingInfoCe" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="maxNoClusteredPuschAlloc" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="maxSentCrsAssistCells" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="maxValidSubframeDlBr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="mbsfnSubframesForTm9" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="measBasedElcControl" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="measGapShareSchemeCeABr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="mfbiFreqBandIndPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="moVoiceDynUeAdmCtrlPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="mobCtrlAtPoorCovActive" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="modificationPeriodCoeff" Effect="When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="msg3FrequencyAllocationBr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="nRResCoordPattern" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="networkSignallingValue" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="networkSignallingValueCa" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="noConsecutiveSubframes" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="noOfChannelSelectionSets" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="noOfPucchFormat1PrbPairsPerFrameConf" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="noOfPucchFormat2PrbPairsPerFrameConf" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="noOfPucchFormat3PrbPairs" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="nrOfTransmissionsSib1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="otdoaCheckEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="otdoaSuplActive" Effect="Object unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="outOfCoverageDepth" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="outOfCoverageSparseGrantingBsr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="outOfCoverageSrTimerPeriodicity" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="outOfCoverageThreshold" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCfiMode" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveDtx" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveQci1" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveSrb" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchLaGinrMargin" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdj" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdjPCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopInitialAdjVolte" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStep" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStepPCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopUpStepVolte" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchPowerBoostMax" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchTargetBler" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchTargetBlerPCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchTargetBlerVolte" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdschMaxNrOfPrbsPerUe" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdschTypeBGain" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prachFrequencyAllocation" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="preambleInitialReceivedTargetPower" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsConfigIndex" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsMutingPatternLen" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsPeriod" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsPowerBoosting" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="prsTransmisScheme" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pucchOverdimensioning" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="puschFrequencyAllocationBr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="puschMaxNrOfPrbsPerUe" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="puschNcpChannelEstWindowSize" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="qciTableRef" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="rachNoOfAllocationsPerFrame" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="rachPreambleRepetition" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="rateShapingActive" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="resourcePartitionGroupRef" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="sCellHandlingAtVolteCall" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="schedulingInfoSib1BrMod" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="sdmActive" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="sectorCarrierRef" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="servOrPrioRedirectEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="servOrPrioTriggeredErabAction" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="servOrPrioTriggeredIFHo" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="siPeriodicity" Effect="When EUtranCellFDD/TDD object is unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="siPeriodicityBr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="siValidityTimeBr" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="siWindowLength" Effect="When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="spifhoSetupBearerAtInitialCtxtSetup" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="srDetectHighThres" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="srProcessingLevel" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="srvccDelayTimer" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="systemInformationBlock6" Effect="Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="systemInformationBlock7" Effect="Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="systemInformationBlock8" Effect="Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tReorderingAutoConfiguration" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tTimeAlignmentTimer" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tTimeAlignmentTimerBr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tUeBlockingTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tm9Tm4ModeSwitchingEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tm9Tm4ModeSwitchingThresh" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="transmissionMode" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ttiBundlingAtSetup" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ttiBundlingSwitchThres" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ttiBundlingSwitchThresHyst" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ul256qamEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ul64qamEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulCellCapCoeff" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulChannelBandwidth" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulConfigurableFrequencyStart" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulFrequencyAllocationProportion" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulHarqVolteBlerTarget" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulHeavyUeDetectEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulInterferenceManagementActive" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulInterferenceManagementDuration" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulInternalChannelBandwidth" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulSCellPriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulSchedCtrlForOocUesEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulSrsEnable" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="assumedUePowerMsg3" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cellSimulated" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="cqiCapacityDynPucch" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRs8TxCfgManual" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRsCfgManual" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="csiRsEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlCchAndRefSigBlocked" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlCyclicPrefix" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="dlHarqVoLTEBlerTarget" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcActivityThreshold" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcConfigurationThreshold" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="elcPrototypeBitfield" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="feicicConfiguration" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="feicicManHighlyInterferedSubFramePatter" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="feicicManProtectedSubFramePattern" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="feicicProtectedSubFramePattern" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchCovImproveCap" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopAdjLowerLimit" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchOuterLoopAdjUpperLimit" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThreshold" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThresholdPCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchSinrChangeThresholdVolte" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pdcchSinrOffsetWithMimo" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pftNetworkSoftwareVersion" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="pftTatPairSelection" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="radioBearerTableRef" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="radioRecIntPwrOffset" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="srRetransPeriodTarget" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="srbTableRef" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tm4Tm9ModeSwitchingHyst" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="tm9Tm4ModeSwitchingHyst" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="ulCyclicPrefix" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellFDD" Attribute="useESST" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellRelation" Attribute="cellIndividualOffsetEUtran" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="EUtranCellRelation" Attribute="cellIndividualOffsetEUtranQci1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellRelation" Attribute="coverageIndicatorBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellRelation" Attribute="crsAssistanceInfoPriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellRelation" Attribute="eranUlCompCoopCellAllowed" Effect="Next tunnel setup" />
+	<definition NodeType="BBU" MOClass="EUtranCellRelation" Attribute="ieNBUlCompCoopCellAllowed" Effect="Next tunnel setup" />
+	<definition NodeType="BBU" MOClass="EUtranCellRelation" Attribute="sCellCandidate" Effect="Changed value will take effect in relation to the next SCell configuration during the ongoing connection. When going from state NOT_ALLOWED to ALLOWED the SCell will not be available at re-selection for ongoing connections." />
+	<definition NodeType="BBU" MOClass="EUtranCellRelation" Attribute="sCellPriority" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="EUtranCellRelationUnlicensed" Attribute="earfcn" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellRelationUnlicensed" Attribute="sCellPriority" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="adaptiveCfiHoProhibit" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ailgAutoRestartEnabled" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="arpPriorityLevelForSPIFHo" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="caPrioThreshold" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="catmMbmsDlSubframes" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cbrsCell" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cellRange" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cfraEnable" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="channelBandwidth" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="clusteredPuschMprFactor" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="commonSrPeriodicity" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="covTriggerdBlindHoAllowedBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="crsGain" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="csiRsConfigType8TxTDD" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dl256QamEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlBlerTargetEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlCchAndRefSigBlockActive" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlCchAndRefSigBoost" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlConfigurableFrequencyStart" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlFrequencyAllocationProportion" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlInterferenceManagementActive" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlInterferenceManagementDuration" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlMaxMuMimoLayers" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlPowerRampUpInitRatio" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlPowerRampUpRate" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="drxActive" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dummyCdmaBandClass" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dynLoadCtrlMinNewConn" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dynUeAdmCtrlEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dynUlResourceAllocEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="eDrxAllowed" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="earfcn" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcEnabled" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcLongDrxCycle" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="enableDrxAwareRlcArq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="enableServiceSpecificHARQ" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="enableUeAssistedAdaptiveDrx" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="enableUeAssistedSigReduction" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="endcAllowedPlmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="estimatedE2ERTT" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="expectedMaxNoOfUsersInCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="extGUtranCellRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="filterUeDlThpTimeThr" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="filterUeDlThpVolThr" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="frameStartOffset" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="harqOffsetDl" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="harqOffsetUl" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="highBasebandPriority" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="highSpeedUEActive" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="initialBufferSizeDefault" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="initialBufferSizeMsg5Default" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="isDlOnly" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="isLaa" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="lastSchedLinkAdaptEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="latencyLongThreshold" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="loadBasedCaEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="loadBasedCaMsrThr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="mappingInfo" Effect="When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="mappingInfoCe" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="maxNoClusteredPuschAlloc" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="measBasedElcControl" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="measGapShareSchemeCeABr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="mfbiFreqBandIndPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="moVoiceDynUeAdmCtrlPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="mobCtrlAtPoorCovActive" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="modificationPeriodCoeff" Effect="When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="nRResCoordPattern" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="networkSignallingValue" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="networkSignallingValueCa" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="noConsecutiveSubframes" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="noOfChannelSelectionSets" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="noOfPucchFormat1PrbPairsPerFrameConf" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="noOfPucchFormat2PrbPairsPerFrameConf" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="noOfPucchFormat3PrbPairs" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="nonCaAnModeF3Enable" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="nonCaAnModeMuxEnable" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="nonCaF3ResCollisionThresh" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="nonCaHarqAnModeMuxThresh" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="otdoaCheckEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="otdoaSuplActive" Effect="Object unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="outOfCoverageDepth" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="outOfCoverageSparseGrantingBsr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="outOfCoverageSrTimerPeriodicity" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="outOfCoverageThreshold" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCfiMode" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveDtx" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveQci1" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveSrb" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchLaGinrMargin" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdj" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdjPCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopInitialAdjVolte" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStep" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStepPCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopUpStepVolte" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchPowerBoostMax" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchTargetBler" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchTargetBlerPCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchTargetBlerVolte" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdschMaxNrOfPrbsPerUe" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdschTypeBGain" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prachFrequencyAllocation" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="preambleInitialReceivedTargetPower" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsConfigIndex" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsMutingPatternLen" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsPeriod" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsPowerBoosting" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="prsTransmisScheme" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pucchOverdimensioning" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="puschMaxNrOfPrbsPerUe" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="puschNcpChannelEstWindowSize" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="qciTableRef" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="rachNoOfAllocationsPerFrame" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="rachPreambleRepetition" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="rateShapingActive" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="resourcePartitionGroupRef" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="sCellHandlingAtVolteCall" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="sdmActive" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="sectorCarrierRef" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="servOrPrioRedirectEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="servOrPrioTriggeredErabAction" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="servOrPrioTriggeredIFHo" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="siPeriodicity" Effect="When EUtranCellFDD/TDD object is unlocked." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="siValidityTimeBr" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="siWindowLength" Effect="When EUtranCellFDD/TDD object is unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="specialSubframePattern" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="spifhoSetupBearerAtInitialCtxtSetup" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="srDetectHighThres" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="srProcessingLevel" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="srvccDelayTimer" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="subframeAssignment" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="systemInformationBlock6" Effect="Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="systemInformationBlock7" Effect="Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="systemInformationBlock8" Effect="Object lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="tReorderingAutoConfiguration" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="tTimeAlignmentTimer" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="tTimeAlignmentTimerBr" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="tUeBlockingTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="transmissionMode" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ul256qamEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ul64qamEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulCellCapCoeff" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulConfigurableFrequencyStart" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulFrequencyAllocationProportion" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulHarqVolteBlerTarget" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulHeavyUeDetectEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulInterferenceManagementActive" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulInterferenceManagementDuration" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulMaxMuMimoLayers" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulSCellPriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulSchedCtrlForOocUesEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulSrsEnable" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="assumedUePowerMsg3" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cellSimulated" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="cqiCapacityDynPucch" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="csiRs8TxCfgManual" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="csiRsEnabled" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlCchAndRefSigBlocked" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlCyclicPrefix" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="dlHarqVoLTEBlerTarget" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcActivityThreshold" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcConfigurationThreshold" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="elcPrototypeBitfield" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchCovImproveCap" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopAdjLowerLimit" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchOuterLoopAdjUpperLimit" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThreshold" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThresholdPCell" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchSinrChangeThresholdVolte" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pdcchSinrOffsetWithMimo" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pftNetworkSoftwareVersion" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="pftTatPairSelection" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="radioBearerTableRef" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="radioRecIntPwrOffset" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="srRetransPeriodTarget" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="srbTableRef" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="ulCyclicPrefix" Effect="Object disabled/enabled." />
+	<definition NodeType="BBU" MOClass="EUtranCellTDD" Attribute="useESST" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="a5OffsetPerPC" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="a5Thr1RsrpFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="a5Thr1RsrqFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="a5Thr2RsrpFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="a5Thr2RsrqFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="allowedPlmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="anrMeasOn" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="arpPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="blackListEntry" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="caFreqPriority" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="caFreqProportion" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="caTriggeredRedirectionActive" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="cellSleepCovCellMeasOn" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="connectedModeMobilityPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="connectedModeMobilityPrioBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="endcHoFreqPriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="interFreqMeasType" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="interFreqMeasTypeUlSinr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="lbA5Thr1RsrpFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="mdtMeasOn" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="mobilityActionBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="nonPlannedPciCIO" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="voicePrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelation" Attribute="voicePrioBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelationUnlicensed" Attribute="caFreqPriority" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="EUtranFreqRelationUnlicensed" Attribute="caFreqProportion" Effect="New connection or next SCell configuration." />
+	<definition NodeType="BBU" MOClass="EndcProfile" Attribute="meNbS1TermReqArpLev" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EndcProfile" Attribute="splitNotAllowedUeArpLev" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="disableElcOnPtt" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="disableElcOnVolte" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="elcDrxOnDurationPostHeating" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="elcDrxOnDurationPreHeating" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="EricssonLeanCarrierFunction" Attribute="elcPdcchCrsMuting" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ExternalCdma20001xRttCell" Attribute="pnOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ExternalCdma20001xRttCell" Attribute="srvccCapability" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ExternalCdma2000Cell" Attribute="pnOffset" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="ExternalENodeBFunction" Attribute="eNodeBPlmnId" Effect="Create object." />
+	<definition NodeType="BBU" MOClass="ExternalENodeBFunction" Attribute="eranLinkMaxRttDelay" Effect="Change takes effect at ERAN link setup." />
+	<definition NodeType="BBU" MOClass="ExternalENodeBFunction" Attribute="eranUlCompVlanPortRef" Effect="Next MO unlock" />
+	<definition NodeType="BBU" MOClass="ExternalENodeBFunction" Attribute="eranVlanPortRef" Effect="Next MO unlock" />
+	<definition NodeType="BBU" MOClass="ExternalENodeBFunction" Attribute="interENodeBCAInteractionMode" Effect="Next MO unlock" />
+	<definition NodeType="BBU" MOClass="ExternalEUtranCellFDD" Attribute="noOfTxAntennas" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ExternalEUtranCellFDD" Attribute="tac" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="ExternalEUtranCellTDD" Attribute="tac" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ExternalGUtranCell" Attribute="absSubFrameOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ExternalGUtranCell" Attribute="absTimeOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ExternalUtranCellFDD" Attribute="cellIdentity" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="ExternalUtranCellFDD" Attribute="physicalCellIdentity" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ExternalUtranCellTDD" Attribute="cellIdentity" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="ExternalUtranCellTDD" Attribute="physicalCellIdentity" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="FlexibleQoSGroup" Attribute="qciProfileRef" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="FlexibleQoSGroupMember" Attribute="sciProfileRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="FlexibleQoSGroupMember" Attribute="userProfileRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="FreqPrioNR" Attribute="arfcnValueNRDl" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="FreqPrioNR" Attribute="cellReselectionPrio" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="FreqPrioNR" Attribute="connModeMobilityPrio" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="GUtranCellRelation" Attribute="essEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="GUtranFreqRelation" Attribute="allowedPlmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GUtranFreqRelation" Attribute="b1ThrRsrpFreqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GUtranFreqRelation" Attribute="b1ThrRsrqFreqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GUtranFreqRelation" Attribute="connectedModeMobilityPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GUtranFreqRelation" Attribute="endcB1MeasPriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GUtranFreqRelation" Attribute="qOffsetFreq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="allowedPlmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="altCsfbTargetPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="altCsfbTargetPrioEc" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="anrMeasOn" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="b2GeranOffsetPerPC" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="b2Thr1RsrpGeranFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="b2Thr1RsrqGeranFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="b2Thr2GeranFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="connectedModeMobilityPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="csFallbackPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="csFallbackPrioEC" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="mobilityAction" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="mobilityActionCsfb" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="qOffsetFreq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="qciB2ThrOffsets" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="GeranFreqGroupRelation" Attribute="voicePrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="HoWhiteList" Attribute="spidList" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="elc320msDrxEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="elcPostHeatingLength" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="elcPreHeatingLength" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="listOfFeaturesToTurnOff" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="listOfFeaturesToTurnOn" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="listOfTacSvSns" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="nonVoiceDrxProfileRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="voiceDrxProfileRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvProfile" Attribute="prototypeBitField" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvTable" Attribute="listOfFeaturesDefaultOff" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ImeisvTable" Attribute="listOfFeaturesDefaultOn" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoadBalancingFunction" Attribute="isUlEvalAllowedAtCaTrHo" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoadBalancingFunction" Attribute="isUlEvalAllowedAtTpLbHo" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoadBalancingFunction" Attribute="lbAllowedForEndcUe" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoadBalancingFunction" Attribute="lbCaCapHysteresis" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoadBalancingFunction" Attribute="lbCaHysteresis" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoadBalancingFunction" Attribute="lbCaThreshold" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoadBalancingFunction" Attribute="lbDiffCaOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoadBalancingFunction" Attribute="lbUeEvaluationTimer" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="areaScopeCgiList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="areaScopeTacList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="areaScopeType" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="loggedMdtConfigEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="loggedMdtGnssCheck" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="loggedMdtId" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="loggedMdtReportEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="loggingDuration" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="loggingInterval" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="mdtPlmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="numberOfMdtConfigUes" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="tceId" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="traceId" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="LoggedMdt" Attribute="traceRecSessionReference" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MACConfiguration" Attribute="dlMaxHARQTx" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="MACConfiguration" Attribute="ulMaxHARQTx" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="MACConfiguration" Attribute="ulTtiBundlingMaxHARQTx" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MACConfiguration" Attribute="dlMaxHARQMsg4Tx" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MACConfiguration" Attribute="dlPathlossChange" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="MACConfiguration" Attribute="tPeriodicBSRTimer" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="MACConfiguration" Attribute="tPeriodicPHRTimer" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="MACConfiguration" Attribute="tProhibitPHRTimer" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="Mbms" Attribute="m1IpInterfaceRef" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="Mbms" Attribute="synchPeriodLength" Effect="At node restart" />
+	<definition NodeType="BBU" MOClass="Mbms" Attribute="tMbmsAuditTimer" Effect="Node restart" />
+	<definition NodeType="BBU" MOClass="MbmsService" Attribute="logicalChannelIdentity" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MbmsService" Attribute="tmgiList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="administrativeState" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="commonSFAllocList" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="commonSFAllocPeriod" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="mbsfnAreaIdentity" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="mcchModificationPeriod" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="mcchRepetitionPeriod" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="nonMbsfnRegionLength" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="serviceAreaId" Effect="Next MO unlock" />
+	<definition NodeType="BBU" MOClass="MbsfnArea" Attribute="signallingMCS" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="a2ThresholdRsrpMdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="a2ThresholdRsrqMdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="hysteresisA2Mdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="immediateMdtGnssCheck" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="maxReportCellsA2Mdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="measGapAllowedMdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="positioningMethod" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="rcefReportEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="reportAmountMdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="reportIntervalMdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="reportQuantityA2Mdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="reportingTrigger" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="rlfReportEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="timeToTriggerA2Mdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MdtConfiguration" Attribute="triggerQuantityA2Mdt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MeasCellGroup" Attribute="plmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MeasCellGroup" Attribute="spidList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="MimoSleepFunction" Attribute="portMerging4TxOpMode" Effect="Next MIMO sleep" />
+	<definition NodeType="BBU" MOClass="MimoSleepFunction" Attribute="portMergingEnabled" Effect="Next MIMO sleep" />
+	<definition NodeType="BBU" MOClass="MimoSleepFunction" Attribute="portMergingOptionFor4TxTo2Tx" Effect="Next MIMO sleep" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="alpha" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="anchPowerBoostGainIndex" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="attachWithoutPDNConnectivityList" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="ceLevelNumber" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="cellBarred" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="cellRange" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="cmcIndex" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="dlAnchPrbIndex" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="dlNonAnchPrbIndex" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="dlNonAnchPrbNum" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="earfcndl" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="earfcnul" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="enableMfbi" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="eutranCellRef" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="frequencyInfo" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="intraFrequencyInfo" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="mappingInfo" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nbDlSinrAdjust" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="networkSignallingValue" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nprachAllocConfig" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nprachCapMode4RxEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npuschGroupHopConfig" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="pMax" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="pZeroNominalNPusch" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="physicalLayerCellId" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="plmnAlarmSupprList" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="plmnReservedList" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="preambleIniRecTargetPower" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="primaryFreqBand" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="qHyst" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="qQualMin" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="qRxLevMin" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="raiEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="raiReleaseDelayTimer" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="sInterSearchThreshold" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="sIntraSearchThreshold" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="sectorCarrierRef" Effect="For standalone and inband: Next Nb-IoT cell unlock.. For guardband: Next Nb-IoT cell unlock after next host LTE cell unlock." />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="siWindowLength" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="spectrumEmissionReqMapping" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tRrcConnReest" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tTatDedicatedNbCe2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tWaitForMmeCpRelocInd" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="tac" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="ulAnchPrbIndex" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="ulNonAnchPrbIndex" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="ulNonAnchPrbNum" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="useHostCellPci" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="dishConfiguration" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="earfcndlDish" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="earfcnulDish" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="fastReturnSupervisionSize" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="fastReturnSupervisionTime" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc0Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc1Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc1Ce1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepMsg23Cmc2Ce2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc0Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc1Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc1Ce1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdcchNumRepRaCmc2Ce2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc0Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc1Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc1Ce1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npdschNumRepMsg2Cmc2Ce2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nprachStartTime" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nprachSubcarrierOffsetCe0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nprachSubcarrierOffsetCe1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="nprachSubcarrierOffsetCe2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npuschCapMode4RxEnabled" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="npuschReceiverConfiguration" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc0Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc1Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc1Ce1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="numRepPreambleNbCmc2Ce2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="periodicityDeltaIndexCe0" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="periodicityDeltaIndexCe1" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="prbIndexDL" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="prbIndexUl" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="rsrpThreshold1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NbIotCell" Attribute="rsrpThreshold2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciDrxInactivityTimer" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciLongDrxCycle" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="NonPlannedPciDrxProfile" Attribute="nonPlannedPciOnDurationTimer" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="defaultPagingCycle" Effect="After all cells in the RBS are locked and then unlocked. Lock/unlock cells manually, immediately after changing defaultPagingCycle." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="defaultPagingCycleNbIot" Effect="After all the cells in the RBS have been locked, and subsequently been unlocked" />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="maxNoOfPagingRecords" Effect="After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="maxNoOfPagingRecordsNb" Effect="After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="nB" Effect="After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="nBBr" Effect="After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="nBNbIot" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="pagingDiscardTimerDrx" Effect="After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="pagingDiscardTimerEdrx" Effect="After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="Paging" Attribute="pagingDiscardTimerEdrxNb" Effect="After all the cells in the RBS have been locked, and subsequently been unlocked." />
+	<definition NodeType="BBU" MOClass="PlmnInfo" Attribute="actualPlmn" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="PlmnInfo" Attribute="plmnWhiteList" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="cellTraceFileSize" Effect="At the next ROP." />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="cellTraceHighPrioReserve" Effect="At the next ROP." />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="eventsExcludedFromUeTrace" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="streamPortPmUeTrace" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="totalCellTraceStorageSize" Effect="At the next ROP." />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="totalEventStorageSize" Effect="At the next ROP." />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="totalUeTraceStorageSize" Effect="At the next ROP." />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="ueTrExcludeNonRacUeRefEvents" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmEventService" Attribute="ueTraceFileSize" Effect="At the next ROP." />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="arpFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="arpFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="arpFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="ceLevelFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="ceLevelFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="ceLevelFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="endcFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="endcFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="lcgFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="lcgFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="lcgFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="pciFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="pciFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="pciFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="plmnFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="plmnFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="plmnFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="pviFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="pviFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="pviFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="qciFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="qciFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="qciFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="reportAppCounterOnly" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="spidFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="spidFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="spidFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="subscriberGroupFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="subscriberGroupFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="subscriberGroupFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="ueCatFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="ueCatFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="ueCatFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="uePowerClassFilterEnabled" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="uePowerClassFilterMax" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmFlexCounterFilter" Attribute="uePowerClassFilterMin" Effect="Next ROP" />
+	<definition NodeType="BBU" MOClass="PmUeMeasControl" Attribute="measGapAllowedPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmUeMeasControl" Attribute="ueMeasInterFreq1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmUeMeasControl" Attribute="ueMeasInterFreq2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmUeMeasControl" Attribute="ueMeasInterRat1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmUeMeasControl" Attribute="ueMeasInterRat2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmUeMeasControl" Attribute="ueMeasIntraFreq1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmUeMeasControl" Attribute="ueMeasIntraFreq2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="dataMcs" Effect="lock/unlock MbsfnArea" />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="mchSchedulingPeriod" Effect="lock/unlock MbsfnArea" />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="qci" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="sfAllocEnd" Effect="lock/unlock MbsfnArea" />
+	<definition NodeType="BBU" MOClass="PmchMch" Attribute="syncSequenceLength" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingDataSize" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingDuration" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingPeriod" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingProfileId" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="PreschedulingProfile" Attribute="preschedulingSinrThreshold" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="absPrioOverride" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="aqmMode" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="bitRateRecommendationEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="counterActiveMode" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="dlMaxHARQTxQci" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="dlMaxWaitingTime" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="dlMinBitRate" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="dlResourceAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="drxPriority" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="drxProfileRef" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="dscp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="dscpArpMap" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="endcProfileRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="harqPriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="inactivityTimerOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="lessMaxDelayThreshold" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="logicalChannelGroupRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="measReportConfigParams" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="pdb" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="pdbOffset" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="pdcpSNLength" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="priority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="priorityFraction" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="qci" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="qciACTuning" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="relativePriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="resourceAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="resourceType" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rlcMode" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rlcSNLength" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rlfPriority" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rlfProfileRef" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rohcEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="rohcForUlDataEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="schedulingAlgorithm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="serviceType" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="srsAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="tReorderingDl" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="tReorderingUl" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="timerPriority" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="timerProfileRef" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="ulMaxHARQTxQci" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="ulMaxWaitingTime" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="ulMinBitRate" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="dualConnInitUlConf" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="pdcpSNLengthNr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="tReorderingDlPdcp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="tReorderingUlDiscardPdcp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfileOperatorDefined" Attribute="tReorderingUlPdcp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="absPrioOverride" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="aqmMode" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="bitRateRecommendationEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="counterActiveMode" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="dlMaxHARQTxQci" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="dlMaxWaitingTime" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="dlMinBitRate" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="dlResourceAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="drxPriority" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="drxProfileRef" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="dscp" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="dscpArpMap" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="endcProfileRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="harqPriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="inactivityTimerOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="lessMaxDelayThreshold" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="logicalChannelGroupRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="measReportConfigParams" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="pdb" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="pdbOffset" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="pdcpSNLength" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="priority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="priorityFraction" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="qciACTuning" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="relativePriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="resourceAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="resourceType" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rlcMode" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rlcSNLength" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rlfPriority" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rlfProfileRef" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rohcEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="rohcForUlDataEnabled" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="schedulingAlgorithm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="serviceType" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="srsAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="tReorderingDl" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="tReorderingUl" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="timerPriority" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="timerProfileRef" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="ulMaxHARQTxQci" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="ulMaxWaitingTime" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="ulMinBitRate" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="dualConnInitUlConf" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="pdcpSNLengthNr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="tReorderingDlPdcp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="tReorderingUlDiscardPdcp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="QciProfilePredefined" Attribute="tReorderingUlPdcp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="RATFreqPrio" Attribute="bandClassPrioListCDMA1xRtt" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="RATFreqPrio" Attribute="bandClassPrioListCDMA2000" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="RATFreqPrio" Attribute="freqGroupPrioListGERAN" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="RATFreqPrio" Attribute="freqPrioListEUTRA" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="RATFreqPrio" Attribute="freqPrioListUTRA" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="RATFreqPrio" Attribute="spidList" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="RATFreqPrio" Attribute="t320" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="Rcs" Attribute="tInactivityTimer" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="Rcs" Attribute="tInactivityTimerBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Prim" Attribute="a1ThrRsrpPrimOffsetCeABr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Prim" Attribute="a1ThresholdRsrpPrim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Prim" Attribute="a1ThresholdRsrqPrim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Prim" Attribute="hysteresisA1Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Prim" Attribute="timeToTriggerA1Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Prim" Attribute="reportAmountA1Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Prim" Attribute="reportIntervalA1Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Prim" Attribute="reportQuantityA1Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Sec" Attribute="a1ThrRsrpSecOffsetCeABr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Sec" Attribute="a1ThresholdRsrpSec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Sec" Attribute="a1ThresholdRsrqSec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Sec" Attribute="hysteresisA1Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Sec" Attribute="timeToTriggerA1Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Sec" Attribute="reportAmountA1Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Sec" Attribute="reportIntervalA1Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA1Sec" Attribute="reportQuantityA1Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="a4ThresholdRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="a4ThresholdRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="hysteresisA4" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="timeToTriggerA4" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="triggerQuantityA4" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="maxReportCellsA4" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="reportAmountA4" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="reportIntervalA4" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA4" Attribute="reportQuantityA4" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="a5Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="a5Threshold1Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="a5Threshold2Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="a5Threshold2Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="hysteresisA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="hysteresisA5RsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="timeToTriggerA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="timeToTriggerA5Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="triggerQuantityA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="maxReportCellsA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="reportAmountA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="reportIntervalA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5" Attribute="reportQuantityA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5Anr" Attribute="a5Threshold1RsrpAnrDelta" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5Anr" Attribute="a5Threshold1RsrqAnrDelta" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5Anr" Attribute="a5Threshold2RsrpAnrDelta" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5Anr" Attribute="a5Threshold2RsrqAnrDelta" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5Anr" Attribute="hysteresisA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5Anr" Attribute="timeToTriggerA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5DlComp" Attribute="a5Threshold1Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5DlComp" Attribute="a5Threshold2Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5DlComp" Attribute="hysteresisA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5DlComp" Attribute="reportIntervalA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5DlComp" Attribute="timeToTriggerA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTraffic" Attribute="a5Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTraffic" Attribute="a5Threshold1Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTraffic" Attribute="a5Threshold2Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTraffic" Attribute="a5Threshold2Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTraffic" Attribute="hysteresisA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTraffic" Attribute="timeToTriggerA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTraffic" Attribute="triggerQuantityA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="a5Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="a5Threshold1Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="a5Threshold2Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="a5Threshold2Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="hysteresisA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="reportIntervalA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="timeToTriggerA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="maxReportCellsA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="reportAmountA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigA5UlTrig" Attribute="triggerQuantityA5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1GUtra" Attribute="b1ThresholdRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1GUtra" Attribute="b1ThresholdRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1GUtra" Attribute="hysteresisB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1GUtra" Attribute="timeToTriggerB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1GUtra" Attribute="triggerQuantityB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1GUtra" Attribute="maxReportCellsB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1GUtra" Attribute="reportAmountB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1GUtra" Attribute="reportIntervalB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Geran" Attribute="b1ThresholdGeran" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Geran" Attribute="hysteresisB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Geran" Attribute="timeToTriggerB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Geran" Attribute="maxReportCellsB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Geran" Attribute="reportAmountB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Geran" Attribute="reportIntervalB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1NR" Attribute="b1ThresholdRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1NR" Attribute="b1ThresholdRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1NR" Attribute="hysteresisB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1NR" Attribute="timeToTriggerB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1NR" Attribute="triggerQuantityB1NR" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1NR" Attribute="maxReportCellsB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1NR" Attribute="reportAmountB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1NR" Attribute="reportIntervalB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Utra" Attribute="b1ThresholdEcNoUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Utra" Attribute="b1ThresholdRscpUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Utra" Attribute="hysteresisB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Utra" Attribute="timeToTriggerB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Utra" Attribute="maxReportCellsB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Utra" Attribute="reportAmountB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB1Utra" Attribute="reportIntervalB1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="b2Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="b2Threshold1Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="b2Threshold2Cdma2000" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="hysteresisB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="hysteresisB2RsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="timeToTriggerB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="timeToTriggerB2Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="triggerQuantityB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="maxReportCellsB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="reportAmountB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma2000" Attribute="reportIntervalB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="b2Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="b2Threshold1Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="b2Threshold2Cdma20001xRtt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="hysteresisB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="hysteresisB2RsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="timeToTriggerB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="timeToTriggerB2Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="triggerQuantityB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="maxReportCellsB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="reportAmountB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Cdma20001xRtt" Attribute="reportIntervalB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="b2Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="b2Threshold1Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="b2Threshold2Geran" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="hysteresisB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="hysteresisB2RsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="timeToTriggerB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="timeToTriggerB2Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="triggerQuantityB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="maxReportCellsB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="reportAmountB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Geran" Attribute="reportIntervalB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2GeranUlTrig" Attribute="b2Threshold2Geran" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2GeranUlTrig" Attribute="hysteresisB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2GeranUlTrig" Attribute="reportIntervalB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2GeranUlTrig" Attribute="timeToTriggerB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2GeranUlTrig" Attribute="b2Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2GeranUlTrig" Attribute="maxReportCellsB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2GeranUlTrig" Attribute="reportAmountB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="b2Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="b2Threshold1Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="b2Threshold2EcNoUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="b2Threshold2RscpUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="hysteresisB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="hysteresisB2RsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="timeToTriggerB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="timeToTriggerB2Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="triggerQuantityB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="maxReportCellsB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="reportAmountB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2Utra" Attribute="reportIntervalB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2UtraUlTrig" Attribute="b2Threshold2EcNoUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2UtraUlTrig" Attribute="b2Threshold2RscpUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2UtraUlTrig" Attribute="hysteresisB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2UtraUlTrig" Attribute="reportIntervalB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2UtraUlTrig" Attribute="timeToTriggerB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2UtraUlTrig" Attribute="b2Threshold1Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2UtraUlTrig" Attribute="maxReportCellsB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigB2UtraUlTrig" Attribute="reportAmountB2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbCdma2000" Attribute="hysteresis" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbCdma2000" Attribute="thresholdCdma20001xRtt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbCdma2000" Attribute="timeToTrigger" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbCdma2000" Attribute="maxReportCells" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbCdma2000" Attribute="reportAmount" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbCdma2000" Attribute="reportInterval" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbGeran" Attribute="hysteresis" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbGeran" Attribute="thresholdGeran" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbGeran" Attribute="timeToTrigger" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbGeran" Attribute="maxReportCells" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbGeran" Attribute="reportAmount" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbGeran" Attribute="reportInterval" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbUtra" Attribute="hysteresis" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbUtra" Attribute="thresholdEcNo" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbUtra" Attribute="thresholdRscp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbUtra" Attribute="timeToTrigger" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbUtra" Attribute="maxReportCells" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbUtra" Attribute="reportAmount" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsfbUtra" Attribute="reportInterval" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsg" Attribute="a5Thr1RsrpAltCsgOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsg" Attribute="a5Thr2RsrpAltCsgOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsg" Attribute="hysteresisA5AltCsg" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigCsg" Attribute="timeToTriggerA5AltCsg" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="a2ThrRsrpPrimOffsetCeABr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="a2ThresholdRsrpPrim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="a2ThresholdRsrqPrim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="hysteresisA2Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="timeToTriggerA2Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="triggerQuantityA2Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="maxReportCellsA2Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="reportAmountA2Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="reportIntervalA2Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovPrim" Attribute="reportQuantityA2Prim" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="a2ThrRsrpSecOffsetCeABr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="a2ThresholdRsrpSec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="a2ThresholdRsrqSec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="hysteresisA2Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="timeToTriggerA2Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="triggerQuantityA2Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="maxReportCellsA2Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="reportAmountA2Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="reportIntervalA2Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBadCovSec" Attribute="reportQuantityA2Sec" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCell" Attribute="a3offset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCell" Attribute="hysteresisA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCell" Attribute="timeToTriggerA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCell" Attribute="triggerQuantityA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCell" Attribute="maxReportCellsA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCell" Attribute="reportAmountA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCell" Attribute="reportIntervalA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCell" Attribute="reportQuantityA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCellAnr" Attribute="a3offsetAnrDelta" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCellAnr" Attribute="hysteresisA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraBestCellAnr" Attribute="timeToTriggerA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFA3UlTrig" Attribute="a3Offset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFA3UlTrig" Attribute="hysteresisA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFA3UlTrig" Attribute="reportIntervalA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFA3UlTrig" Attribute="timeToTriggerA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFA3UlTrig" Attribute="maxReportCellsA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFA3UlTrig" Attribute="reportAmountA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFA3UlTrig" Attribute="triggerQuantityA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="a3RsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="a3offset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="hysteresisA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="hysteresisA3RsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="timeToTriggerA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="timeToTriggerA3Rsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="triggerQuantityA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="maxReportCellsA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="reportAmountA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="reportIntervalA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIFBestCell" Attribute="reportQuantityA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a1ThresholdRsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a1ThresholdRsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a2ThresholdRsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a2ThresholdRsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a3OffsetPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a3ReportOnLeavePm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a4ThresholdRsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a4ThresholdRsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a5Threshold1RsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a5Threshold1RsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a5Threshold2RsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a5Threshold2RsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="a6OffsetPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="hysteresisPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="maxReportCellsPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="measSelectionEUtraPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="reportAmountPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="reportIntervalPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="reportQuantityPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="timeToTriggerPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraInterFreqPm" Attribute="triggerQuantityPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a1ThresholdRsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a1ThresholdRsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a2ThresholdRsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a2ThresholdRsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a3OffsetPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a3ReportOnLeavePm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a4ThresholdRsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a4ThresholdRsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a5ThresholdRsrpPm1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a5ThresholdRsrpPm2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a5ThresholdRsrqPm1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="a5ThresholdRsrqPm2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="hysteresisPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="maxReportCellsPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="measSelectionEUtraPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="reportAmountPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="reportIntervalPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="reportQuantityPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="timeToTriggerPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigEUtraIntraFreqPm" Attribute="triggerQuantityPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigElcA1A2" Attribute="a1a2ThresholdRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigElcA1A2" Attribute="hysteresisA1A2Rsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigElcA1A2" Attribute="timeToTriggerA1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigElcA1A2" Attribute="timeToTriggerA2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigElcA1A2" Attribute="reportAmountA1A2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigElcA1A2" Attribute="reportIntervalA1A2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigElcA1A2" Attribute="reportQuantityA1A2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterEnbUlComp" Attribute="a3Offset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterEnbUlComp" Attribute="hysteresisA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterEnbUlComp" Attribute="reportIntervalA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterEnbUlComp" Attribute="timeToTriggerA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterEnbUlComp" Attribute="maxReportCellsA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterEnbUlComp" Attribute="reportAmountA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterEnbUlComp" Attribute="reportQuantityA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterEnbUlComp" Attribute="triggerQuantityA3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="b1ThresholdEcNoUtraPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="b1ThresholdGeranPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="b1ThresholdRscpUtraPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="b2Threshold1RsrpPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="b2Threshold1RsrqPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="b2Threshold2EcNoUtraPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="b2Threshold2GeranPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="b2Threshold2RscpUtraPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="hysteresisPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="maxReportCellsPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="measSelectionInterRatPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="ratSelectionPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="reportAmountPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="reportIntervalPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="timeToTriggerPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigInterRatPm" Attribute="triggerQuantityPm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="a1a2ThresholdRsrp" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="a1a2ThresholdRsrpBidir" Effect="Changed value may take effect related to the next SCell configuration during the ongoing connection." />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="a1a2ThresholdRsrq" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="hysteresisA1A2Rsrp" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="hysteresisA1A2RsrpBidirectional" Effect="New connection. Also during ongoing connection, related to next SCell configuration during the connection." />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="hysteresisA1A2Rsrq" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="timeToTriggerA1" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="timeToTriggerA2" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="triggerQuantityA1A2" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="reportAmountA1A2" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="reportIntervalA1A2" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA1A2" Attribute="reportQuantityA1A2" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="a4ThresholdRsrp" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="a4ThresholdRsrq" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="hysteresisA4" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="timeToTriggerA4" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="triggerQuantityA4" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="maxReportCellsA4" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="reportAmountA4" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="reportIntervalA4" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA4" Attribute="reportQuantityA4" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA6" Attribute="a6offset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA6" Attribute="hysteresisA6" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA6" Attribute="timeToTriggerA6" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA6" Attribute="triggerQuantityA6" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA6" Attribute="maxReportCellsA6" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA6" Attribute="reportAmountA6" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA6" Attribute="reportIntervalA6" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSCellA6" Attribute="reportQuantityA6" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a1a2SearchThresholdRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a1a2SearchThresholdRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a2CriticalOffsetPerPC" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a2CriticalThrQci1RsrpOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a2CriticalThrQci1RsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a2CriticalThresholdRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a2CriticalThresholdRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a2OuterSearchThrRsrpOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="a2OuterSearchThrRsrqOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="hysteresisA1A2SearchRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="hysteresisA1A2SearchRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="hysteresisA2CriticalRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="hysteresisA2CriticalRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="hysteresisA2OuterSearchRsrp" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="hysteresisA2OuterSearchRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="inhibitA2SearchConfig" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="qciA1A2ThrOffsets" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="timeToTriggerA1Search" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="timeToTriggerA1SearchRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="timeToTriggerA2Critical" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="timeToTriggerA2CriticalRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="timeToTriggerA2OutSearch" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="timeToTriggerA2OutSearchRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="timeToTriggerA2Search" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="timeToTriggerA2SearchRsrq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="reportAmountSearch" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="reportIntervalSearch" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ReportConfigSearch" Attribute="reportQuantitySearch" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="ResourcePartition" Attribute="partitionId" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartition" Attribute="plmnList" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartition" Attribute="spidList" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartitionGroup" Attribute="resourceSharingType" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartitionGroupMember" Attribute="resourcePartitionRef" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="ResourcePartitionGroupMember" Attribute="resourcePartitionShare" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="RlfProfile" Attribute="n310" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="RlfProfile" Attribute="n311" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="RlfProfile" Attribute="t301" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="RlfProfile" Attribute="t310" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="RlfProfile" Attribute="t311" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="t300NbIot" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="t301Nb" Effect="Next cell unlock. Lowering the value can increase drop rate." />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="t304Br" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="t311Nb" Effect="Next cell unlock. Lowering the value can increase drop rate." />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="tRrcConnReest" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="tRrcConnectionReconfiguration" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="tWaitForRrcConnReest" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="n310NbIot" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="n311NbIot" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="t310NbIot" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="Rrc" Attribute="tRrcConnectionSetup" Effect="New connections." />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="absPrioOverride" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="dlMaxWaitingTime" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="dlMinBitRate" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="dlRelativePriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="dlResourceAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="lessMaxDelayThreshold" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="logicalChannelGroupRef" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="pdb" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="priority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="schedulingAlgorithm" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="sci" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="srsAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="ulMaxWaitingTime" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="ulMinBitRate" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="ulRelativePriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SciProfile" Attribute="ulResourceAllocationStrategy" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="antCalModeTddAasDl" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="configuredMaxTxPower" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="digitalTilt" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="essScLocalId" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="essScPairId" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="noOfRxAntennas" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="noOfTxAntennas" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="prsEnabled" Effect="Object disabled/enabled" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="radioTransmitPerformanceMode" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="rfBranchRxRef" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="rfBranchTxRef" Effect="Object unlocked" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="sectorCarrierType" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="sectorShape" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="ulForcedTimingAdvanceCommand" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="verticalTaperType" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="virtualComChBeamfrmWtsAmplitude" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="virtualComChBeamfrmWtsPhase" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="virtualSector" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsBeamShape" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsPowerRatio" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsReConfigIndex" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsSfConfigIndex" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsZeroPwrReConfigList" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="csiRsZeroPwrSfConfigIndex" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsAmplPort3" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort0" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort1" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort2" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="customComBeamfrmWtsPhasePort3" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="macro" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="macro2Lobe" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="macroNarrow" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SectorCarrier" Attribute="macroWide" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="SecurityHandling" Attribute="cipheringAlgoPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SecurityHandling" Attribute="countWrapSupervisionActive" Effect="Cell lock/unlock." />
+	<definition NodeType="BBU" MOClass="SecurityHandling" Attribute="integrityProtectAlgoPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SecurityHandling" Attribute="countWrapThreshold" Effect="Cell lock/unlock." />
+	<definition NodeType="BBU" MOClass="SecurityHandling" Attribute="integrityProtectionActive" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="dlMaxRetxThreshold" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="tPollRetransmitDl" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="tPollRetransmitUl" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="tReorderingDl" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="tReorderingUl" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="ulMaxRetxThreshold" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="dlPollPDU" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="tStatusProhibitDl" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="tStatusProhibitUl" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="SignalingRadioBearer" Attribute="ulPollPDU" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="bearerTriggerList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="cellTriggerList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="customTriggerList" Effect="Depends on prototypeTriggerType." />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="customTriggerType" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="profilePriority" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="qciOffsetForQCI6" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="qciOffsetForQCI7" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="qciOffsetForQCI8" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="qciOffsetForQCI9" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="selectionProbability" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="spidTriggerList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="subGroupConfiguration1" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="subGroupConfiguration2" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="subGroupConfiguration3" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="subGroupConfiguration4" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="subGroupConfiguration5" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="subGroupConfiguration6" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="subGroupConfiguration7" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="SubscriberGroupProfile" Attribute="userLabel" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="TermPointToENB" Attribute="portNumber" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="TermPointToGNB" Attribute="connectionPurpose" Effect="Next MO unlock" />
+	<definition NodeType="BBU" MOClass="TermPointToMme" Attribute="additionalCnRef" Effect="Next MO unlock" />
+	<definition NodeType="BBU" MOClass="TermPointToMme" Attribute="administrativeState" Effect="Immediatley." />
+	<definition NodeType="BBU" MOClass="TermPointToMme" Attribute="ipv6Address1" Effect="Object enabled" />
+	<definition NodeType="BBU" MOClass="TermPointToMme" Attribute="ipv6Address2" Effect="Object enabled" />
+	<definition NodeType="BBU" MOClass="TermPointToMme" Attribute="mmeSupportLegacyLte" Effect="Next MO unlock" />
+	<definition NodeType="BBU" MOClass="TermPointToMme" Attribute="mmeSupportNbIoT" Effect="Next MO unlock" />
+	<definition NodeType="BBU" MOClass="TimerProfile" Attribute="tRelocOverall" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="TimerProfile" Attribute="tRrcConnReest" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="TimerProfile" Attribute="tRrcConnectionReconfiguration" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="TimerProfile" Attribute="tWaitForRrcConnReest" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="a3MobilityTimerBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="a3SuspendCsgTimer" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="a5B2MobilityTimer" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="a5MobilityTimerBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="bothA5RsrpRsrqCheck" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="bothB1RscpEcnoCheck" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="bothB2RscpEcnoCheck" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="bothInterA3RsrpRsrqCheck" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="bothIntraA3RsrpRsrqCheck" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="checkA2SearchLevel" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="csfbHoTargetSearchTimer" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="endcMeasTime" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="excludeInterFreqAtCritical" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="filterCoefficientEUtraRsrp" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="filterCoefficientEUtraRsrq" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="filterCoefficientEcnoUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="filterCoefficientRscpUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="inhibitB2RsrqConfig" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="intraFreqMeasModeBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="lowPrioMeasThresh" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasB1Endc" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasCdma20001xRtt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasCdma2000eHrpd" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasEUtraOther" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasEUtraOtherR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasGeran" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasInterFreqEUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasInterFreqEUtraIncR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasInterFreqEUtraR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasNR" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasUtraFdd" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxMeasUtraTdd" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="measQuantityUtraFDD" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="measScaleFactor" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="nrB1MobilityTimerLessTtt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="sMeasure" Effect="New connection." />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="servOrPrioIFHoTimer" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="targetA2UlSearchOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActive" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveBr" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveCDMA2000" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveCDMA20001xRtt" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveGERAN" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveIF" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ueMeasurementsActiveUTRAN" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="ulSinrOffset" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="waitForResumeNRMeas" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="waitForStartNRMeas" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="filterCoefficientGeran" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="filterCoefficientUtra" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxRepCriteriaCDMA2000Hrpd" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxRepCriteriaGeran" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxRepCriteriaInterFreq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxRepCriteriaInterOther" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxRepCriteriaIntraFreq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxRepCriteriaUtranFDD" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxTotalRepCrit1SCellR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxTotalRepCrit2SCellR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxTotalRepCritInc1SCellR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxTotalRepCritInc2SCellR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxTotalRepCritIncR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxTotalRepCritR12" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UeMeasControl" Attribute="maxTotalReportingCriteria" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UlCompGroup" Attribute="sectorCarrierRef" Effect="Object enabled" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaChannelEvaluationTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaChannelSelectionType" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaDrsOffset" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaDrsPeriodicity" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaLbtCheckTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaLbtSuccessRateThreshold" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaMasterCarrierTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaMaxOccupancy" Effect="Cell lock/unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaSCellActDeactDataThres" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaSCellActDeactDataThresHyst" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaSCellActProhibitTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaSCellDeactProhibitTimer" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaMultiCarrierAccessProcedureType" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaRssiDuty" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaRssiPeriodicity" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedAccessFunction" Attribute="laaRssiSamples" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UnlicensedBandProfile" Attribute="sectorEquipmentFunctionRef" Effect="Next cell unlock" />
+	<definition NodeType="BBU" MOClass="UserProfile" Attribute="arpList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UserProfile" Attribute="plmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UserProfile" Attribute="spidList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UserProfile" Attribute="userProfileName" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="allowedPlmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="altCsfbTargetPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="altCsfbTargetPrioEc" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="anrMeasOn" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="b2Thr1RsrpUtraFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="b2Thr1RsrqUtraFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="b2Thr2EcNoUtraFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="b2Thr2RscpUtraFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="b2UtranOffsetPerPC" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="connectedModeMobilityPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="csFallbackPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="csFallbackPrioEC" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="mobilityAction" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="mobilityActionCsfb" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="qOffsetFreq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranFreqRelation" Attribute="voicePrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="allowedPlmnList" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="anrMeasOn" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="b2Thr1RsrpUtraFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="b2Thr1RsrqUtraFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="b2Thr2RscpUtraFreqOffset" Effect="Ongoing connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="connectedModeMobilityPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="csFallbackPrio" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="csFallbackPrioEC" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="mobilityAction" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="qOffsetFreq" Effect="New connection" />
+	<definition NodeType="BBU" MOClass="UtranTDDFreqRelation" Attribute="qciB2ThrOffsets" Effect="Ongoing connection" />
+</takeeffects>
