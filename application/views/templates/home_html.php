@@ -20,7 +20,12 @@
       <ul id="ul-card" class="list-unstyled mb-5 position-relative">
         <li><b>Update:</b> AlignMe</li>
         <ul>
-          <li>Added L19Q4</li>
+          <li class="mb-1">Update EUtranCellFDD::additionalPlmnList special command</li>
+          <li class="mb-1">Update QciProfileOperatorDefined::dlMaxHARQTxQci special command</li>
+          <li class="mb-1">Update QciProfilePredefined::dlMaxHARQTxQci special command</li>
+          <li class="mb-1">Update QciProfileOperatorDefined::ulMaxHARQTxQci special command</li>
+          <li class="mb-1">Update QciProfilePredefined::ulMaxHARQTxQci special command</li>
+          <li class="mb-1">Added L19Q2 reference for EricssonOnly and ChangeTakeEffect</li>
         </ul>
       </ul>
     </div>

@@ -493,35 +493,37 @@ function nodeSelection(sheet) {
 }
 
 function swSelection(sheet) {
-	let opt1 = '<option>L19Q3</option>';
-	let opt2 = '<option>L19Q1</option>';
-	let opt3 = '<option>L18Q4</option>';
-	let opt4 = '<option>L18Q3</option>';
-	let opt5 = '<option>L18Q2</option>';
-	let opt6 = '<option>L18Q1</option>';
-	let opt7 = '<option>L17x</option>';
-	let opt8 = '<option>W18</option>';
-	let opt9 = '<option>W15</option>';
-	let opt10 = '<option>W14</option>';
-	let opt11 = '<option>L19Q4</option>';
+	let optL19Q4 = '<option>L19Q4</option>';
+	let optL19Q3 = '<option>L19Q3</option>';
+	let optL19Q2 = '<option>L19Q2</option>';
+	let optL19Q1 = '<option>L19Q1</option>';
+	let optL18Q4 = '<option>L18Q4</option>';
+	let optL18Q3 = '<option>L18Q3</option>';
+	let optL18Q2 = '<option>L18Q2</option>';
+	let optL18Q1 = '<option>L18Q1</option>';
+	let optL17x = '<option>L17x</option>';
+	let optW18 = '<option>W18</option>';
+	let optW15 = '<option>W15</option>';
+	let optW14 = '<option>W14</option>';
 
 	if (sheet.startsWith('UMTS')) {
-		opt7 = '<option selected>W18</option>';
+		optW18 = '<option selected>W18</option>';
 	} else {
-		opt11 = '<option selected>L19Q4</option>';
+		optL19Q4 = '<option selected>L19Q4</option>';
 	}
 	return `
-        ${opt11}
-        ${opt1}
-        ${opt2}
-        ${opt3}
-        ${opt4}
-        ${opt5}
-        ${opt6}
-        ${opt7}
-        ${opt8}
-        ${opt9}
-        ${opt10}
+        ${optL19Q4}
+        ${optL19Q3}
+        ${optL19Q2}
+        ${optL19Q1}
+        ${optL18Q4}
+        ${optL18Q3}
+        ${optL18Q2}
+        ${optL18Q1}
+        ${optL17x}
+        ${optW18}
+        ${optW15}
+        ${optW14}
     `;
 }
 
