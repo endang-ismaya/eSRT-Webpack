@@ -34,7 +34,7 @@ class Home {
 
 	getNewVersionAlert = (strongMessage, otherMessage) => {
 		return `
-    <div id="filefolder-alert" class="alert alert-light alert-dismissible fade show m-1 text-center" role="alert">
+    <div id="filefolder-alert" class="alert alert-light text-danger alert-dismissible fade show my-3 text-center font-weight-bolder animated flipInX delay-1s" role="alert">
         <strong>${strongMessage}</strong> ${otherMessage}
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>

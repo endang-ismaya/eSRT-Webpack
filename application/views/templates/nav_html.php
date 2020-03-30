@@ -32,7 +32,7 @@
   </div>
   <?php if ($title != "Home") { ?>
     <nav class="my-2 my-md-0 mr-md-3">
-      <button id="file-locator" type="button" class="btn btn-warning">PathLocator</button>
+      <button id="file-locator" type="button" class="btn btn-warning animated flipInX">PathLocator</button>
     </nav>
   <?php } ?>
   <div class="pull-right" style="margin-right: 200px">

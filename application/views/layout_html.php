@@ -13,6 +13,7 @@
   <link rel="shortcut icon" href="<?php echo base_url('assets/images/high-res.ico'); ?>" type="image/x-icon">
   <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('assets/fontawesome-free/css/all.min.css'); ?>" />
   <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('assets/css/sandstone.min.css'); ?>" />
+  <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('assets/css/animate.css'); ?>" />
   <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('assets/css/custom.css'); ?>" />
   <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url('assets/css/spinner.css'); ?>" />
 </head>

@@ -1,7 +1,7 @@
 <?php ?>
 <div class="row home content mb-0">
   <div class="col"></div>
-  <div class="col-4 princing-item red">
+  <div class="col-4 princing-item red animated bounceInDown">
     <div class="pricing-divider">
       <h3 class="text-light text-center">What's New</h3>
       <h4 class="my-0 display-2 text-light font-weight-normal mb-3 text-center"><span class="h3">~</span> <span id="home-version">vx.x.x</span> <span class="h5">~</span></h4>
@@ -18,15 +18,8 @@
     </div>
     <div class="card-body mt-0 shadow text-white">
       <ul id="ul-card" class="list-unstyled mb-5 position-relative">
-        <li><b>Update:</b> AlignMe</li>
-        <ul>
-          <li class="mb-1">Update EUtranCellFDD::additionalPlmnList special command</li>
-          <li class="mb-1">Update QciProfileOperatorDefined::dlMaxHARQTxQci special command</li>
-          <li class="mb-1">Update QciProfilePredefined::dlMaxHARQTxQci special command</li>
-          <li class="mb-1">Update QciProfileOperatorDefined::ulMaxHARQTxQci special command</li>
-          <li class="mb-1">Update QciProfilePredefined::ulMaxHARQTxQci special command</li>
-          <li class="mb-1">Added L19Q2 reference for EricssonOnly and ChangeTakeEffect</li>
-        </ul>
+        <li>* Minor back-end update</li>
+        <li>* Update alert animation</li>
       </ul>
     </div>
   </div>
