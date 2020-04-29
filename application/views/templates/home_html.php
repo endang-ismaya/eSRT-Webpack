@@ -18,8 +18,10 @@
     </div>
     <div class="card-body mt-0 shadow text-white">
       <ul id="ul-card" class="list-unstyled mb-5 position-relative">
-        <li>* Minor back-end update</li>
-        <li>* Update alert animation</li>
+        <li class="mb-1">* Minor back-end update</li>
+        <li class="mb-1">* Remove UMTS Logs Reporting</li>
+        <li class="mb-1">* Remove FGA Test</li>
+        <li class="mb-1">* L20 Preparation</li>
       </ul>
     </div>
   </div>

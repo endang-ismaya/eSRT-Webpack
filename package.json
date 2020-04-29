@@ -1,6 +1,6 @@
 {
 	"name": "srtwp",
-	"version": "3.0.4",
+	"version": "3.0.5",
 	"description": "ran tools",
 	"main": "app.js",
 	"directories": {
