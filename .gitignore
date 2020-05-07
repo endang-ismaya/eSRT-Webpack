@@ -37,6 +37,9 @@ node_modules/
 /bin
 /bin/eSRTWebPack
 /bin/SRTWPFileManagement
+references/
+scripts/
+"What's New.rtf"
 
 ## Installer
 Uninst.exe
