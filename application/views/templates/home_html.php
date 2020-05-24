@@ -16,13 +16,17 @@
 	c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z' fill='#FFFFFF'></path>
       </svg>
     </div>
-    <div class="card-body mt-0 shadow text-white">
-      <ul id="ul-card" class="list-unstyled mb-5 position-relative">
-        <li class="mb-1">* Minor back-end update</li>
-        <li class="mb-1">* Remove UMTS Logs Reporting</li>
-        <li class="mb-1">* Remove FGA Test</li>
-        <li class="mb-1">* L20 Preparation</li>
-      </ul>
+    <div class="card-body mt-0 shadow text-white" style="min-height: 400px">
+      <!-- <ul id="ul-card" class="list-unstyled mb-5 position-relative">
+        <li class="mb-2 h5 mt-3">* Remove deprecated functions</li>
+        <li class="mb-2 h5">* License updated</li>
+        <li class="mb-2 h5">* L20Q1 Preparation</li>
+      </ul> -->
+      <div class="p-5">
+        <h4 class="mb-2">- Remove deprecated functions</h4>
+        <h4 class="mb-2">- v3.0.6 license update</h4>
+        <h4 class="mb-2">- L20Q1 preparation</h4>
+      </div>
     </div>
   </div>
   <div class="col"></div>

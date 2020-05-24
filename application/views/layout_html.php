@@ -81,24 +81,8 @@
     <script src="<?php echo base_url('assets/js/att-ixposthc.js'); ?>" />
     </script>
   <?php } ?>
-  <?php if (isset($js_kcompare)) { ?>
-    <script src="<?php echo base_url('assets/js/kcompare.js'); ?>" />
-    </script>
-  <?php } ?>
-  <?php if (isset($js_umts_logs)) { ?>
-    <script src="<?php echo base_url('assets/js/umtslogs.js'); ?>" />
-    </script>
-  <?php } ?>
-  <?php if (isset($js_att_fgatest)) { ?>
-    <script src="<?php echo base_url('assets/js/att_fgatest.js'); ?>" />
-    </script>
-  <?php } ?>
   <?php if (isset($js_att_sc)) { ?>
     <script src="<?php echo base_url('assets/js/att_sc.js'); ?>" />
-    </script>
-  <?php } ?>
-  <?php if (isset($js_att_nbiot)) { ?>
-    <script src="<?php echo base_url('assets/js/att_nbiotcell.js'); ?>" />
     </script>
   <?php } ?>
   <?php if (isset($js_kgutsv2)) { ?>
